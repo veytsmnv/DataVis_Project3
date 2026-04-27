@@ -39,18 +39,25 @@ def get_row_value(row: dict, key_name: str) -> str:
 def build_output_name(url: str, season: str, episode: str) -> str:
     season = clean_value(season)
     episode = clean_value(episode)
+    
+    # Extract title from URL
+    title = ""
+    if "wiki/" in url:
+        parts = url.split("wiki/")
+        if len(parts) > 1:
+            title_encoded = parts[1].split("/")[0]
+            title = unquote(title_encoded).replace("_", " ")
+    
+    if not title:
+        title = "episode"
+    
+    # Sanitize title for filename
+    safe_title = re.sub(r"[^A-Za-z0-9._-]+", "_", title).strip("._-") or "episode"
+    
     if season and episode:
-        return f"{season}x{episode}.csv"
-
-    path_parts = [p for p in urlparse(url).path.split("/") if p]
-    slug = "transcript"
-    if path_parts:
-        if path_parts[-1].lower() == "transcript" and len(path_parts) >= 2:
-            slug = path_parts[-2]
-        else:
-            slug = path_parts[-1]
-    slug = re.sub(r"[^A-Za-z0-9_-]+", "_", slug).strip("_") or "transcript"
-    return f"{slug}.csv"
+        return f"{season}x{episode}_{safe_title}.csv"
+    
+    return f"{safe_title}.csv"
 
 
 def parse_dialogue_pairs(html: str) -> list:

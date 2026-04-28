@@ -4,11 +4,12 @@
 
 const ALLOWED_CHARACTERS = [
   "Jeff",
+  "Annie",
   "Abed",
-  "Shirley",
   "Britta",
   "Troy",
   "Pierce",
+  "Shirley",
   "Duncan",
   "Chang",
   "Pelton",
@@ -18,12 +19,13 @@ const colorScale = d3.scaleOrdinal()
     .domain(ALLOWED_CHARACTERS)
     .range([
         "#1f77b4",  // Jeff - blue
+        "#e377c2",  // Annie - pink
         "#ff7f0e",  // Abed - orange
-        "#2ca02c",  // Shirley - green
         "#d62728",  // Britta - red
         "#9467bd",  // Troy - purple
         "#8c564b",  // Pierce - brown
-        "#e377c2",  // Duncan - pink
+        "#2ca02c",  // Shirley - green
+        "#17becf",  // Duncan - teal
         "#7f7f7f",  // Chang - gray
         "#bcbd22",  // Pelton - olive
     ]);
@@ -691,14 +693,257 @@ function renderSpeakerList(entries) {
 }
 
 // ============================================================================
-// INITIALIZATION
+// CAST SWATCHES (show overview)
 // ============================================================================
+
+function renderCastSwatches() {
+  const container = document.getElementById("castSwatches");
+  if (!container) return;
+  ALLOWED_CHARACTERS.forEach(c => {
+    const pill = document.createElement("div");
+    pill.style.cssText = "display:flex;align-items:center;gap:6px;padding:5px 12px 5px 8px;background:#f5f5f5;border:1px solid #e0e0e0;border-radius:100px;font-size:13px;font-weight:600;color:#333;";
+    const swatch = document.createElement("span");
+    swatch.style.cssText = `width:10px;height:10px;border-radius:50%;background:${colorScale(c)};flex-shrink:0;`;
+    pill.appendChild(swatch);
+    pill.appendChild(document.createTextNode(c));
+    container.appendChild(pill);
+  });
+}
+
+// ============================================================================
+// LINES SPOKEN BAR CHART
+// ============================================================================
+
+function renderLinesBarChart(dataset) {
+  const svgEl = document.getElementById("linesBarChart");
+  const svg = d3.select(svgEl);
+  svg.selectAll("*").remove();
+  if (!characterLinesData) return;
+
+  // Aggregate lines for this dataset
+  const episodes = characterLinesData.episodes;
+  const isSeason = dataset && dataset.id.startsWith("season_");
+  const isSingle = dataset && dataset.id !== "all" && !isSeason;
+  const selectedSeason = isSeason ? parseInt(dataset.id.split("_")[1]) : null;
+
+  const charTotals = {};
+  ALLOWED_CHARACTERS.forEach(c => charTotals[c] = 0);
+
+  episodes.forEach(ep => {
+    const epSeason = extractSeason(ep.name);
+    if (isSeason && epSeason !== selectedSeason) return;
+    if (isSingle) {
+      const epLabel = dataset.label.split(" • ")[0].trim();
+      if (ep.name !== epLabel) return;
+    }
+    ep.characters.forEach(cd => {
+      if (charTotals[cd.name] !== undefined) {
+        charTotals[cd.name] += cd.lines;
+      }
+    });
+  });
+
+  const data = ALLOWED_CHARACTERS
+    .map(c => ({ name: c, lines: charTotals[c] }))
+    .filter(d => d.lines > 0)
+    .sort((a, b) => b.lines - a.lines);
+
+  if (!data.length) return;
+
+  const labelW = 72, rightPad = 60, barH = 24, rowH = 36;
+  const W = svgEl.parentElement.clientWidth - 40;
+  const iW = W - labelW - rightPad;
+  const H = data.length * rowH + 8;
+
+  svg.attr("width", W).attr("height", H);
+
+  const maxVal = d3.max(data, d => d.lines);
+  const xSc = d3.scaleLinear().domain([0, maxVal]).range([0, iW]);
+  const g = svg.append("g").attr("transform", `translate(${labelW},4)`);
+
+  // subtle grid
+  g.append("g").attr("class","grid")
+    .call(d3.axisBottom(xSc).ticks(5).tickSize(H - 8).tickFormat(""))
+    .attr("transform","translate(0,0)")
+    .select(".domain").remove();
+
+  data.forEach((d, i) => {
+    const row = g.append("g").attr("transform", `translate(0,${i * rowH})`);
+    const bw = Math.max(xSc(d.lines), 3);
+
+    row.append("text")
+      .attr("x", -8).attr("y", barH / 2 + 5)
+      .attr("text-anchor", "end")
+      .attr("fill", colorScale(d.name))
+      .attr("font-size", 13).attr("font-weight", 600)
+      .attr("font-family", "inherit")
+      .text(d.name);
+
+    row.append("rect")
+      .attr("x", 0).attr("y", 2)
+      .attr("width", bw).attr("height", barH).attr("rx", 3)
+      .attr("fill", colorScale(d.name)).attr("opacity", 0.8)
+      .on("mouseover", function(evt) {
+        d3.select(this).attr("opacity", 1);
+        tooltip.html(`<strong>${d.name}</strong>${d.lines.toLocaleString()} lines`)
+          .attr("class","tooltip active")
+          .style("left", (evt.pageX + 10) + "px")
+          .style("top", (evt.pageY - 10) + "px");
+      })
+      .on("mousemove", function(evt) {
+        tooltip.style("left", (evt.pageX + 10) + "px").style("top", (evt.pageY - 10) + "px");
+      })
+      .on("mouseout", function() {
+        d3.select(this).attr("opacity", 0.8);
+        tooltip.attr("class","tooltip");
+      });
+
+    row.append("text")
+      .attr("x", bw + 6).attr("y", barH / 2 + 5)
+      .attr("fill", "#999").attr("font-size", 12).attr("font-family","inherit")
+      .text(d.lines.toLocaleString());
+  });
+}
+
+// ============================================================================
+// EPISODE PRESENCE GRID
+// ============================================================================
+
+function renderEpisodeGrid() {
+  const svgEl = document.getElementById("episodeGrid");
+  const svg = d3.select(svgEl);
+  svg.selectAll("*").remove();
+  if (!characterLinesData) return;
+
+  const chars = ALLOWED_CHARACTERS;
+  const SEASON_MAX = { 1:25, 2:24, 3:22, 4:13, 5:13, 6:13 };
+  const SEASONS = [1, 2, 3, 4, 5, 6];
+
+  // Build lookup: "SxE" -> episode data
+  const epLookup = {};
+  characterLinesData.episodes.forEach(ep => {
+    const m = ep.name.match(/^(\d+)x(\d+)/);
+    if (m) epLookup[`${m[1]}x${m[2]}`] = ep;
+  });
+
+  const labelW = 72, cellW = 26, cellH = 20, cellGap = 2, rowGap = 5;
+  const seasonGap = 18, headerH = 28;
+
+  // Compute total width
+  const totalEps = SEASONS.reduce((s, sn) => s + SEASON_MAX[sn], 0);
+  const totalW = labelW + totalEps * (cellW + cellGap) + (SEASONS.length - 1) * seasonGap + 8;
+  const totalH = headerH + chars.length * (cellH + rowGap) + 4;
+
+  svg.attr("width", totalW).attr("height", totalH);
+
+  // Max lines for color scale
+  const maxLines = d3.max(characterLinesData.episodes, ep =>
+    d3.max(ep.characters, c => c.lines)
+  ) || 1;
+  const opScale = d3.scaleSqrt().domain([0, maxLines]).range([0, 1]).clamp(true);
+
+  let xCursor = labelW;
+
+  SEASONS.forEach((s, si) => {
+    const numEps = SEASON_MAX[s];
+    const sW = numEps * (cellW + cellGap);
+
+    // Season label
+    svg.append("text")
+      .attr("x", xCursor + sW / 2).attr("y", 14)
+      .attr("text-anchor","middle")
+      .attr("fill","#667eea").attr("font-size",11).attr("font-weight",600)
+      .attr("font-family","inherit")
+      .text(`S${s}`);
+
+    for (let ep = 1; ep <= numEps; ep++) {
+      const cx = xCursor + (ep - 1) * (cellW + cellGap);
+      const key = `${s}x${ep}`;
+      const epData = epLookup[key] || null;
+
+      // Ep number tick on 1, 5, 10, 15, 20, 25
+      if (ep === 1 || ep % 5 === 0) {
+        svg.append("text")
+          .attr("x", cx + cellW / 2).attr("y", 25)
+          .attr("text-anchor","middle")
+          .attr("fill","#bbb").attr("font-size",8)
+          .text(ep);
+      }
+
+      chars.forEach((c, ci) => {
+        // Character label (first season only)
+        if (si === 0 && ep === 1) {
+          svg.append("text")
+            .attr("x", labelW - 6)
+            .attr("y", headerH + ci * (cellH + rowGap) + cellH / 2 + 4)
+            .attr("text-anchor","end")
+            .attr("fill", colorScale(c))
+            .attr("font-size", 11).attr("font-weight", 600)
+            .attr("font-family","inherit")
+            .text(c);
+        }
+
+        const ry = headerH + ci * (cellH + rowGap);
+        const charEntry = epData ? epData.characters.find(cd => cd.name === c) : null;
+        const lines = charEntry ? charEntry.lines : null;
+
+        let fill, opacity, stroke;
+        if (lines === null) {
+          // No transcript
+          fill = "#f0f0f0"; opacity = 1; stroke = "#e8e8e8";
+        } else if (lines === 0) {
+          fill = "#f5f5f5"; opacity = 1; stroke = "#ebebeb";
+        } else {
+          fill = colorScale(c);
+          opacity = 0.12 + opScale(lines) * 0.82;
+          stroke = "none";
+        }
+
+        const cell = svg.append("rect")
+          .attr("x", cx).attr("y", ry)
+          .attr("width", cellW).attr("height", cellH)
+          .attr("rx", 2)
+          .attr("fill", fill).attr("opacity", opacity)
+          .attr("stroke", stroke).attr("stroke-width", 0.5);
+
+        if (epData && lines !== null) {
+          const pct = charEntry ? charEntry.percentage : 0;
+          cell.style("cursor","pointer")
+            .on("mouseover", function(evt) {
+              d3.select(this).attr("stroke","#333").attr("stroke-width",1.5);
+              const content = lines > 0
+                ? `<strong>${epData.name}</strong>${c}: ${lines} lines (${pct.toFixed(1)}%)`
+                : `<strong>${epData.name}</strong>${c}: no lines`;
+              tooltip.html(content)
+                .attr("class","tooltip active")
+                .style("left",(evt.pageX+10)+"px")
+                .style("top",(evt.pageY-10)+"px");
+            })
+            .on("mousemove", function(evt) {
+              tooltip.style("left",(evt.pageX+10)+"px").style("top",(evt.pageY-10)+"px");
+            })
+            .on("mouseout", function() {
+              d3.select(this).attr("stroke","none");
+              tooltip.attr("class","tooltip");
+            });
+        }
+      });
+    }
+    xCursor += sW + seasonGap;
+  });
+}
+
+
 
 async function init() {
   try {
     // Load both datasets
     allDatasets = await buildDatasetList();
     characterLinesData = await loadCharacterLinesData();
+
+    // Render static sections (don't depend on dataset selection)
+    renderCastSwatches();
+    renderEpisodeGrid();
     
     const allEpisodes = makeAllEpisodesDataset(allDatasets);
     const seasonDatasets = makeSeasonDatasets(allDatasets);
@@ -727,14 +972,15 @@ async function init() {
       const dataset = datasetById.get(datasetSelect.value);
       if (dataset) {
         renderChordChart(dataset);
-        // Stacked area chart updates based on selection: shows all episodes or single episode breakdown
         renderStackedAreaChart(dataset);
+        renderLinesBarChart(dataset);
       }
     });
 
     datasetSelect.value = "all";
     renderChordChart(allEpisodes);
     renderStackedAreaChart(allEpisodes);
+    renderLinesBarChart(allEpisodes);
     
     statusText.textContent = "Ready";
   } catch (error) {

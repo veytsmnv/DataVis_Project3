@@ -141,7 +141,10 @@ async function buildDatasetList() {
     const rows = await loadCsvFile(csvPath);
     datasets.push({
       id: entry.episode || entry.file.replace(/\.csv$/i, ""),
-      label: entry.episode ? `${entry.episode} • ${entry.file.replace(/\.csv$/i, "")}` : entry.file,
+      label: entry.episode ? (() => {
+        const m = entry.episode.match(/^(\d+)x(\d+)\s*(.*)/);
+        return m ? `S${m[1]} E${m[2]} — ${m[3]}` : entry.episode;
+      })() : entry.file.replace(/\.csv$/i, "").replace(/_/g, " "),
       file: entry.file,
       rows,
     });
@@ -250,7 +253,7 @@ function renderStackedAreaChart(dataset) {
   
   if (isSingleEpisode) {
     // For single episode, find the matching episode and show as single data point
-    const episodeName = dataset.label.split(" • ")[0].trim();
+    const episodeName = dataset.id.trim();
     const episode = episodes.find(ep => ep.name === episodeName);
     
     if (!episode) {
@@ -733,7 +736,7 @@ function renderLinesBarChart(dataset) {
     const epSeason = extractSeason(ep.name);
     if (isSeason && epSeason !== selectedSeason) return;
     if (isSingle) {
-      const epLabel = dataset.label.split(" • ")[0].trim();
+      const epLabel = dataset.id.trim();
       if (ep.name !== epLabel) return;
     }
     ep.characters.forEach(cd => {
@@ -935,11 +938,87 @@ function renderEpisodeGrid() {
 
 
 
+// ============================================================================
+// SEASON / EPISODE INFO PANEL
+// ============================================================================
+
+let episodeInfoData = null;
+
+async function loadEpisodeInfo() {
+  const res = await fetch("all_scripts/episode_info.json");
+  if (!res.ok) throw new Error("Could not load episode_info.json");
+  return res.json();
+}
+
+function renderInfoPanel(dataset) {
+  const panel    = document.getElementById("infoPanel");
+  const title    = document.getElementById("infoPanelTitle");
+  const desc     = document.getElementById("infoPanelDesc");
+  const metaWrap = document.getElementById("infoPanelMeta");
+
+  if (!episodeInfoData || !dataset || dataset.id === "all") {
+    panel.style.display = "none";
+    return;
+  }
+
+  panel.style.display = "block";
+  metaWrap.innerHTML  = "";
+
+  // ── Season view ───────────────────────────────────────────
+  if (dataset.id.startsWith("season_")) {
+    const sNum  = parseInt(dataset.id.split("_")[1]);
+    const sData = episodeInfoData.seasons[String(sNum)];
+    if (!sData) { panel.style.display = "none"; return; }
+
+    title.textContent = `Season ${sNum} Overview`;
+    desc.textContent  = sData.summary || "No summary available.";
+
+    const metas = [
+      { label: "Episodes",       value: sData.episode_count },
+      { label: "Avg. IMDB",      value: sData.avg_imdb != null ? sData.avg_imdb.toFixed(2) : "N/A" },
+      { label: "Avg. Viewers",   value: sData.avg_viewers != null ? sData.avg_viewers.toFixed(2) + "M" : "N/A" },
+      { label: "Network",        value: sNum <= 5 ? "NBC" : "Yahoo! Screen" },
+    ];
+    metas.forEach(m => metaWrap.appendChild(makeMetaChip(m.label, m.value)));
+    return;
+  }
+
+  // ── Single episode view ───────────────────────────────────
+  // dataset.id is like "1x4 Social Psychology" — extract just the "1x4" part
+  const codeMatch = dataset.id.match(/^(\d+x\d+)/);
+  if (!codeMatch) { panel.style.display = "none"; return; }
+  const epId  = codeMatch[1];
+  const epObj = episodeInfoData.episodes.find(e => e.code === epId);
+  if (!epObj) { panel.style.display = "none"; return; }
+
+  title.textContent = `${epObj.code} — ${epObj.title}`;
+  desc.textContent  = epObj.air_date ? `Original air date: ${epObj.air_date}` : "";
+
+  const metas = [
+    { label: "Directed by", value: epObj.director || "—" },
+    { label: "Written by",  value: epObj.writer   || "—" },
+    { label: "IMDB Rating", value: epObj.imdb     != null ? epObj.imdb.toFixed(1) : "N/A" },
+    { label: "Viewers",     value: epObj.viewers  != null ? epObj.viewers.toFixed(2) + "M" : "N/A" },
+  ];
+  metas.forEach(m => metaWrap.appendChild(makeMetaChip(m.label, m.value)));
+}
+
+function makeMetaChip(label, value) {
+  const chip = document.createElement("div");
+  chip.style.cssText = "padding: 12px 16px; background: #f5f5f5; border-left: 4px solid #667eea; border-radius: 0 4px 4px 0; min-width: 140px; max-width: 320px;";
+  chip.innerHTML = `
+    <div style="font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:1px;color:#999;margin-bottom:4px;">${label}</div>
+    <div style="font-size:15px;font-weight:600;color:#333;word-break:break-word;">${value}</div>
+  `;
+  return chip;
+}
+
 async function init() {
   try {
     // Load both datasets
     allDatasets = await buildDatasetList();
     characterLinesData = await loadCharacterLinesData();
+    episodeInfoData = await loadEpisodeInfo();
 
     // Render static sections (don't depend on dataset selection)
     renderCastSwatches();
@@ -971,6 +1050,7 @@ async function init() {
     datasetSelect.addEventListener("change", () => {
       const dataset = datasetById.get(datasetSelect.value);
       if (dataset) {
+        renderInfoPanel(dataset);
         renderChordChart(dataset);
         renderStackedAreaChart(dataset);
         renderLinesBarChart(dataset);
@@ -978,6 +1058,7 @@ async function init() {
     });
 
     datasetSelect.value = "all";
+    renderInfoPanel(null);
     renderChordChart(allEpisodes);
     renderStackedAreaChart(allEpisodes);
     renderLinesBarChart(allEpisodes);

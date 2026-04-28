@@ -350,7 +350,55 @@
     </div>
   </section>
 
-  <div class="data-note">
+  <!-- ═══════════════════════ SECTION 4: WHAT DO CHARACTERS SAY (Level 2) -->
+  <section>
+    <h2 class="section-title">What Do Characters Say?</h2>
+    <p class="section-desc">
+      Select a character to explore their vocabulary. Toggle between their most-frequent words
+      and words unique to them (spoken far more than other characters). Hover any word or bar
+      for counts. Filter by season to see how their language shifts over the show.
+    </p>
+
+    <div class="controls-row" style="flex-wrap:wrap; gap:16px;">
+      <div style="display:flex;align-items:center;gap:10px;">
+        <span class="ctrl-label">Character</span>
+        <div class="seg-control" id="word-char-seg" style="flex-wrap:wrap;"></div>
+      </div>
+      <div style="display:flex;align-items:center;gap:10px;">
+        <span class="ctrl-label">Season</span>
+        <div class="seg-control" id="word-season-seg"></div>
+      </div>
+      <div style="display:flex;align-items:center;gap:10px;">
+        <span class="ctrl-label">Mode</span>
+        <div class="seg-control" id="word-mode-seg"></div>
+      </div>
+    </div>
+
+    <!-- Bubble word cloud -->
+    <div class="chart-card">
+      <h3 id="word-bubble-title">Word Cloud</h3>
+      <p class="chart-sub" id="word-bubble-sub">Bubble size = how often the word is spoken. Hover for counts.</p>
+      <div id="word-bubble-wrap" style="width:100%;overflow:hidden;">
+        <svg id="word-bubble-svg" style="width:100%;display:block;"></svg>
+      </div>
+    </div>
+
+    <!-- Horizontal bar chart: top words -->
+    <div class="two-col">
+      <div class="chart-card">
+        <h3 id="word-bar-title">Top Words</h3>
+        <p class="chart-sub" id="word-bar-sub">Ranked by frequency</p>
+        <svg id="word-bar-svg" style="width:100%;overflow:visible;"></svg>
+      </div>
+      <div class="chart-card">
+        <h3>Frequent Phrases</h3>
+        <p class="chart-sub">Two-word combinations spoken most often (stopwords removed)</p>
+        <svg id="phrase-bar-svg" style="width:100%;overflow:visible;"></svg>
+      </div>
+    </div>
+  </section>
+
+
     <strong>Data note:</strong>
     This analysis covers 39 of 110 total Community episodes — all scripts publicly available
     online (Seasons 1–4 and 6; Season 5 transcripts do not exist online). The 10 recurring
@@ -845,9 +893,309 @@ function renderArea() {
 }
 
 // ════════════════════════════════════════════════════════════
+// LEVEL 2 — WHAT DO CHARACTERS SAY?
+// ════════════════════════════════════════════════════════════
+
+let WORD_DATA = null;
+let wordChar   = "Jeff";
+let wordSeason = "all";
+let wordMode   = "freq"; // "freq" | "unique"
+
+async function initWordSection() {
+  const res = await fetch("all_scripts/word_data.json");
+  WORD_DATA = await res.json();
+
+  // Character segmented control (all 10 chars)
+  buildSegCustom("word-char-seg", CHARS.map(c => ({val:c, label:c})), wordChar, v => {
+    wordChar = v; renderWordSection();
+  });
+
+  // Season control
+  buildSeg("word-season-seg", "all", v => { wordSeason = v; renderWordSection(); });
+
+  // Mode control
+  const modeSeg = document.getElementById("word-mode-seg");
+  [{val:"freq",label:"Most Used"},{val:"unique",label:"Most Unique"}].forEach(o => {
+    const btn = document.createElement("button");
+    btn.textContent = o.label;
+    btn.dataset.val = o.val;
+    if (o.val === wordMode) btn.classList.add("active");
+    btn.addEventListener("click", () => {
+      modeSeg.querySelectorAll("button").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      wordMode = o.val;
+      renderWordSection();
+    });
+    modeSeg.appendChild(btn);
+  });
+
+  renderWordSection();
+}
+
+function buildSegCustom(id, opts, defaultVal, onChange) {
+  const el = document.getElementById(id);
+  opts.forEach(o => {
+    const btn = document.createElement("button");
+    btn.textContent = o.label;
+    btn.dataset.val = o.val;
+    btn.style.padding = "6px 12px";
+    if (o.val === defaultVal) btn.classList.add("active");
+    btn.addEventListener("click", () => {
+      el.querySelectorAll("button").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      onChange(o.val);
+    });
+    el.appendChild(btn);
+  });
+}
+
+function getWordItems() {
+  if (!WORD_DATA) return { words: [], bigrams: [] };
+  const charData = WORD_DATA.characters[wordChar];
+  if (!charData) return { words: [], bigrams: [] };
+
+  let words, bigrams;
+
+  if (wordSeason !== "all") {
+    const sd = charData.by_season[wordSeason];
+    if (!sd) return { words: [], bigrams: [] };
+    words   = wordMode === "unique"
+      // For season view, use global unique scores but filter to words present this season
+      ? charData.top_unique.filter(u => sd.top_words.find(w => w.word === u.word))
+                            .slice(0, 40)
+      : sd.top_words.slice(0, 40);
+    bigrams = sd.top_bigrams.slice(0, 15);
+  } else {
+    words   = wordMode === "unique"
+      ? charData.top_unique.slice(0, 50)
+      : charData.top_words.slice(0, 50);
+    bigrams = charData.top_bigrams.slice(0, 15);
+  }
+
+  return { words, bigrams };
+}
+
+function renderWordSection() {
+  const { words, bigrams } = getWordItems();
+  const color = COLOR[wordChar];
+  const modeLabel = wordMode === "unique" ? "Most Unique Words" : "Most Frequent Words";
+  const seasonLabel = wordSeason === "all" ? "Entire Series" : `Season ${wordSeason}`;
+
+  document.getElementById("word-bubble-title").textContent = `${wordChar} — ${modeLabel} (${seasonLabel})`;
+  document.getElementById("word-bubble-sub").textContent =
+    wordMode === "unique"
+      ? "Bubble size = how much more this character uses this word vs others. Hover for counts."
+      : "Bubble size = total times spoken. Hover for counts.";
+
+  document.getElementById("word-bar-title").textContent = modeLabel;
+  document.getElementById("word-bar-sub").textContent =
+    wordMode === "unique"
+      ? "Uniqueness score: 1.0 = average share, higher = this character says it far more than others"
+      : "Total times spoken across selected episodes";
+
+  renderBubbleChart(words, color);
+  renderWordBar(words, color);
+  renderPhraseBar(bigrams, color);
+}
+
+// ── BUBBLE / FORCE WORD CHART ────────────────────────────────
+function renderBubbleChart(words, color) {
+  const svgEl = document.getElementById("word-bubble-svg");
+  const svg = d3.select(svgEl);
+  svg.selectAll("*").remove();
+  if (!words.length) return;
+
+  const W = svgEl.parentElement.clientWidth;
+  const H = 340;
+  svg.attr("viewBox", `0 0 ${W} ${H}`).attr("height", H);
+
+  const top = words.slice(0, 50);
+  const valKey = wordMode === "unique" ? "uniqueness" : "count";
+  const maxVal = d3.max(top, d => d[valKey]) || 1;
+
+  const rScale = d3.scaleSqrt()
+    .domain([0, maxVal])
+    .range([14, Math.min(W / 10, 58)]);
+
+  const nodes = top.map(d => ({
+    word: d.word,
+    val: d[valKey],
+    count: d.count,
+    r: rScale(d[valKey])
+  }));
+
+  const sim = d3.forceSimulation(nodes)
+    .force("charge", d3.forceManyBody().strength(5))
+    .force("center", d3.forceCenter(W / 2, H / 2))
+    .force("collision", d3.forceCollide(d => d.r + 2))
+    .force("x", d3.forceX(W / 2).strength(0.04))
+    .force("y", d3.forceY(H / 2).strength(0.08))
+    .stop();
+
+  // Run sim synchronously
+  for (let i = 0; i < 200; i++) sim.tick();
+
+  const g = svg.append("g");
+
+  const node = g.selectAll(".bubble")
+    .data(nodes)
+    .join("g")
+    .attr("class","bubble")
+    .attr("transform", d => `translate(${
+      Math.max(d.r, Math.min(W - d.r, d.x))
+    },${
+      Math.max(d.r, Math.min(H - d.r, d.y))
+    })`);
+
+  node.append("circle")
+    .attr("r", d => d.r)
+    .attr("fill", color)
+    .attr("opacity", d => 0.25 + (d.val / maxVal) * 0.65)
+    .attr("stroke", color)
+    .attr("stroke-width", 1)
+    .attr("stroke-opacity", 0.4);
+
+  node.append("text")
+    .attr("text-anchor","middle")
+    .attr("dy","0.35em")
+    .attr("font-family","var(--font-body)")
+    .attr("font-weight","600")
+    .attr("fill", d => d.r > 26 ? "#fff" : color)
+    .attr("font-size", d => Math.max(9, Math.min(d.r * 0.55, 16)))
+    .text(d => d.r > 18 ? d.word : (d.r > 13 ? d.word.slice(0,5) : ""));
+
+  node
+    .on("mouseover", function(evt, d) {
+      d3.select(this).select("circle").attr("opacity", 1);
+      const tipVal = wordMode === "unique"
+        ? `${d.count}× spoken · uniqueness: ${d.val.toFixed(2)}`
+        : `${d.count}× spoken`;
+      showTip(`<strong>${d.word}</strong>${tipVal}`, evt);
+    })
+    .on("mousemove", moveTip)
+    .on("mouseout", function(evt, d) {
+      d3.select(this).select("circle").attr("opacity", 0.25 + (d.val / maxVal) * 0.65);
+      hideTip();
+    });
+}
+
+// ── WORD FREQUENCY BAR CHART ─────────────────────────────────
+function renderWordBar(words, color) {
+  const svgEl = document.getElementById("word-bar-svg");
+  const svg = d3.select(svgEl);
+  svg.selectAll("*").remove();
+
+  const top = words.slice(0, 20);
+  if (!top.length) return;
+
+  const valKey = wordMode === "unique" ? "uniqueness" : "count";
+  const labelFn = wordMode === "unique"
+    ? d => `×${d.uniqueness.toFixed(1)} unique · ${d.count} uses`
+    : d => `${d.count}×`;
+
+  const labelW = 90, rightPad = 90, barH = 20, rowH = 30;
+  const W = svgEl.parentElement.clientWidth - 56;
+  const iW = W - labelW - rightPad;
+  const H = top.length * rowH + 8;
+
+  svg.attr("viewBox", `0 0 ${W} ${H}`).attr("height", H);
+
+  const maxVal = d3.max(top, d => d[valKey]) || 1;
+  const xSc = d3.scaleLinear().domain([0, maxVal]).range([0, iW]);
+  const g = svg.append("g").attr("transform", `translate(${labelW},4)`);
+
+  g.append("g").attr("class","grid")
+    .call(d3.axisBottom(xSc).ticks(4).tickSize(H-8).tickFormat(""))
+    .attr("transform","translate(0,0)").select(".domain").remove();
+
+  top.forEach((d, i) => {
+    const row = g.append("g").attr("transform", `translate(0,${i*rowH})`);
+    const bw = Math.max(xSc(d[valKey]), 3);
+
+    row.append("text")
+      .attr("x",-8).attr("y", barH/2+4)
+      .attr("text-anchor","end")
+      .attr("fill", color).attr("font-size",12).attr("font-weight",600)
+      .attr("font-family","var(--font-body)")
+      .text(d.word);
+
+    row.append("rect")
+      .attr("x",0).attr("y",2).attr("width",bw).attr("height",barH).attr("rx",3)
+      .attr("fill",color).attr("opacity",0.75)
+      .on("mouseover", function(evt) {
+        d3.select(this).attr("opacity",1);
+        showTip(`<strong>${d.word}</strong>${labelFn(d)}`, evt);
+      })
+      .on("mousemove", moveTip)
+      .on("mouseout", function() { d3.select(this).attr("opacity",0.75); hideTip(); });
+
+    row.append("text")
+      .attr("x",bw+6).attr("y",barH/2+4)
+      .attr("fill","#999").attr("font-size",11).attr("font-family","var(--font-body)")
+      .text(wordMode==="unique" ? `×${d.uniqueness.toFixed(1)}` : d.count);
+  });
+}
+
+// ── PHRASE BAR CHART ─────────────────────────────────────────
+function renderPhraseBar(bigrams, color) {
+  const svgEl = document.getElementById("phrase-bar-svg");
+  const svg = d3.select(svgEl);
+  svg.selectAll("*").remove();
+
+  const top = bigrams.slice(0, 15);
+  if (!top.length) return;
+
+  const labelW = 120, rightPad = 50, barH = 20, rowH = 30;
+  const W = svgEl.parentElement.clientWidth - 56;
+  const iW = W - labelW - rightPad;
+  const H = top.length * rowH + 8;
+
+  svg.attr("viewBox", `0 0 ${W} ${H}`).attr("height", H);
+
+  const maxVal = d3.max(top, d => d.count) || 1;
+  const xSc = d3.scaleLinear().domain([0, maxVal]).range([0, iW]);
+  const g = svg.append("g").attr("transform", `translate(${labelW},4)`);
+
+  g.append("g").attr("class","grid")
+    .call(d3.axisBottom(xSc).ticks(4).tickSize(H-8).tickFormat(""))
+    .attr("transform","translate(0,0)").select(".domain").remove();
+
+  top.forEach((d, i) => {
+    const row = g.append("g").attr("transform",`translate(0,${i*rowH})`);
+    const bw = Math.max(xSc(d.count), 3);
+
+    row.append("text")
+      .attr("x",-8).attr("y",barH/2+4)
+      .attr("text-anchor","end")
+      .attr("fill","#444").attr("font-size",12).attr("font-weight",600)
+      .attr("font-family","var(--font-body)")
+      .text(`"${d.phrase}"`);
+
+    row.append("rect")
+      .attr("x",0).attr("y",2).attr("width",bw).attr("height",barH).attr("rx",3)
+      .attr("fill",color).attr("opacity",0.6)
+      .on("mouseover", function(evt) {
+        d3.select(this).attr("opacity",1);
+        showTip(`<strong>"${d.phrase}"</strong>${d.count}× spoken`, evt);
+      })
+      .on("mousemove", moveTip)
+      .on("mouseout", function() { d3.select(this).attr("opacity",0.6); hideTip(); });
+
+    row.append("text")
+      .attr("x",bw+6).attr("y",barH/2+4)
+      .attr("fill","#999").attr("font-size",11).attr("font-family","var(--font-body)")
+      .text(d.count);
+  });
+}
+
+// ════════════════════════════════════════════════════════════
 // START
 // ════════════════════════════════════════════════════════════
-init().catch(e => console.error(e));
+async function initAll() {
+  await init();
+  await initWordSection();
+}
+initAll().catch(e => console.error(e));
 </script>
 </body>
 </html>

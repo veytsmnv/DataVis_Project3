@@ -364,10 +364,41 @@
 </head>
 <body>
     <div class="main-container">
-        <!-- Header Section -->
-        <div class="header">
-            <h1>Community: Character Analysis</h1>
-            <p class="subtitle">Comprehensive analysis of speaking patterns and character interactions</p>
+        <!-- Show Overview Section -->
+        <div class="header" style="border-radius: 12px 12px 0 0; border-bottom: 1px solid #eee;">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 40px; flex-wrap: wrap;">
+                <div style="flex: 1; min-width: 260px;">
+                    <p class="eyebrow" style="color:#667eea; font-size:11px; font-weight:600; letter-spacing:2px; text-transform:uppercase; margin-bottom:8px;">NBC · Yahoo! Screen</p>
+                    <h1 style="font-size: 42px; font-weight: 800; color: #333; letter-spacing: -1px; line-height: 1; margin-bottom: 12px;">Community</h1>
+                    <p class="lede" style="color:#555; font-size:15px; line-height:1.6; max-width:520px;">A group of misfits at Greendale Community College form an unlikely study group — and an even unlikelier family. Six seasons of paintball, darkest timelines, and meta-comedy like no other.</p>
+                </div>
+                <div style="display: flex; gap: 32px; flex-wrap: wrap; align-items: flex-start; padding-top: 8px;">
+                    <div style="text-align:center;">
+                        <div style="font-size: 32px; font-weight: 800; color: #333;">6</div>
+                        <div style="font-size: 11px; color: #999; text-transform: uppercase; letter-spacing: 1px;">Seasons</div>
+                    </div>
+                    <div style="text-align:center;">
+                        <div style="font-size: 32px; font-weight: 800; color: #333;">110</div>
+                        <div style="font-size: 11px; color: #999; text-transform: uppercase; letter-spacing: 1px;">Episodes</div>
+                    </div>
+                    <div style="text-align:center;">
+                        <div style="font-size: 32px; font-weight: 800; color: #333;">39</div>
+                        <div style="font-size: 11px; color: #999; text-transform: uppercase; letter-spacing: 1px;">Scripts Analyzed</div>
+                    </div>
+                    <div style="text-align:center;">
+                        <div style="font-size: 32px; font-weight: 800; color: #333;">'09–'15</div>
+                        <div style="font-size: 11px; color: #999; text-transform: uppercase; letter-spacing: 1px;">Run</div>
+                    </div>
+                </div>
+            </div>
+            <div style="margin-top: 24px; padding-top: 20px; border-top: 1px solid #eee;">
+                <p style="font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; color: #999; margin-bottom: 12px;">Main Cast</p>
+                <div id="castSwatches" style="display: flex; flex-wrap: wrap; gap: 8px;"></div>
+            </div>
+        </div>
+
+        <!-- Header / Controls Section -->
+        <div class="header" style="border-radius: 0; border-top: none; border-bottom: 1px solid #eee; padding: 20px 40px;">
             <div class="controls">
                 <label for="datasetSelect">Dataset</label>
                 <select id="datasetSelect"></select>
@@ -381,6 +412,22 @@
             <p class="description">Percentage of lines spoken by each character across all episodes, by season, or breakdown for a selected episode. Hover over the chart for detailed information.</p>
             <svg id="stackedAreaChart"></svg>
             <div class="legend" id="legend"></div>
+        </div>
+
+        <!-- Lines Spoken Bar Chart Section -->
+        <div class="chart-section" style="border-radius: 0; border-top: 1px solid #eee;">
+            <h2>Lines Spoken per Character</h2>
+            <p class="description">Total dialogue lines per character for the selected dataset. Shows overall importance and how much each character contributes to the conversation.</p>
+            <svg id="linesBarChart" style="width:100%; overflow:visible;"></svg>
+        </div>
+
+        <!-- Episode Presence Grid Section -->
+        <div class="chart-section" style="border-radius: 0; border-top: 1px solid #eee;">
+            <h2>Episode Presence</h2>
+            <p class="description">Each cell shows how many lines a character speaks in that episode. Darker color means more lines. Light cells mean the character appeared but spoke little. Grey cells indicate no transcript is available.</p>
+            <div style="overflow-x: auto; padding-bottom: 8px;">
+                <svg id="episodeGrid" style="display:block;"></svg>
+            </div>
         </div>
 
         <!-- Chord Diagram Section -->

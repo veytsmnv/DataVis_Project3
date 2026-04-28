@@ -1,0 +1,158 @@
+{
+  "1x1": {
+    "word": "featuring",
+    "tfidf_score": 0.23324281736896965
+  },
+  "1x12": {
+    "word": "mike",
+    "tfidf_score": 0.6343798099994976
+  },
+  "1x2": {
+    "word": "protest",
+    "tfidf_score": 0.30684601234399894
+  },
+  "1x24": {
+    "word": "anthropology",
+    "tfidf_score": 0.31438501625836085
+  },
+  "1x3": {
+    "word": "whitman",
+    "tfidf_score": 0.5550914030726841
+  },
+  "1x4": {
+    "word": "vaughn",
+    "tfidf_score": 0.47120445394059446
+  },
+  "1x5": {
+    "word": "guzman",
+    "tfidf_score": 0.28236348643714926
+  },
+  "1x6": {
+    "word": "football",
+    "tfidf_score": 0.43156396919136164
+  },
+  "1x8": {
+    "word": "vaughn",
+    "tfidf_score": 0.6136583346988144
+  },
+  "1x9": {
+    "word": "simmons",
+    "tfidf_score": 0.522469480066351
+  },
+  "2x10": {
+    "word": "robert",
+    "tfidf_score": 0.3598505795129666
+  },
+  "2x11": {
+    "word": "christmas",
+    "tfidf_score": 0.6830155611182853
+  },
+  "2x13": {
+    "word": "drugs",
+    "tfidf_score": 0.45567730531594225
+  },
+  "2x14": {
+    "word": "neil",
+    "tfidf_score": 0.6365880238122725
+  },
+  "2x15": {
+    "word": "mariah",
+    "tfidf_score": 0.40184418035808556
+  },
+  "2x16": {
+    "word": "levar",
+    "tfidf_score": 0.37646330304491676
+  },
+  "2x19": {
+    "word": "waiter",
+    "tfidf_score": 0.1789169950594499
+  },
+  "2x2": {
+    "word": "alan",
+    "tfidf_score": 0.7844080913430621
+  },
+  "2x21": {
+    "word": "sing",
+    "tfidf_score": 0.27983627449491066
+  },
+  "2x4": {
+    "word": "simulator",
+    "tfidf_score": 0.4880640131498405
+  },
+  "2x6": {
+    "word": "rich",
+    "tfidf_score": 0.5827417897458109
+  },
+  "2x8": {
+    "word": "pen",
+    "tfidf_score": 0.6773483282324625
+  },
+  "2x9": {
+    "word": "professor",
+    "tfidf_score": 0.4856050462544924
+  },
+  "3x10": {
+    "word": "rad",
+    "tfidf_score": 0.45303466109562046
+  },
+  "3x15": {
+    "word": "blade",
+    "tfidf_score": 0.7389653630044408
+  },
+  "3x17": {
+    "word": "yam",
+    "tfidf_score": 0.5586506613056192
+  },
+  "3x2": {
+    "word": "todd",
+    "tfidf_score": 0.6433452909515807
+  },
+  "3x20": {
+    "word": "gilbert",
+    "tfidf_score": 0.7436025067568319
+  },
+  "3x21": {
+    "word": "joshua",
+    "tfidf_score": 0.20604182535300677
+  },
+  "3x22": {
+    "word": "alan",
+    "tfidf_score": 0.49027030394419757
+  },
+  "3x4": {
+    "word": "evil",
+    "tfidf_score": 0.32455816019872635
+  },
+  "3x5": {
+    "word": "story",
+    "tfidf_score": 0.19678580668957596
+  },
+  "3x7": {
+    "word": "jesus",
+    "tfidf_score": 0.2800135223196873
+  },
+  "3x8": {
+    "word": "guzman",
+    "tfidf_score": 0.47806144688345564
+  },
+  "3x9": {
+    "word": "juergen",
+    "tfidf_score": 0.3229565251446686
+  },
+  "4x10": {
+    "word": "cornwallis",
+    "tfidf_score": 0.7194800077300695
+  },
+  "4x9": {
+    "word": "singing",
+    "tfidf_score": 0.49283074033764857
+  },
+  "6x13": {
+    "word": "featuring",
+    "tfidf_score": 0.3361909713024951
+  },
+  "6x6": {
+    "word": "gupta",
+    "tfidf_score": 0.5600356160328169
+  }
+}

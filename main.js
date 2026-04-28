@@ -41,8 +41,8 @@ const chordWidth = 1200;
 const chordHeight = 900;
 const centerX = chordWidth / 2;
 const centerY = chordHeight / 2;
-const outerRadius = 300;
-const innerRadius = 220;
+const outerRadius = Math.min(chordWidth, chordHeight) * 0.40;
+const innerRadius = outerRadius - 50;
 
 // State
 let allDatasets = [];
@@ -609,10 +609,9 @@ function renderChordChart(dataset) {
     .innerRadius(innerRadius)
     .outerRadius(outerRadius);
 
-  const ribbon = d3.ribbonArrow()
-    .radius(innerRadius - 2)
-    .padAngle(1 / innerRadius)
-    .headRadius(8);
+  const ribbon = d3.ribbon()
+  .radius(innerRadius - 2)
+  .padAngle(1 / innerRadius);
 
   const groups = g.append("g")
     .selectAll("g")
@@ -640,29 +639,36 @@ function renderChordChart(dataset) {
     .on("mouseleave", () => tooltip.style("opacity", 0).attr("class", "tooltip"));
 
   groups
-    .append("text")
-    .attr("class", "node-label")
-    .each(function (d) {
-      d.angle = (d.startAngle + d.endAngle) / 2;
-    })
-    .attr("dy", "0.35em")
-    .attr("transform", function (d) {
-      const angle = (d.angle * 180) / Math.PI - 90;
-      const rotate = angle + (d.angle > Math.PI ? 180 : 0);
-      return `rotate(${rotate}) translate(${outerRadius + 14}) ${d.angle > Math.PI ? "rotate(180)" : ""}`;
-    })
-    .style("text-anchor", (d) => (d.angle > Math.PI ? "end" : "start"))
-    .text((d) => names[d.index]);
+  .append("text")
+  .attr("class", "node-label")
+  .attr("font-size", "16px")
+  .attr("font-weight", "600")
+  .each(function (d) {
+    d.angle = (d.startAngle + d.endAngle) / 2;
+  })
+  .attr("dy", "0.35em")
+  .attr("transform", function (d) {
+    const angle = (d.angle * 180) / Math.PI - 90;
+    const labelRadius = outerRadius + 18;
+
+    if (d.angle > Math.PI) {
+      return `rotate(${angle}) translate(${labelRadius}) rotate(180)`;
+    }
+
+    return `rotate(${angle}) translate(${labelRadius})`;
+  })
+  .style("text-anchor", (d) => (d.angle > Math.PI ? "end" : "start"))
+  .text((d) => names[d.index]);
 
   g.append("g")
-    .attr("fill-opacity", 0.8)
-    .selectAll("path")
-    .data(chord)
-    .join("path")
-    .attr("class", "link-path")
-    .attr("d", ribbon)
-    .attr("stroke", (d) => chordColor(names[d.source.index]))
-    .attr("stroke-width", (d) => Math.max(1, Math.sqrt(d.source.value)))
+  .attr("fill-opacity", 0.35)
+  .selectAll("path")
+  .data(chord)
+  .join("path")
+  .attr("class", "link-path")
+  .attr("d", ribbon)
+  .attr("fill", (d) => chordColor(names[d.source.index]))
+  .attr("stroke", "none")
     .on("mouseenter", (event, d) => {
       const source = names[d.source.index];
       const target = names[d.target.index];

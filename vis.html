@@ -6,7 +6,7 @@
   <title>Community — Character Analysis</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,600;1,9..40,300&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,600;1,9..40,300&family=Graduate&display=swap" rel="stylesheet" />
   <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
   <style>
     /* ── TOKENS ─────────────────────────────────────────────── */
@@ -142,10 +142,9 @@
 
         /* Chord Chart Section */
         .chord-section {
-            background: white;
-            border-radius: 0 0 12px 12px;
-            padding: 40px;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        background: white;
+        border-radius: 0 0 12px 12px;
+        padding: 20px 40px 30px 40px;
         }
 
         .chord-section h2 {
@@ -384,19 +383,58 @@
             font-size: 13px;
             color: #999;
         }
+
+        .tv-chart-wrapper {
+        position: relative;
+        width: 100%;
+        max-width: 1400px;
+        aspect-ratio: 16 / 10;
+        margin: 0px auto;
+        background-image: url("clipart-tv-large-16.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        }
+
+        .tv-screen {
+        position: absolute;
+        left: 11.5%;
+        top: 12%;
+        width: 61%;
+        height: 70%;
+        border-radius: 30px;
+        overflow: hidden;
+        background: white;
+        box-shadow: inset 0 0 30px rgba(0,0,0,0.5);
+        }
     </style>
 </head>
 <body>
-    <div class="main-container">
+    <div class="main-container" style="max-width: 1650px; margin: 40px auto;">
         <!-- Show Overview Section -->
         <div class="header" style="border-radius: 12px 12px 0 0; border-bottom: 1px solid #eee;">
-            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 40px; flex-wrap: wrap;">
-                <div style="flex: 1; min-width: 260px;">
-                    <p class="eyebrow" style="color:#667eea; font-size:11px; font-weight:600; letter-spacing:2px; text-transform:uppercase; margin-bottom:8px;">NBC · Yahoo! Screen</p>
-                    <h1 style="font-size: 42px; font-weight: 800; color: #333; letter-spacing: -1px; line-height: 1; margin-bottom: 12px;">Community</h1>
-                    <p class="lede" style="color:#555; font-size:15px; line-height:1.6; max-width:520px;">A group of misfits at Greendale Community College form an unlikely study group — and an even unlikelier family. Six seasons of paintball, darkest timelines, and meta-comedy like no other.</p>
-                </div>
-                <div style="display: flex; gap: 32px; flex-wrap: wrap; align-items: flex-start; padding-top: 8px;">
+            <div style="flex: 1; min-width: 260px; display: flex; flex-direction: column; align-items: center; text-align: center;">
+
+                <p class="eyebrow" style="color:#667eea; font-size:11px; font-weight:600; letter-spacing:2px; text-transform:uppercase; margin-bottom:8px;">
+                    NBC · Yahoo! Screen
+                </p>
+
+                <h1 style="
+                    font-family: 'Graduate', serif;
+                    font-size: 72px;
+                    font-weight: 400;
+                    color: #1f4f86;
+                    letter-spacing: 4px;
+                    line-height: 1;
+                    margin-bottom: 12px;
+                    text-transform: uppercase;
+                    text-shadow: 2px 2px 0 #ffffff, 4px 4px 0 #8aa6c8;
+                ">
+                    Community
+                </h1>
+
+                <!-- CENTERED STATS -->
+                <div style="display: flex; gap: 38px; flex-wrap: wrap; justify-content: center; align-items: center; margin: 10px 0 16px 0;">
                     <div style="text-align:center;">
                         <div style="font-size: 32px; font-weight: 800; color: #333;">6</div>
                         <div style="font-size: 11px; color: #999; text-transform: uppercase; letter-spacing: 1px;">Seasons</div>
@@ -414,6 +452,19 @@
                         <div style="font-size: 11px; color: #999; text-transform: uppercase; letter-spacing: 1px;">Run</div>
                     </div>
                 </div>
+
+                <!-- CENTERED TEXT BLOCK -->
+                <p class="lede" style="
+                    color:#555;
+                    font-size:15px;
+                    line-height:1.6;
+                    max-width:700px;
+                    text-align:center;
+                    margin: 0 auto;
+                ">
+                    A group of misfits at Greendale Community College form an unlikely study group — and an even unlikelier family. Six seasons of paintball, darkest timelines, and meta-comedy like no other.
+                </p>
+
             </div>
             <div style="margin-top: 24px; padding-top: 20px; border-top: 1px solid #eee;">
                 <p style="font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; color: #999; margin-bottom: 12px;">Main Cast</p>
@@ -467,7 +518,11 @@
             <p class="description">Shows speaking volume and dialogue flow between characters. Node size represents total lines spoken, links show who follows whom.</p>
             <div class="chord-content">
                 <div class="viz-panel">
-                    <svg id="chordChart" viewBox="0 0 1200 900" preserveAspectRatio="xMidYMid meet"></svg>
+                    <div class="tv-chart-wrapper">
+                        <div class="tv-screen">
+                            <svg id="chordChart" style="width:100%; height:100%;" viewBox="0 0 1200 900"></svg>
+                        </div>
+                    </div>
                 </div>
                 <aside class="chord-info">
                     <div class="info-card">

@@ -1,0 +1,2357 @@
+{
+  "episodes": [
+    {
+      "name": "1x1 Pilot",
+      "characters": [
+        {
+          "name": "Abed",
+          "lines": 35,
+          "percentage": 11.59
+        },
+        {
+          "name": "Britta",
+          "lines": 45,
+          "percentage": 14.9
+        },
+        {
+          "name": "Chang",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Duncan",
+          "lines": 38,
+          "percentage": 12.58
+        },
+        {
+          "name": "Elroy",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Frankie",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Jeff",
+          "lines": 117,
+          "percentage": 38.74
+        },
+        {
+          "name": "Pelton",
+          "lines": 1,
+          "percentage": 0.33
+        },
+        {
+          "name": "Pierce",
+          "lines": 26,
+          "percentage": 8.61
+        },
+        {
+          "name": "Shirley",
+          "lines": 19,
+          "percentage": 6.29
+        },
+        {
+          "name": "Troy",
+          "lines": 21,
+          "percentage": 6.95
+        }
+      ]
+    },
+    {
+      "name": "1x12 Comparative Religion",
+      "characters": [
+        {
+          "name": "Abed",
+          "lines": 18,
+          "percentage": 9.23
+        },
+        {
+          "name": "Britta",
+          "lines": 16,
+          "percentage": 8.21
+        },
+        {
+          "name": "Chang",
+          "lines": 8,
+          "percentage": 4.1
+        },
+        {
+          "name": "Duncan",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Elroy",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Frankie",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Jeff",
+          "lines": 58,
+          "percentage": 29.74
+        },
+        {
+          "name": "Pelton",
+          "lines": 2,
+          "percentage": 1.03
+        },
+        {
+          "name": "Pierce",
+          "lines": 29,
+          "percentage": 14.87
+        },
+        {
+          "name": "Shirley",
+          "lines": 38,
+          "percentage": 19.49
+        },
+        {
+          "name": "Troy",
+          "lines": 26,
+          "percentage": 13.33
+        }
+      ]
+    },
+    {
+      "name": "1x2 Spanish 101",
+      "characters": [
+        {
+          "name": "Abed",
+          "lines": 20,
+          "percentage": 11.9
+        },
+        {
+          "name": "Britta",
+          "lines": 30,
+          "percentage": 17.86
+        },
+        {
+          "name": "Chang",
+          "lines": 4,
+          "percentage": 2.38
+        },
+        {
+          "name": "Duncan",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Elroy",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Frankie",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Jeff",
+          "lines": 47,
+          "percentage": 27.98
+        },
+        {
+          "name": "Pelton",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Pierce",
+          "lines": 34,
+          "percentage": 20.24
+        },
+        {
+          "name": "Shirley",
+          "lines": 19,
+          "percentage": 11.31
+        },
+        {
+          "name": "Troy",
+          "lines": 14,
+          "percentage": 8.33
+        }
+      ]
+    },
+    {
+      "name": "1x24 English as a Second Language",
+      "characters": [
+        {
+          "name": "Abed",
+          "lines": 22,
+          "percentage": 12.29
+        },
+        {
+          "name": "Britta",
+          "lines": 12,
+          "percentage": 6.7
+        },
+        {
+          "name": "Chang",
+          "lines": 23,
+          "percentage": 12.85
+        },
+        {
+          "name": "Duncan",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Elroy",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Frankie",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Jeff",
+          "lines": 53,
+          "percentage": 29.61
+        },
+        {
+          "name": "Pelton",
+          "lines": 7,
+          "percentage": 3.91
+        },
+        {
+          "name": "Pierce",
+          "lines": 15,
+          "percentage": 8.38
+        },
+        {
+          "name": "Shirley",
+          "lines": 27,
+          "percentage": 15.08
+        },
+        {
+          "name": "Troy",
+          "lines": 20,
+          "percentage": 11.17
+        }
+      ]
+    },
+    {
+      "name": "1x3 Introduction to Film",
+      "characters": [
+        {
+          "name": "Abed",
+          "lines": 36,
+          "percentage": 19.46
+        },
+        {
+          "name": "Britta",
+          "lines": 47,
+          "percentage": 25.41
+        },
+        {
+          "name": "Chang",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Duncan",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Elroy",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Frankie",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Jeff",
+          "lines": 67,
+          "percentage": 36.22
+        },
+        {
+          "name": "Pelton",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Pierce",
+          "lines": 6,
+          "percentage": 3.24
+        },
+        {
+          "name": "Shirley",
+          "lines": 15,
+          "percentage": 8.11
+        },
+        {
+          "name": "Troy",
+          "lines": 14,
+          "percentage": 7.57
+        }
+      ]
+    },
+    {
+      "name": "1x4 Social Psychology",
+      "characters": [
+        {
+          "name": "Abed",
+          "lines": 6,
+          "percentage": 6.98
+        },
+        {
+          "name": "Britta",
+          "lines": 11,
+          "percentage": 12.79
+        },
+        {
+          "name": "Chang",
+          "lines": 5,
+          "percentage": 5.81
+        },
+        {
+          "name": "Duncan",
+          "lines": 11,
+          "percentage": 12.79
+        },
+        {
+          "name": "Elroy",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Frankie",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Jeff",
+          "lines": 28,
+          "percentage": 32.56
+        },
+        {
+          "name": "Pelton",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Pierce",
+          "lines": 6,
+          "percentage": 6.98
+        },
+        {
+          "name": "Shirley",
+          "lines": 11,
+          "percentage": 12.79
+        },
+        {
+          "name": "Troy",
+          "lines": 8,
+          "percentage": 9.3
+        }
+      ]
+    },
+    {
+      "name": "1x5 Advanced Criminal Law",
+      "characters": [
+        {
+          "name": "Abed",
+          "lines": 6,
+          "percentage": 20.0
+        },
+        {
+          "name": "Britta",
+          "lines": 2,
+          "percentage": 6.67
+        },
+        {
+          "name": "Chang",
+          "lines": 4,
+          "percentage": 13.33
+        },
+        {
+          "name": "Duncan",
+          "lines": 5,
+          "percentage": 16.67
+        },
+        {
+          "name": "Elroy",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Frankie",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Jeff",
+          "lines": 6,
+          "percentage": 20.0
+        },
+        {
+          "name": "Pelton",
+          "lines": 1,
+          "percentage": 3.33
+        },
+        {
+          "name": "Pierce",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Shirley",
+          "lines": 1,
+          "percentage": 3.33
+        },
+        {
+          "name": "Troy",
+          "lines": 5,
+          "percentage": 16.67
+        }
+      ]
+    },
+    {
+      "name": "1x6 Football Feminism and You",
+      "characters": [
+        {
+          "name": "Abed",
+          "lines": 9,
+          "percentage": 4.74
+        },
+        {
+          "name": "Britta",
+          "lines": 22,
+          "percentage": 11.58
+        },
+        {
+          "name": "Chang",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Duncan",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Elroy",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Frankie",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Jeff",
+          "lines": 53,
+          "percentage": 27.89
+        },
+        {
+          "name": "Pelton",
+          "lines": 30,
+          "percentage": 15.79
+        },
+        {
+          "name": "Pierce",
+          "lines": 20,
+          "percentage": 10.53
+        },
+        {
+          "name": "Shirley",
+          "lines": 17,
+          "percentage": 8.95
+        },
+        {
+          "name": "Troy",
+          "lines": 39,
+          "percentage": 20.53
+        }
+      ]
+    },
+    {
+      "name": "1x8 Home Economics",
+      "characters": [
+        {
+          "name": "Abed",
+          "lines": 26,
+          "percentage": 16.05
+        },
+        {
+          "name": "Britta",
+          "lines": 37,
+          "percentage": 22.84
+        },
+        {
+          "name": "Chang",
+          "lines": 2,
+          "percentage": 1.23
+        },
+        {
+          "name": "Duncan",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Elroy",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Frankie",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Jeff",
+          "lines": 46,
+          "percentage": 28.4
+        },
+        {
+          "name": "Pelton",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Pierce",
+          "lines": 21,
+          "percentage": 12.96
+        },
+        {
+          "name": "Shirley",
+          "lines": 12,
+          "percentage": 7.41
+        },
+        {
+          "name": "Troy",
+          "lines": 18,
+          "percentage": 11.11
+        }
+      ]
+    },
+    {
+      "name": "1x9 Debate 109",
+      "characters": [
+        {
+          "name": "Abed",
+          "lines": 20,
+          "percentage": 12.27
+        },
+        {
+          "name": "Britta",
+          "lines": 20,
+          "percentage": 12.27
+        },
+        {
+          "name": "Chang",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Duncan",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Elroy",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Frankie",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Jeff",
+          "lines": 50,
+          "percentage": 30.67
+        },
+        {
+          "name": "Pelton",
+          "lines": 11,
+          "percentage": 6.75
+        },
+        {
+          "name": "Pierce",
+          "lines": 24,
+          "percentage": 14.72
+        },
+        {
+          "name": "Shirley",
+          "lines": 22,
+          "percentage": 13.5
+        },
+        {
+          "name": "Troy",
+          "lines": 16,
+          "percentage": 9.82
+        }
+      ]
+    },
+    {
+      "name": "2x10 Mixology Certification",
+      "characters": [
+        {
+          "name": "Abed",
+          "lines": 25,
+          "percentage": 11.63
+        },
+        {
+          "name": "Britta",
+          "lines": 55,
+          "percentage": 25.58
+        },
+        {
+          "name": "Chang",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Duncan",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Elroy",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Frankie",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Jeff",
+          "lines": 55,
+          "percentage": 25.58
+        },
+        {
+          "name": "Pelton",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Pierce",
+          "lines": 14,
+          "percentage": 6.51
+        },
+        {
+          "name": "Shirley",
+          "lines": 22,
+          "percentage": 10.23
+        },
+        {
+          "name": "Troy",
+          "lines": 44,
+          "percentage": 20.47
+        }
+      ]
+    },
+    {
+      "name": "2x11 Abed s Uncontrollable Christmas",
+      "characters": [
+        {
+          "name": "Abed",
+          "lines": 75,
+          "percentage": 33.94
+        },
+        {
+          "name": "Britta",
+          "lines": 16,
+          "percentage": 7.24
+        },
+        {
+          "name": "Chang",
+          "lines": 4,
+          "percentage": 1.81
+        },
+        {
+          "name": "Duncan",
+          "lines": 44,
+          "percentage": 19.91
+        },
+        {
+          "name": "Elroy",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Frankie",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Jeff",
+          "lines": 21,
+          "percentage": 9.5
+        },
+        {
+          "name": "Pelton",
+          "lines": 2,
+          "percentage": 0.9
+        },
+        {
+          "name": "Pierce",
+          "lines": 20,
+          "percentage": 9.05
+        },
+        {
+          "name": "Shirley",
+          "lines": 12,
+          "percentage": 5.43
+        },
+        {
+          "name": "Troy",
+          "lines": 27,
+          "percentage": 12.22
+        }
+      ]
+    },
+    {
+      "name": "2x13 Celebrity Pharmacology",
+      "characters": [
+        {
+          "name": "Abed",
+          "lines": 15,
+          "percentage": 8.52
+        },
+        {
+          "name": "Britta",
+          "lines": 25,
+          "percentage": 14.2
+        },
+        {
+          "name": "Chang",
+          "lines": 14,
+          "percentage": 7.95
+        },
+        {
+          "name": "Duncan",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Elroy",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Frankie",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Jeff",
+          "lines": 27,
+          "percentage": 15.34
+        },
+        {
+          "name": "Pelton",
+          "lines": 7,
+          "percentage": 3.98
+        },
+        {
+          "name": "Pierce",
+          "lines": 56,
+          "percentage": 31.82
+        },
+        {
+          "name": "Shirley",
+          "lines": 16,
+          "percentage": 9.09
+        },
+        {
+          "name": "Troy",
+          "lines": 16,
+          "percentage": 9.09
+        }
+      ]
+    },
+    {
+      "name": "2x14 Advanced Dungeons Dragons",
+      "characters": [
+        {
+          "name": "Abed",
+          "lines": 76,
+          "percentage": 31.15
+        },
+        {
+          "name": "Britta",
+          "lines": 21,
+          "percentage": 8.61
+        },
+        {
+          "name": "Chang",
+          "lines": 7,
+          "percentage": 2.87
+        },
+        {
+          "name": "Duncan",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Elroy",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Frankie",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Jeff",
+          "lines": 58,
+          "percentage": 23.77
+        },
+        {
+          "name": "Pelton",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Pierce",
+          "lines": 48,
+          "percentage": 19.67
+        },
+        {
+          "name": "Shirley",
+          "lines": 17,
+          "percentage": 6.97
+        },
+        {
+          "name": "Troy",
+          "lines": 17,
+          "percentage": 6.97
+        }
+      ]
+    },
+    {
+      "name": "2x15 Early 21st Century Romanticism",
+      "characters": [
+        {
+          "name": "Abed",
+          "lines": 23,
+          "percentage": 12.37
+        },
+        {
+          "name": "Britta",
+          "lines": 28,
+          "percentage": 15.05
+        },
+        {
+          "name": "Chang",
+          "lines": 22,
+          "percentage": 11.83
+        },
+        {
+          "name": "Duncan",
+          "lines": 22,
+          "percentage": 11.83
+        },
+        {
+          "name": "Elroy",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Frankie",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Jeff",
+          "lines": 42,
+          "percentage": 22.58
+        },
+        {
+          "name": "Pelton",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Pierce",
+          "lines": 15,
+          "percentage": 8.06
+        },
+        {
+          "name": "Shirley",
+          "lines": 4,
+          "percentage": 2.15
+        },
+        {
+          "name": "Troy",
+          "lines": 30,
+          "percentage": 16.13
+        }
+      ]
+    },
+    {
+      "name": "2x16 Intermediate Documentary Filmmaking",
+      "characters": [
+        {
+          "name": "Abed",
+          "lines": 13,
+          "percentage": 7.43
+        },
+        {
+          "name": "Britta",
+          "lines": 32,
+          "percentage": 18.29
+        },
+        {
+          "name": "Chang",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Duncan",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Elroy",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Frankie",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Jeff",
+          "lines": 48,
+          "percentage": 27.43
+        },
+        {
+          "name": "Pelton",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Pierce",
+          "lines": 44,
+          "percentage": 25.14
+        },
+        {
+          "name": "Shirley",
+          "lines": 25,
+          "percentage": 14.29
+        },
+        {
+          "name": "Troy",
+          "lines": 13,
+          "percentage": 7.43
+        }
+      ]
+    },
+    {
+      "name": "2x19 Critical Film Studies",
+      "characters": [
+        {
+          "name": "Abed",
+          "lines": 52,
+          "percentage": 36.11
+        },
+        {
+          "name": "Britta",
+          "lines": 10,
+          "percentage": 6.94
+        },
+        {
+          "name": "Chang",
+          "lines": 6,
+          "percentage": 4.17
+        },
+        {
+          "name": "Duncan",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Elroy",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Frankie",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Jeff",
+          "lines": 48,
+          "percentage": 33.33
+        },
+        {
+          "name": "Pelton",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Pierce",
+          "lines": 6,
+          "percentage": 4.17
+        },
+        {
+          "name": "Shirley",
+          "lines": 5,
+          "percentage": 3.47
+        },
+        {
+          "name": "Troy",
+          "lines": 17,
+          "percentage": 11.81
+        }
+      ]
+    },
+    {
+      "name": "2x2 Accounting for Lawyers",
+      "characters": [
+        {
+          "name": "Abed",
+          "lines": 26,
+          "percentage": 14.05
+        },
+        {
+          "name": "Britta",
+          "lines": 14,
+          "percentage": 7.57
+        },
+        {
+          "name": "Chang",
+          "lines": 13,
+          "percentage": 7.03
+        },
+        {
+          "name": "Duncan",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Elroy",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Frankie",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Jeff",
+          "lines": 63,
+          "percentage": 34.05
+        },
+        {
+          "name": "Pelton",
+          "lines": 13,
+          "percentage": 7.03
+        },
+        {
+          "name": "Pierce",
+          "lines": 14,
+          "percentage": 7.57
+        },
+        {
+          "name": "Shirley",
+          "lines": 15,
+          "percentage": 8.11
+        },
+        {
+          "name": "Troy",
+          "lines": 27,
+          "percentage": 14.59
+        }
+      ]
+    },
+    {
+      "name": "2x21 Paradigms of Human Memory",
+      "characters": [
+        {
+          "name": "Abed",
+          "lines": 22,
+          "percentage": 12.43
+        },
+        {
+          "name": "Britta",
+          "lines": 28,
+          "percentage": 15.82
+        },
+        {
+          "name": "Chang",
+          "lines": 9,
+          "percentage": 5.08
+        },
+        {
+          "name": "Duncan",
+          "lines": 2,
+          "percentage": 1.13
+        },
+        {
+          "name": "Elroy",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Frankie",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Jeff",
+          "lines": 50,
+          "percentage": 28.25
+        },
+        {
+          "name": "Pelton",
+          "lines": 11,
+          "percentage": 6.21
+        },
+        {
+          "name": "Pierce",
+          "lines": 13,
+          "percentage": 7.34
+        },
+        {
+          "name": "Shirley",
+          "lines": 19,
+          "percentage": 10.73
+        },
+        {
+          "name": "Troy",
+          "lines": 23,
+          "percentage": 12.99
+        }
+      ]
+    },
+    {
+      "name": "2x4 Basic Rocket Science",
+      "characters": [
+        {
+          "name": "Abed",
+          "lines": 2,
+          "percentage": 22.22
+        },
+        {
+          "name": "Britta",
+          "lines": 2,
+          "percentage": 22.22
+        },
+        {
+          "name": "Chang",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Duncan",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Elroy",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Frankie",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Jeff",
+          "lines": 2,
+          "percentage": 22.22
+        },
+        {
+          "name": "Pelton",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Pierce",
+          "lines": 1,
+          "percentage": 11.11
+        },
+        {
+          "name": "Shirley",
+          "lines": 1,
+          "percentage": 11.11
+        },
+        {
+          "name": "Troy",
+          "lines": 1,
+          "percentage": 11.11
+        }
+      ]
+    },
+    {
+      "name": "2x6 Epidemiology",
+      "characters": [
+        {
+          "name": "Abed",
+          "lines": 23,
+          "percentage": 13.14
+        },
+        {
+          "name": "Britta",
+          "lines": 12,
+          "percentage": 6.86
+        },
+        {
+          "name": "Chang",
+          "lines": 20,
+          "percentage": 11.43
+        },
+        {
+          "name": "Duncan",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Elroy",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Frankie",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Jeff",
+          "lines": 46,
+          "percentage": 26.29
+        },
+        {
+          "name": "Pelton",
+          "lines": 25,
+          "percentage": 14.29
+        },
+        {
+          "name": "Pierce",
+          "lines": 2,
+          "percentage": 1.14
+        },
+        {
+          "name": "Shirley",
+          "lines": 15,
+          "percentage": 8.57
+        },
+        {
+          "name": "Troy",
+          "lines": 32,
+          "percentage": 18.29
+        }
+      ]
+    },
+    {
+      "name": "2x8 Cooperative Calligraphy",
+      "characters": [
+        {
+          "name": "Abed",
+          "lines": 28,
+          "percentage": 13.59
+        },
+        {
+          "name": "Britta",
+          "lines": 44,
+          "percentage": 21.36
+        },
+        {
+          "name": "Chang",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Duncan",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Elroy",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Frankie",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Jeff",
+          "lines": 50,
+          "percentage": 24.27
+        },
+        {
+          "name": "Pelton",
+          "lines": 5,
+          "percentage": 2.43
+        },
+        {
+          "name": "Pierce",
+          "lines": 23,
+          "percentage": 11.17
+        },
+        {
+          "name": "Shirley",
+          "lines": 33,
+          "percentage": 16.02
+        },
+        {
+          "name": "Troy",
+          "lines": 23,
+          "percentage": 11.17
+        }
+      ]
+    },
+    {
+      "name": "2x9 Conspiracy Theories and Interior Design",
+      "characters": [
+        {
+          "name": "Abed",
+          "lines": 28,
+          "percentage": 17.39
+        },
+        {
+          "name": "Britta",
+          "lines": 5,
+          "percentage": 3.11
+        },
+        {
+          "name": "Chang",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Duncan",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Elroy",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Frankie",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Jeff",
+          "lines": 63,
+          "percentage": 39.13
+        },
+        {
+          "name": "Pelton",
+          "lines": 35,
+          "percentage": 21.74
+        },
+        {
+          "name": "Pierce",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Shirley",
+          "lines": 2,
+          "percentage": 1.24
+        },
+        {
+          "name": "Troy",
+          "lines": 28,
+          "percentage": 17.39
+        }
+      ]
+    },
+    {
+      "name": "3x10 Regional Holiday Music",
+      "characters": [
+        {
+          "name": "Abed",
+          "lines": 31,
+          "percentage": 21.83
+        },
+        {
+          "name": "Britta",
+          "lines": 19,
+          "percentage": 13.38
+        },
+        {
+          "name": "Chang",
+          "lines": 5,
+          "percentage": 3.52
+        },
+        {
+          "name": "Duncan",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Elroy",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Frankie",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Jeff",
+          "lines": 26,
+          "percentage": 18.31
+        },
+        {
+          "name": "Pelton",
+          "lines": 11,
+          "percentage": 7.75
+        },
+        {
+          "name": "Pierce",
+          "lines": 9,
+          "percentage": 6.34
+        },
+        {
+          "name": "Shirley",
+          "lines": 17,
+          "percentage": 11.97
+        },
+        {
+          "name": "Troy",
+          "lines": 24,
+          "percentage": 16.9
+        }
+      ]
+    },
+    {
+      "name": "3x15 Origins of Vampire Mythology",
+      "characters": [
+        {
+          "name": "Abed",
+          "lines": 28,
+          "percentage": 12.02
+        },
+        {
+          "name": "Britta",
+          "lines": 46,
+          "percentage": 19.74
+        },
+        {
+          "name": "Chang",
+          "lines": 9,
+          "percentage": 3.86
+        },
+        {
+          "name": "Duncan",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Elroy",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Frankie",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Jeff",
+          "lines": 51,
+          "percentage": 21.89
+        },
+        {
+          "name": "Pelton",
+          "lines": 23,
+          "percentage": 9.87
+        },
+        {
+          "name": "Pierce",
+          "lines": 19,
+          "percentage": 8.15
+        },
+        {
+          "name": "Shirley",
+          "lines": 28,
+          "percentage": 12.02
+        },
+        {
+          "name": "Troy",
+          "lines": 29,
+          "percentage": 12.45
+        }
+      ]
+    },
+    {
+      "name": "3x17 Basic Lupine Urology",
+      "characters": [
+        {
+          "name": "Abed",
+          "lines": 34,
+          "percentage": 25.56
+        },
+        {
+          "name": "Britta",
+          "lines": 2,
+          "percentage": 1.5
+        },
+        {
+          "name": "Chang",
+          "lines": 1,
+          "percentage": 0.75
+        },
+        {
+          "name": "Duncan",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Elroy",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Frankie",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Jeff",
+          "lines": 27,
+          "percentage": 20.3
+        },
+        {
+          "name": "Pelton",
+          "lines": 10,
+          "percentage": 7.52
+        },
+        {
+          "name": "Pierce",
+          "lines": 9,
+          "percentage": 6.77
+        },
+        {
+          "name": "Shirley",
+          "lines": 12,
+          "percentage": 9.02
+        },
+        {
+          "name": "Troy",
+          "lines": 38,
+          "percentage": 28.57
+        }
+      ]
+    },
+    {
+      "name": "3x2 Competitive Ecology",
+      "characters": [
+        {
+          "name": "Abed",
+          "lines": 24,
+          "percentage": 13.87
+        },
+        {
+          "name": "Britta",
+          "lines": 29,
+          "percentage": 16.76
+        },
+        {
+          "name": "Chang",
+          "lines": 18,
+          "percentage": 10.4
+        },
+        {
+          "name": "Duncan",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Elroy",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Frankie",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Jeff",
+          "lines": 37,
+          "percentage": 21.39
+        },
+        {
+          "name": "Pelton",
+          "lines": 12,
+          "percentage": 6.94
+        },
+        {
+          "name": "Pierce",
+          "lines": 14,
+          "percentage": 8.09
+        },
+        {
+          "name": "Shirley",
+          "lines": 22,
+          "percentage": 12.72
+        },
+        {
+          "name": "Troy",
+          "lines": 17,
+          "percentage": 9.83
+        }
+      ]
+    },
+    {
+      "name": "3x20 Digital Estate Planning",
+      "characters": [
+        {
+          "name": "Abed",
+          "lines": 50,
+          "percentage": 21.46
+        },
+        {
+          "name": "Britta",
+          "lines": 31,
+          "percentage": 13.3
+        },
+        {
+          "name": "Chang",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Duncan",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Elroy",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Frankie",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Jeff",
+          "lines": 52,
+          "percentage": 22.32
+        },
+        {
+          "name": "Pelton",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Pierce",
+          "lines": 43,
+          "percentage": 18.45
+        },
+        {
+          "name": "Shirley",
+          "lines": 26,
+          "percentage": 11.16
+        },
+        {
+          "name": "Troy",
+          "lines": 31,
+          "percentage": 13.3
+        }
+      ]
+    },
+    {
+      "name": "3x21 The First Chang Dynasty",
+      "characters": [
+        {
+          "name": "Abed",
+          "lines": 10,
+          "percentage": 8.13
+        },
+        {
+          "name": "Britta",
+          "lines": 12,
+          "percentage": 9.76
+        },
+        {
+          "name": "Chang",
+          "lines": 26,
+          "percentage": 21.14
+        },
+        {
+          "name": "Duncan",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Elroy",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Frankie",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Jeff",
+          "lines": 24,
+          "percentage": 19.51
+        },
+        {
+          "name": "Pelton",
+          "lines": 9,
+          "percentage": 7.32
+        },
+        {
+          "name": "Pierce",
+          "lines": 15,
+          "percentage": 12.2
+        },
+        {
+          "name": "Shirley",
+          "lines": 7,
+          "percentage": 5.69
+        },
+        {
+          "name": "Troy",
+          "lines": 20,
+          "percentage": 16.26
+        }
+      ]
+    },
+    {
+      "name": "3x22 Introduction to Finality",
+      "characters": [
+        {
+          "name": "Abed",
+          "lines": 32,
+          "percentage": 21.05
+        },
+        {
+          "name": "Britta",
+          "lines": 23,
+          "percentage": 15.13
+        },
+        {
+          "name": "Chang",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Duncan",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Elroy",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Frankie",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Jeff",
+          "lines": 39,
+          "percentage": 25.66
+        },
+        {
+          "name": "Pelton",
+          "lines": 11,
+          "percentage": 7.24
+        },
+        {
+          "name": "Pierce",
+          "lines": 16,
+          "percentage": 10.53
+        },
+        {
+          "name": "Shirley",
+          "lines": 17,
+          "percentage": 11.18
+        },
+        {
+          "name": "Troy",
+          "lines": 14,
+          "percentage": 9.21
+        }
+      ]
+    },
+    {
+      "name": "3x4 Remedial Chaos Theory",
+      "characters": [
+        {
+          "name": "Abed",
+          "lines": 54,
+          "percentage": 17.76
+        },
+        {
+          "name": "Britta",
+          "lines": 42,
+          "percentage": 13.82
+        },
+        {
+          "name": "Chang",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Duncan",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Elroy",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Frankie",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Jeff",
+          "lines": 88,
+          "percentage": 28.95
+        },
+        {
+          "name": "Pelton",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Pierce",
+          "lines": 38,
+          "percentage": 12.5
+        },
+        {
+          "name": "Shirley",
+          "lines": 34,
+          "percentage": 11.18
+        },
+        {
+          "name": "Troy",
+          "lines": 48,
+          "percentage": 15.79
+        }
+      ]
+    },
+    {
+      "name": "3x5 Horror Fiction in Seven Spooky Steps",
+      "characters": [
+        {
+          "name": "Abed",
+          "lines": 14,
+          "percentage": 12.84
+        },
+        {
+          "name": "Britta",
+          "lines": 30,
+          "percentage": 27.52
+        },
+        {
+          "name": "Chang",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Duncan",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Elroy",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Frankie",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Jeff",
+          "lines": 24,
+          "percentage": 22.02
+        },
+        {
+          "name": "Pelton",
+          "lines": 6,
+          "percentage": 5.5
+        },
+        {
+          "name": "Pierce",
+          "lines": 18,
+          "percentage": 16.51
+        },
+        {
+          "name": "Shirley",
+          "lines": 5,
+          "percentage": 4.59
+        },
+        {
+          "name": "Troy",
+          "lines": 12,
+          "percentage": 11.01
+        }
+      ]
+    },
+    {
+      "name": "3x7 Studies in Modern Movement",
+      "characters": [
+        {
+          "name": "Abed",
+          "lines": 39,
+          "percentage": 21.67
+        },
+        {
+          "name": "Britta",
+          "lines": 29,
+          "percentage": 16.11
+        },
+        {
+          "name": "Chang",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Duncan",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Elroy",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Frankie",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Jeff",
+          "lines": 23,
+          "percentage": 12.78
+        },
+        {
+          "name": "Pelton",
+          "lines": 19,
+          "percentage": 10.56
+        },
+        {
+          "name": "Pierce",
+          "lines": 13,
+          "percentage": 7.22
+        },
+        {
+          "name": "Shirley",
+          "lines": 18,
+          "percentage": 10.0
+        },
+        {
+          "name": "Troy",
+          "lines": 39,
+          "percentage": 21.67
+        }
+      ]
+    },
+    {
+      "name": "3x8 Documentary Filmmaking  Redux",
+      "characters": [
+        {
+          "name": "Abed",
+          "lines": 14,
+          "percentage": 10.61
+        },
+        {
+          "name": "Britta",
+          "lines": 14,
+          "percentage": 10.61
+        },
+        {
+          "name": "Chang",
+          "lines": 2,
+          "percentage": 1.52
+        },
+        {
+          "name": "Duncan",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Elroy",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Frankie",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Jeff",
+          "lines": 15,
+          "percentage": 11.36
+        },
+        {
+          "name": "Pelton",
+          "lines": 62,
+          "percentage": 46.97
+        },
+        {
+          "name": "Pierce",
+          "lines": 10,
+          "percentage": 7.58
+        },
+        {
+          "name": "Shirley",
+          "lines": 8,
+          "percentage": 6.06
+        },
+        {
+          "name": "Troy",
+          "lines": 7,
+          "percentage": 5.3
+        }
+      ]
+    },
+    {
+      "name": "3x9 Foosball and Nocturnal Vigilantism",
+      "characters": [
+        {
+          "name": "Abed",
+          "lines": 28,
+          "percentage": 17.5
+        },
+        {
+          "name": "Britta",
+          "lines": 6,
+          "percentage": 3.75
+        },
+        {
+          "name": "Chang",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Duncan",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Elroy",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Frankie",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Jeff",
+          "lines": 52,
+          "percentage": 32.5
+        },
+        {
+          "name": "Pelton",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Pierce",
+          "lines": 2,
+          "percentage": 1.25
+        },
+        {
+          "name": "Shirley",
+          "lines": 45,
+          "percentage": 28.12
+        },
+        {
+          "name": "Troy",
+          "lines": 27,
+          "percentage": 16.88
+        }
+      ]
+    },
+    {
+      "name": "4x10 Intro to Knots",
+      "characters": [
+        {
+          "name": "Abed",
+          "lines": 15,
+          "percentage": 8.62
+        },
+        {
+          "name": "Britta",
+          "lines": 24,
+          "percentage": 13.79
+        },
+        {
+          "name": "Chang",
+          "lines": 16,
+          "percentage": 9.2
+        },
+        {
+          "name": "Duncan",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Elroy",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Frankie",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Jeff",
+          "lines": 78,
+          "percentage": 44.83
+        },
+        {
+          "name": "Pelton",
+          "lines": 5,
+          "percentage": 2.87
+        },
+        {
+          "name": "Pierce",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Shirley",
+          "lines": 22,
+          "percentage": 12.64
+        },
+        {
+          "name": "Troy",
+          "lines": 14,
+          "percentage": 8.05
+        }
+      ]
+    },
+    {
+      "name": "4x9 Intro to Felt Surrogacy",
+      "characters": [
+        {
+          "name": "Abed",
+          "lines": 22,
+          "percentage": 12.79
+        },
+        {
+          "name": "Britta",
+          "lines": 31,
+          "percentage": 18.02
+        },
+        {
+          "name": "Chang",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Duncan",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Elroy",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Frankie",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Jeff",
+          "lines": 35,
+          "percentage": 20.35
+        },
+        {
+          "name": "Pelton",
+          "lines": 24,
+          "percentage": 13.95
+        },
+        {
+          "name": "Pierce",
+          "lines": 13,
+          "percentage": 7.56
+        },
+        {
+          "name": "Shirley",
+          "lines": 28,
+          "percentage": 16.28
+        },
+        {
+          "name": "Troy",
+          "lines": 19,
+          "percentage": 11.05
+        }
+      ]
+    },
+    {
+      "name": "6x13 Emotional Consequences of Broadcast Television",
+      "characters": [
+        {
+          "name": "Abed",
+          "lines": 38,
+          "percentage": 17.59
+        },
+        {
+          "name": "Britta",
+          "lines": 31,
+          "percentage": 14.35
+        },
+        {
+          "name": "Chang",
+          "lines": 27,
+          "percentage": 12.5
+        },
+        {
+          "name": "Duncan",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Elroy",
+          "lines": 7,
+          "percentage": 3.24
+        },
+        {
+          "name": "Frankie",
+          "lines": 21,
+          "percentage": 9.72
+        },
+        {
+          "name": "Jeff",
+          "lines": 61,
+          "percentage": 28.24
+        },
+        {
+          "name": "Pelton",
+          "lines": 25,
+          "percentage": 11.57
+        },
+        {
+          "name": "Pierce",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Shirley",
+          "lines": 6,
+          "percentage": 2.78
+        },
+        {
+          "name": "Troy",
+          "lines": 0,
+          "percentage": 0.0
+        }
+      ]
+    },
+    {
+      "name": "6x6 Basic Email Security",
+      "characters": [
+        {
+          "name": "Abed",
+          "lines": 17,
+          "percentage": 7.98
+        },
+        {
+          "name": "Britta",
+          "lines": 44,
+          "percentage": 20.66
+        },
+        {
+          "name": "Chang",
+          "lines": 17,
+          "percentage": 7.98
+        },
+        {
+          "name": "Duncan",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Elroy",
+          "lines": 43,
+          "percentage": 20.19
+        },
+        {
+          "name": "Frankie",
+          "lines": 25,
+          "percentage": 11.74
+        },
+        {
+          "name": "Jeff",
+          "lines": 38,
+          "percentage": 17.84
+        },
+        {
+          "name": "Pelton",
+          "lines": 29,
+          "percentage": 13.62
+        },
+        {
+          "name": "Pierce",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Shirley",
+          "lines": 0,
+          "percentage": 0.0
+        },
+        {
+          "name": "Troy",
+          "lines": 0,
+          "percentage": 0.0
+        }
+      ]
+    }
+  ],
+  "characters": [
+    "Abed",
+    "Britta",
+    "Chang",
+    "Duncan",
+    "Elroy",
+    "Frankie",
+    "Jeff",
+    "Pelton",
+    "Pierce",
+    "Shirley",
+    "Troy"
+  ]
+}

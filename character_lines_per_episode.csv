@@ -1,0 +1,286 @@
+episode,character,line_count
+1x12 Comparative Religion,Pelton,2
+1x12 Comparative Religion,Shirley,38
+1x12 Comparative Religion,Jeff,58
+1x12 Comparative Religion,Troy,26
+1x12 Comparative Religion,Pierce,29
+1x12 Comparative Religion,Britta,16
+1x12 Comparative Religion,Abed,18
+1x12 Comparative Religion,Chang,8
+1x1 Pilot,Pelton,1
+1x1 Pilot,Abed,35
+1x1 Pilot,Jeff,117
+1x1 Pilot,Duncan,38
+1x1 Pilot,Britta,45
+1x1 Pilot,Pierce,26
+1x1 Pilot,Troy,21
+1x1 Pilot,Shirley,19
+1x24 English as a Second Language,Pelton,7
+1x24 English as a Second Language,Britta,12
+1x24 English as a Second Language,Shirley,27
+1x24 English as a Second Language,Pierce,15
+1x24 English as a Second Language,Troy,20
+1x24 English as a Second Language,Jeff,53
+1x24 English as a Second Language,Abed,22
+1x24 English as a Second Language,Chang,23
+1x2 Spanish 101,Troy,14
+1x2 Spanish 101,Abed,20
+1x2 Spanish 101,Britta,30
+1x2 Spanish 101,Shirley,19
+1x2 Spanish 101,Pierce,34
+1x2 Spanish 101,Jeff,47
+1x2 Spanish 101,Chang,4
+1x3 Introduction to Film,Jeff,67
+1x3 Introduction to Film,Pierce,6
+1x3 Introduction to Film,Britta,47
+1x3 Introduction to Film,Troy,14
+1x3 Introduction to Film,Shirley,15
+1x3 Introduction to Film,Abed,36
+1x4 Social Psychology,Chang,5
+1x4 Social Psychology,Abed,6
+1x4 Social Psychology,Shirley,11
+1x4 Social Psychology,Jeff,28
+1x4 Social Psychology,Britta,11
+1x4 Social Psychology,Duncan,11
+1x4 Social Psychology,Pierce,6
+1x4 Social Psychology,Troy,8
+1x5 Advanced Criminal Law,Pelton,1
+1x5 Advanced Criminal Law,Duncan,5
+1x5 Advanced Criminal Law,Jeff,6
+1x5 Advanced Criminal Law,Abed,6
+1x5 Advanced Criminal Law,Troy,5
+1x5 Advanced Criminal Law,Britta,2
+1x5 Advanced Criminal Law,Chang,4
+1x5 Advanced Criminal Law,Shirley,1
+1x6 Football Feminism and You,Troy,39
+1x6 Football Feminism and You,Jeff,53
+1x6 Football Feminism and You,Pierce,20
+1x6 Football Feminism and You,Abed,9
+1x6 Football Feminism and You,Pelton,30
+1x6 Football Feminism and You,Britta,22
+1x6 Football Feminism and You,Shirley,17
+1x8 Home Economics,Chang,2
+1x8 Home Economics,Troy,18
+1x8 Home Economics,Shirley,12
+1x8 Home Economics,Britta,37
+1x8 Home Economics,Jeff,46
+1x8 Home Economics,Pierce,21
+1x8 Home Economics,Abed,26
+1x9 Debate 109,Pierce,24
+1x9 Debate 109,Jeff,50
+1x9 Debate 109,Britta,20
+1x9 Debate 109,Shirley,22
+1x9 Debate 109,Troy,16
+1x9 Debate 109,Pelton,11
+1x9 Debate 109,Abed,20
+2x10 Mixology Certification,Pierce,14
+2x10 Mixology Certification,Shirley,22
+2x10 Mixology Certification,Abed,25
+2x10 Mixology Certification,Troy,44
+2x10 Mixology Certification,Britta,55
+2x10 Mixology Certification,Jeff,55
+2x11 Abed s Uncontrollable Christmas,Pelton,2
+2x11 Abed s Uncontrollable Christmas,Abed,75
+2x11 Abed s Uncontrollable Christmas,Shirley,12
+2x11 Abed s Uncontrollable Christmas,Troy,27
+2x11 Abed s Uncontrollable Christmas,Pierce,20
+2x11 Abed s Uncontrollable Christmas,Jeff,21
+2x11 Abed s Uncontrollable Christmas,Britta,16
+2x11 Abed s Uncontrollable Christmas,Duncan,44
+2x11 Abed s Uncontrollable Christmas,Chang,4
+2x13 Celebrity Pharmacology,Troy,16
+2x13 Celebrity Pharmacology,Abed,15
+2x13 Celebrity Pharmacology,Pierce,56
+2x13 Celebrity Pharmacology,Jeff,27
+2x13 Celebrity Pharmacology,Shirley,16
+2x13 Celebrity Pharmacology,Britta,25
+2x13 Celebrity Pharmacology,Pelton,7
+2x13 Celebrity Pharmacology,Chang,14
+2x14 Advanced Dungeons Dragons,Jeff,58
+2x14 Advanced Dungeons Dragons,Shirley,17
+2x14 Advanced Dungeons Dragons,Britta,21
+2x14 Advanced Dungeons Dragons,Chang,7
+2x14 Advanced Dungeons Dragons,Troy,17
+2x14 Advanced Dungeons Dragons,Abed,76
+2x14 Advanced Dungeons Dragons,Pierce,48
+2x15 Early 21st Century Romanticism,Troy,30
+2x15 Early 21st Century Romanticism,Abed,23
+2x15 Early 21st Century Romanticism,Jeff,42
+2x15 Early 21st Century Romanticism,Pierce,15
+2x15 Early 21st Century Romanticism,Shirley,4
+2x15 Early 21st Century Romanticism,Britta,28
+2x15 Early 21st Century Romanticism,Duncan,22
+2x15 Early 21st Century Romanticism,Chang,22
+2x16 Intermediate Documentary Filmmaking,Jeff,48
+2x16 Intermediate Documentary Filmmaking,Shirley,25
+2x16 Intermediate Documentary Filmmaking,Britta,32
+2x16 Intermediate Documentary Filmmaking,Pierce,44
+2x16 Intermediate Documentary Filmmaking,Abed,13
+2x16 Intermediate Documentary Filmmaking,Troy,13
+2x19 Critical Film Studies,Jeff,48
+2x19 Critical Film Studies,Abed,52
+2x19 Critical Film Studies,Britta,10
+2x19 Critical Film Studies,Pierce,6
+2x19 Critical Film Studies,Shirley,5
+2x19 Critical Film Studies,Troy,17
+2x19 Critical Film Studies,Chang,6
+2x21 Paradigms of Human Memory,Britta,28
+2x21 Paradigms of Human Memory,Jeff,50
+2x21 Paradigms of Human Memory,Shirley,19
+2x21 Paradigms of Human Memory,Troy,23
+2x21 Paradigms of Human Memory,Chang,9
+2x21 Paradigms of Human Memory,Pierce,13
+2x21 Paradigms of Human Memory,Abed,22
+2x21 Paradigms of Human Memory,Duncan,2
+2x21 Paradigms of Human Memory,Pelton,11
+2x2 Accounting for Lawyers,Jeff,63
+2x2 Accounting for Lawyers,Pierce,14
+2x2 Accounting for Lawyers,Pelton,13
+2x2 Accounting for Lawyers,Britta,14
+2x2 Accounting for Lawyers,Troy,27
+2x2 Accounting for Lawyers,Shirley,15
+2x2 Accounting for Lawyers,Abed,26
+2x2 Accounting for Lawyers,Chang,13
+2x4 Basic Rocket Science,Jeff,2
+2x4 Basic Rocket Science,Abed,2
+2x4 Basic Rocket Science,Pierce,1
+2x4 Basic Rocket Science,Troy,1
+2x4 Basic Rocket Science,Britta,2
+2x4 Basic Rocket Science,Shirley,1
+2x6 Epidemiology,Pelton,25
+2x6 Epidemiology,Jeff,46
+2x6 Epidemiology,Britta,12
+2x6 Epidemiology,Shirley,15
+2x6 Epidemiology,Pierce,2
+2x6 Epidemiology,Troy,32
+2x6 Epidemiology,Chang,20
+2x6 Epidemiology,Abed,23
+2x8 Cooperative Calligraphy,Troy,23
+2x8 Cooperative Calligraphy,Jeff,50
+2x8 Cooperative Calligraphy,Britta,44
+2x8 Cooperative Calligraphy,Pierce,23
+2x8 Cooperative Calligraphy,Pelton,5
+2x8 Cooperative Calligraphy,Abed,28
+2x8 Cooperative Calligraphy,Shirley,33
+2x9 Conspiracy Theories and Interior Design,Pelton,35
+2x9 Conspiracy Theories and Interior Design,Abed,28
+2x9 Conspiracy Theories and Interior Design,Shirley,2
+2x9 Conspiracy Theories and Interior Design,Troy,28
+2x9 Conspiracy Theories and Interior Design,Britta,5
+2x9 Conspiracy Theories and Interior Design,Jeff,63
+3x10 Regional Holiday Music,Shirley,17
+3x10 Regional Holiday Music,Jeff,26
+3x10 Regional Holiday Music,Abed,31
+3x10 Regional Holiday Music,Troy,24
+3x10 Regional Holiday Music,Britta,19
+3x10 Regional Holiday Music,Chang,5
+3x10 Regional Holiday Music,Pelton,11
+3x10 Regional Holiday Music,Pierce,9
+3x15 Origins of Vampire Mythology,Abed,28
+3x15 Origins of Vampire Mythology,Jeff,51
+3x15 Origins of Vampire Mythology,Pierce,19
+3x15 Origins of Vampire Mythology,Shirley,28
+3x15 Origins of Vampire Mythology,Pelton,23
+3x15 Origins of Vampire Mythology,Britta,46
+3x15 Origins of Vampire Mythology,Troy,29
+3x15 Origins of Vampire Mythology,Chang,9
+3x17 Basic Lupine Urology,Chang,1
+3x17 Basic Lupine Urology,Jeff,27
+3x17 Basic Lupine Urology,Shirley,12
+3x17 Basic Lupine Urology,Troy,38
+3x17 Basic Lupine Urology,Abed,34
+3x17 Basic Lupine Urology,Pierce,9
+3x17 Basic Lupine Urology,Britta,2
+3x17 Basic Lupine Urology,Pelton,10
+3x20 Digital Estate Planning,Jeff,52
+3x20 Digital Estate Planning,Pierce,43
+3x20 Digital Estate Planning,Abed,50
+3x20 Digital Estate Planning,Troy,31
+3x20 Digital Estate Planning,Britta,31
+3x20 Digital Estate Planning,Shirley,26
+3x21 The First Chang Dynasty,Jeff,24
+3x21 The First Chang Dynasty,Troy,20
+3x21 The First Chang Dynasty,Britta,12
+3x21 The First Chang Dynasty,Shirley,7
+3x21 The First Chang Dynasty,Pierce,15
+3x21 The First Chang Dynasty,Chang,26
+3x21 The First Chang Dynasty,Abed,10
+3x21 The First Chang Dynasty,Pelton,9
+3x22 Introduction to Finality,Jeff,39
+3x22 Introduction to Finality,Britta,23
+3x22 Introduction to Finality,Pelton,11
+3x22 Introduction to Finality,Shirley,17
+3x22 Introduction to Finality,Pierce,16
+3x22 Introduction to Finality,Abed,32
+3x22 Introduction to Finality,Troy,14
+3x2 Competitive Ecology,Chang,18
+3x2 Competitive Ecology,Shirley,22
+3x2 Competitive Ecology,Troy,17
+3x2 Competitive Ecology,Pierce,14
+3x2 Competitive Ecology,Abed,24
+3x2 Competitive Ecology,Britta,29
+3x2 Competitive Ecology,Jeff,37
+3x2 Competitive Ecology,Pelton,12
+3x4 Remedial Chaos Theory,Britta,42
+3x4 Remedial Chaos Theory,Troy,48
+3x4 Remedial Chaos Theory,Abed,54
+3x4 Remedial Chaos Theory,Shirley,34
+3x4 Remedial Chaos Theory,Jeff,88
+3x4 Remedial Chaos Theory,Pierce,38
+3x5 Horror Fiction in Seven Spooky Steps,Britta,30
+3x5 Horror Fiction in Seven Spooky Steps,Shirley,5
+3x5 Horror Fiction in Seven Spooky Steps,Pierce,18
+3x5 Horror Fiction in Seven Spooky Steps,Troy,12
+3x5 Horror Fiction in Seven Spooky Steps,Abed,14
+3x5 Horror Fiction in Seven Spooky Steps,Jeff,24
+3x5 Horror Fiction in Seven Spooky Steps,Pelton,6
+3x7 Studies in Modern Movement,Britta,29
+3x7 Studies in Modern Movement,Troy,39
+3x7 Studies in Modern Movement,Abed,39
+3x7 Studies in Modern Movement,Pierce,13
+3x7 Studies in Modern Movement,Shirley,18
+3x7 Studies in Modern Movement,Jeff,23
+3x7 Studies in Modern Movement,Pelton,19
+3x8 Documentary Filmmaking  Redux,Pelton,62
+3x8 Documentary Filmmaking  Redux,Pierce,10
+3x8 Documentary Filmmaking  Redux,Troy,7
+3x8 Documentary Filmmaking  Redux,Jeff,15
+3x8 Documentary Filmmaking  Redux,Shirley,8
+3x8 Documentary Filmmaking  Redux,Abed,14
+3x8 Documentary Filmmaking  Redux,Britta,14
+3x8 Documentary Filmmaking  Redux,Chang,2
+3x9 Foosball and Nocturnal Vigilantism,Pierce,2
+3x9 Foosball and Nocturnal Vigilantism,Jeff,52
+3x9 Foosball and Nocturnal Vigilantism,Britta,6
+3x9 Foosball and Nocturnal Vigilantism,Shirley,45
+3x9 Foosball and Nocturnal Vigilantism,Troy,27
+3x9 Foosball and Nocturnal Vigilantism,Abed,28
+4x10 Intro to Knots,Jeff,78
+4x10 Intro to Knots,Shirley,22
+4x10 Intro to Knots,Troy,14
+4x10 Intro to Knots,Britta,24
+4x10 Intro to Knots,Chang,16
+4x10 Intro to Knots,Abed,15
+4x10 Intro to Knots,Pelton,5
+4x9 Intro to Felt Surrogacy,Pelton,24
+4x9 Intro to Felt Surrogacy,Jeff,35
+4x9 Intro to Felt Surrogacy,Britta,31
+4x9 Intro to Felt Surrogacy,Troy,19
+4x9 Intro to Felt Surrogacy,Shirley,28
+4x9 Intro to Felt Surrogacy,Abed,22
+4x9 Intro to Felt Surrogacy,Pierce,13
+6x13 Emotional Consequences of Broadcast Television,Pelton,25
+6x13 Emotional Consequences of Broadcast Television,Jeff,61
+6x13 Emotional Consequences of Broadcast Television,Abed,38
+6x13 Emotional Consequences of Broadcast Television,Frankie,21
+6x13 Emotional Consequences of Broadcast Television,Britta,31
+6x13 Emotional Consequences of Broadcast Television,Chang,27
+6x13 Emotional Consequences of Broadcast Television,Elroy,7
+6x13 Emotional Consequences of Broadcast Television,Shirley,6
+6x6 Basic Email Security,Pelton,29
+6x6 Basic Email Security,Elroy,43
+6x6 Basic Email Security,Britta,44
+6x6 Basic Email Security,Jeff,38
+6x6 Basic Email Security,Abed,17
+6x6 Basic Email Security,Frankie,25
+6x6 Basic Email Security,Chang,17

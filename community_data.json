@@ -1,0 +1,4361 @@
+{
+  "show": {
+    "title": "Community",
+    "network": "NBC (S1-5) / Yahoo! Screen (S6)",
+    "years": "2009\u20132015",
+    "seasons": 6,
+    "total_episodes": 110,
+    "scripts_available": 39,
+    "genre": "Sitcom / Meta-comedy",
+    "setting": "Greendale Community College"
+  },
+  "characters": [
+    "Jeff",
+    "Annie",
+    "Abed",
+    "Britta",
+    "Troy",
+    "Pierce",
+    "Shirley",
+    "Chang",
+    "Pelton",
+    "Duncan"
+  ],
+  "character_colors": {
+    "Jeff": "#1f77b4",
+    "Annie": "#e377c2",
+    "Abed": "#ff7f0e",
+    "Britta": "#d62728",
+    "Troy": "#9467bd",
+    "Pierce": "#8c564b",
+    "Shirley": "#2ca02c",
+    "Chang": "#7f7f7f",
+    "Pelton": "#bcbd22",
+    "Duncan": "#17becf"
+  },
+  "character_summary": {
+    "Jeff": {
+      "name": "Jeff",
+      "color": "#1f77b4",
+      "total_lines": 1768,
+      "total_words": 20916,
+      "episodes_appeared": 39,
+      "by_season": {
+        "1": {
+          "lines": 525,
+          "words": 6563,
+          "episodes": 10
+        },
+        "2": {
+          "lines": 573,
+          "words": 6461,
+          "episodes": 13
+        },
+        "3": {
+          "lines": 458,
+          "words": 5147,
+          "episodes": 12
+        },
+        "4": {
+          "lines": 113,
+          "words": 1569,
+          "episodes": 2
+        },
+        "6": {
+          "lines": 99,
+          "words": 1176,
+          "episodes": 2
+        }
+      }
+    },
+    "Annie": {
+      "name": "Annie",
+      "color": "#e377c2",
+      "total_lines": 992,
+      "total_words": 10725,
+      "episodes_appeared": 38,
+      "by_season": {
+        "1": {
+          "lines": 179,
+          "words": 1980,
+          "episodes": 9
+        },
+        "2": {
+          "lines": 328,
+          "words": 3515,
+          "episodes": 13
+        },
+        "3": {
+          "lines": 338,
+          "words": 3895,
+          "episodes": 12
+        },
+        "4": {
+          "lines": 69,
+          "words": 614,
+          "episodes": 2
+        },
+        "6": {
+          "lines": 78,
+          "words": 721,
+          "episodes": 2
+        }
+      }
+    },
+    "Abed": {
+      "name": "Abed",
+      "color": "#ff7f0e",
+      "total_lines": 1055,
+      "total_words": 11800,
+      "episodes_appeared": 39,
+      "by_season": {
+        "1": {
+          "lines": 198,
+          "words": 1873,
+          "episodes": 10
+        },
+        "2": {
+          "lines": 408,
+          "words": 4601,
+          "episodes": 13
+        },
+        "3": {
+          "lines": 358,
+          "words": 4167,
+          "episodes": 12
+        },
+        "4": {
+          "lines": 37,
+          "words": 376,
+          "episodes": 2
+        },
+        "6": {
+          "lines": 54,
+          "words": 783,
+          "episodes": 2
+        }
+      }
+    },
+    "Britta": {
+      "name": "Britta",
+      "color": "#d62728",
+      "total_lines": 944,
+      "total_words": 10351,
+      "episodes_appeared": 39,
+      "by_season": {
+        "1": {
+          "lines": 242,
+          "words": 2884,
+          "episodes": 10
+        },
+        "2": {
+          "lines": 292,
+          "words": 3064,
+          "episodes": 13
+        },
+        "3": {
+          "lines": 281,
+          "words": 3032,
+          "episodes": 12
+        },
+        "4": {
+          "lines": 55,
+          "words": 362,
+          "episodes": 2
+        },
+        "6": {
+          "lines": 74,
+          "words": 1009,
+          "episodes": 2
+        }
+      }
+    },
+    "Troy": {
+      "name": "Troy",
+      "color": "#9467bd",
+      "total_lines": 818,
+      "total_words": 7525,
+      "episodes_appeared": 37,
+      "by_season": {
+        "1": {
+          "lines": 181,
+          "words": 1575,
+          "episodes": 10
+        },
+        "2": {
+          "lines": 298,
+          "words": 2670,
+          "episodes": 13
+        },
+        "3": {
+          "lines": 306,
+          "words": 2998,
+          "episodes": 12
+        },
+        "4": {
+          "lines": 33,
+          "words": 282,
+          "episodes": 2
+        }
+      }
+    },
+    "Pierce": {
+      "name": "Pierce",
+      "color": "#8c564b",
+      "total_lines": 656,
+      "total_words": 7666,
+      "episodes_appeared": 34,
+      "by_season": {
+        "1": {
+          "lines": 181,
+          "words": 2443,
+          "episodes": 9
+        },
+        "2": {
+          "lines": 256,
+          "words": 2784,
+          "episodes": 12
+        },
+        "3": {
+          "lines": 206,
+          "words": 2345,
+          "episodes": 12
+        },
+        "4": {
+          "lines": 13,
+          "words": 94,
+          "episodes": 1
+        }
+      }
+    },
+    "Shirley": {
+      "name": "Shirley",
+      "color": "#2ca02c",
+      "total_lines": 645,
+      "total_words": 6273,
+      "episodes_appeared": 38,
+      "by_season": {
+        "1": {
+          "lines": 179,
+          "words": 2065,
+          "episodes": 10
+        },
+        "2": {
+          "lines": 176,
+          "words": 1503,
+          "episodes": 13
+        },
+        "3": {
+          "lines": 236,
+          "words": 2221,
+          "episodes": 12
+        },
+        "4": {
+          "lines": 48,
+          "words": 424,
+          "episodes": 2
+        },
+        "6": {
+          "lines": 6,
+          "words": 60,
+          "episodes": 1
+        }
+      }
+    },
+    "Chang": {
+      "name": "Chang",
+      "color": "#7f7f7f",
+      "total_lines": 262,
+      "total_words": 3449,
+      "episodes_appeared": 23,
+      "by_season": {
+        "1": {
+          "lines": 46,
+          "words": 859,
+          "episodes": 6
+        },
+        "2": {
+          "lines": 95,
+          "words": 1074,
+          "episodes": 8
+        },
+        "3": {
+          "lines": 61,
+          "words": 1030,
+          "episodes": 6
+        },
+        "4": {
+          "lines": 16,
+          "words": 128,
+          "episodes": 1
+        },
+        "6": {
+          "lines": 44,
+          "words": 358,
+          "episodes": 2
+        }
+      }
+    },
+    "Pelton": {
+      "name": "Pelton",
+      "color": "#bcbd22",
+      "total_lines": 424,
+      "total_words": 7011,
+      "episodes_appeared": 27,
+      "by_season": {
+        "1": {
+          "lines": 52,
+          "words": 1231,
+          "episodes": 6
+        },
+        "2": {
+          "lines": 114,
+          "words": 1626,
+          "episodes": 8
+        },
+        "3": {
+          "lines": 175,
+          "words": 2920,
+          "episodes": 9
+        },
+        "4": {
+          "lines": 29,
+          "words": 523,
+          "episodes": 2
+        },
+        "6": {
+          "lines": 54,
+          "words": 711,
+          "episodes": 2
+        }
+      }
+    },
+    "Duncan": {
+      "name": "Duncan",
+      "color": "#17becf",
+      "total_lines": 122,
+      "total_words": 1786,
+      "episodes_appeared": 6,
+      "by_season": {
+        "1": {
+          "lines": 54,
+          "words": 749,
+          "episodes": 3
+        },
+        "2": {
+          "lines": 68,
+          "words": 1037,
+          "episodes": 3
+        }
+      }
+    }
+  },
+  "episodes": [
+    {
+      "code": "1x1",
+      "season": 1,
+      "episode": 1,
+      "title": "Pilot",
+      "air_date": "September\u00a017,\u00a02009",
+      "viewers": 7.89,
+      "overall": 1,
+      "has_script": true,
+      "characters": {
+        "Jeff": {
+          "lines": 117,
+          "words": 1598,
+          "pct_lines": 37.38
+        },
+        "Annie": {
+          "lines": 11,
+          "words": 100,
+          "pct_lines": 3.51
+        },
+        "Abed": {
+          "lines": 35,
+          "words": 288,
+          "pct_lines": 11.18
+        },
+        "Britta": {
+          "lines": 45,
+          "words": 441,
+          "pct_lines": 14.38
+        },
+        "Troy": {
+          "lines": 21,
+          "words": 157,
+          "pct_lines": 6.71
+        },
+        "Pierce": {
+          "lines": 26,
+          "words": 196,
+          "pct_lines": 8.31
+        },
+        "Shirley": {
+          "lines": 19,
+          "words": 171,
+          "pct_lines": 6.07
+        },
+        "Chang": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        },
+        "Pelton": {
+          "lines": 1,
+          "words": 42,
+          "pct_lines": 0.32
+        },
+        "Duncan": {
+          "lines": 38,
+          "words": 390,
+          "pct_lines": 12.14
+        }
+      },
+      "edges": {
+        "Abed|||Jeff": 19,
+        "Jeff|||Abed": 15,
+        "Duncan|||Jeff": 32,
+        "Jeff|||Duncan": 30,
+        "Jeff|||Britta": 28,
+        "Britta|||Jeff": 31,
+        "Britta|||Abed": 10,
+        "Abed|||Britta": 7,
+        "Jeff|||Pierce": 12,
+        "Pierce|||Troy": 7,
+        "Troy|||Shirley": 2,
+        "Shirley|||Annie": 3,
+        "Annie|||Jeff": 1,
+        "Jeff|||Shirley": 11,
+        "Shirley|||Troy": 4,
+        "Shirley|||Jeff": 4,
+        "Pierce|||Jeff": 12,
+        "Pierce|||Britta": 3,
+        "Britta|||Pierce": 1,
+        "Pierce|||Abed": 1,
+        "Abed|||Pierce": 2,
+        "Troy|||Pierce": 6,
+        "Pierce|||Annie": 1,
+        "Annie|||Pierce": 1,
+        "Jeff|||Annie": 2,
+        "Annie|||Abed": 1,
+        "Annie|||Shirley": 2,
+        "Troy|||Jeff": 4,
+        "Shirley|||Britta": 1,
+        "Britta|||Shirley": 2,
+        "Pierce|||Shirley": 2,
+        "Shirley|||Pierce": 3,
+        "Troy|||Annie": 5,
+        "Annie|||Troy": 4,
+        "Troy|||Abed": 2,
+        "Jeff|||Troy": 4,
+        "Annie|||Britta": 2,
+        "Abed|||Troy": 2,
+        "Shirley|||Abed": 2,
+        "Troy|||Britta": 1
+      }
+    },
+    {
+      "code": "1x2",
+      "season": 1,
+      "episode": 2,
+      "title": "Spanish 101",
+      "air_date": "September\u00a024,\u00a02009",
+      "viewers": 5.39,
+      "overall": 2,
+      "has_script": true,
+      "characters": {
+        "Jeff": {
+          "lines": 47,
+          "words": 633,
+          "pct_lines": 25.27
+        },
+        "Annie": {
+          "lines": 18,
+          "words": 182,
+          "pct_lines": 9.68
+        },
+        "Abed": {
+          "lines": 20,
+          "words": 187,
+          "pct_lines": 10.75
+        },
+        "Britta": {
+          "lines": 30,
+          "words": 455,
+          "pct_lines": 16.13
+        },
+        "Troy": {
+          "lines": 14,
+          "words": 86,
+          "pct_lines": 7.53
+        },
+        "Pierce": {
+          "lines": 34,
+          "words": 571,
+          "pct_lines": 18.28
+        },
+        "Shirley": {
+          "lines": 19,
+          "words": 189,
+          "pct_lines": 10.22
+        },
+        "Chang": {
+          "lines": 4,
+          "words": 128,
+          "pct_lines": 2.15
+        },
+        "Pelton": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        },
+        "Duncan": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        }
+      },
+      "edges": {
+        "Troy|||Abed": 7,
+        "Abed|||Annie": 1,
+        "Annie|||Britta": 6,
+        "Britta|||Shirley": 6,
+        "Shirley|||Annie": 6,
+        "Annie|||Pierce": 2,
+        "Pierce|||Troy": 5,
+        "Troy|||Annie": 2,
+        "Annie|||Shirley": 7,
+        "Shirley|||Pierce": 2,
+        "Pierce|||Britta": 2,
+        "Shirley|||Britta": 7,
+        "Britta|||Annie": 5,
+        "Britta|||Abed": 3,
+        "Abed|||Britta": 2,
+        "Britta|||Jeff": 12,
+        "Jeff|||Annie": 3,
+        "Troy|||Jeff": 2,
+        "Jeff|||Abed": 7,
+        "Abed|||Jeff": 8,
+        "Jeff|||Britta": 9,
+        "Abed|||Pierce": 4,
+        "Annie|||Jeff": 1,
+        "Jeff|||Pierce": 18,
+        "Pierce|||Jeff": 18,
+        "Chang|||Jeff": 3,
+        "Britta|||Pierce": 1,
+        "Pierce|||Abed": 3,
+        "Jeff|||Troy": 1,
+        "Troy|||Pierce": 2,
+        "Abed|||Troy": 5,
+        "Shirley|||Jeff": 1,
+        "Jeff|||Shirley": 1,
+        "Shirley|||Troy": 1,
+        "Britta|||Chang": 1,
+        "Pierce|||Chang": 1,
+        "Jeff|||Chang": 1,
+        "Chang|||Pierce": 1
+      }
+    },
+    {
+      "code": "1x3",
+      "season": 1,
+      "episode": 3,
+      "title": "Introduction to Film",
+      "air_date": "October\u00a01,\u00a02009",
+      "viewers": 5.86,
+      "overall": 3,
+      "has_script": true,
+      "characters": {
+        "Jeff": {
+          "lines": 67,
+          "words": 628,
+          "pct_lines": 35.45
+        },
+        "Annie": {
+          "lines": 5,
+          "words": 30,
+          "pct_lines": 2.65
+        },
+        "Abed": {
+          "lines": 36,
+          "words": 324,
+          "pct_lines": 19.05
+        },
+        "Britta": {
+          "lines": 47,
+          "words": 468,
+          "pct_lines": 24.87
+        },
+        "Troy": {
+          "lines": 14,
+          "words": 56,
+          "pct_lines": 7.41
+        },
+        "Pierce": {
+          "lines": 6,
+          "words": 48,
+          "pct_lines": 3.17
+        },
+        "Shirley": {
+          "lines": 14,
+          "words": 161,
+          "pct_lines": 7.41
+        },
+        "Chang": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        },
+        "Pelton": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        },
+        "Duncan": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        }
+      },
+      "edges": {
+        "Pierce|||Britta": 1,
+        "Britta|||Pierce": 1,
+        "Pierce|||Troy": 2,
+        "Troy|||Shirley": 4,
+        "Shirley|||Troy": 3,
+        "Troy|||Jeff": 3,
+        "Jeff|||Britta": 18,
+        "Britta|||Troy": 1,
+        "Troy|||Annie": 1,
+        "Annie|||Shirley": 1,
+        "Shirley|||Jeff": 1,
+        "Jeff|||Abed": 13,
+        "Abed|||Jeff": 12,
+        "Abed|||Britta": 12,
+        "Britta|||Abed": 15,
+        "Abed|||Troy": 4,
+        "Shirley|||Abed": 1,
+        "Abed|||Shirley": 1,
+        "Shirley|||Britta": 3,
+        "Britta|||Jeff": 18,
+        "Jeff|||Shirley": 3,
+        "Shirley|||Annie": 1,
+        "Annie|||Jeff": 2,
+        "Abed|||Annie": 1,
+        "Jeff|||Troy": 2,
+        "Troy|||Pierce": 1,
+        "Pierce|||Jeff": 2,
+        "Shirley|||Pierce": 1,
+        "Troy|||Abed": 2
+      }
+    },
+    {
+      "code": "1x4",
+      "season": 1,
+      "episode": 4,
+      "title": "Social Psychology",
+      "air_date": "October\u00a08,\u00a02009",
+      "viewers": 4.87,
+      "overall": 4,
+      "has_script": true,
+      "characters": {
+        "Jeff": {
+          "lines": 28,
+          "words": 310,
+          "pct_lines": 27.45
+        },
+        "Annie": {
+          "lines": 16,
+          "words": 174,
+          "pct_lines": 15.69
+        },
+        "Abed": {
+          "lines": 6,
+          "words": 66,
+          "pct_lines": 5.88
+        },
+        "Britta": {
+          "lines": 11,
+          "words": 95,
+          "pct_lines": 10.78
+        },
+        "Troy": {
+          "lines": 8,
+          "words": 91,
+          "pct_lines": 7.84
+        },
+        "Pierce": {
+          "lines": 6,
+          "words": 63,
+          "pct_lines": 5.88
+        },
+        "Shirley": {
+          "lines": 11,
+          "words": 122,
+          "pct_lines": 10.78
+        },
+        "Chang": {
+          "lines": 5,
+          "words": 96,
+          "pct_lines": 4.9
+        },
+        "Pelton": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        },
+        "Duncan": {
+          "lines": 11,
+          "words": 261,
+          "pct_lines": 10.78
+        }
+      },
+      "edges": {
+        "Chang|||Abed": 2,
+        "Abed|||Chang": 2,
+        "Shirley|||Jeff": 8,
+        "Jeff|||Britta": 6,
+        "Britta|||Jeff": 8,
+        "Annie|||Duncan": 6,
+        "Duncan|||Annie": 7,
+        "Britta|||Pierce": 1,
+        "Pierce|||Shirley": 2,
+        "Shirley|||Pierce": 1,
+        "Pierce|||Troy": 1,
+        "Troy|||Pierce": 1,
+        "Pierce|||Abed": 1,
+        "Abed|||Pierce": 1,
+        "Pierce|||Annie": 1,
+        "Annie|||Pierce": 1,
+        "Pierce|||Jeff": 1,
+        "Jeff|||Annie": 1,
+        "Annie|||Troy": 3,
+        "Troy|||Annie": 3,
+        "Annie|||Abed": 2,
+        "Abed|||Annie": 2,
+        "Annie|||Jeff": 1,
+        "Jeff|||Shirley": 6,
+        "Jeff|||Pierce": 1,
+        "Shirley|||Abed": 1,
+        "Annie|||Chang": 2,
+        "Chang|||Annie": 1,
+        "Chang|||Duncan": 1,
+        "Duncan|||Shirley": 2,
+        "Shirley|||Duncan": 1,
+        "Duncan|||Troy": 2,
+        "Troy|||Duncan": 2,
+        "Jeff|||Troy": 2,
+        "Troy|||Jeff": 1
+      }
+    },
+    {
+      "code": "1x5",
+      "season": 1,
+      "episode": 5,
+      "title": "Advanced Criminal Law",
+      "air_date": "October\u00a015,\u00a02009",
+      "viewers": 5.01,
+      "overall": 5,
+      "has_script": true,
+      "characters": {
+        "Jeff": {
+          "lines": 6,
+          "words": 91,
+          "pct_lines": 20.0
+        },
+        "Annie": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        },
+        "Abed": {
+          "lines": 6,
+          "words": 53,
+          "pct_lines": 20.0
+        },
+        "Britta": {
+          "lines": 2,
+          "words": 19,
+          "pct_lines": 6.67
+        },
+        "Troy": {
+          "lines": 5,
+          "words": 56,
+          "pct_lines": 16.67
+        },
+        "Pierce": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        },
+        "Shirley": {
+          "lines": 1,
+          "words": 3,
+          "pct_lines": 3.33
+        },
+        "Chang": {
+          "lines": 4,
+          "words": 150,
+          "pct_lines": 13.33
+        },
+        "Pelton": {
+          "lines": 1,
+          "words": 61,
+          "pct_lines": 3.33
+        },
+        "Duncan": {
+          "lines": 5,
+          "words": 98,
+          "pct_lines": 16.67
+        }
+      },
+      "edges": {
+        "Pelton|||Duncan": 1,
+        "Duncan|||Jeff": 3,
+        "Jeff|||Duncan": 3,
+        "Duncan|||Abed": 1,
+        "Abed|||Duncan": 1,
+        "Abed|||Troy": 5,
+        "Troy|||Abed": 4,
+        "Troy|||Jeff": 1,
+        "Jeff|||Britta": 2,
+        "Britta|||Jeff": 2,
+        "Jeff|||Chang": 1,
+        "Chang|||Shirley": 1,
+        "Shirley|||Chang": 1
+      }
+    },
+    {
+      "code": "1x6",
+      "season": 1,
+      "episode": 6,
+      "title": "Football, Feminism and You",
+      "air_date": "October\u00a022,\u00a02009",
+      "viewers": 5.04,
+      "overall": 6,
+      "has_script": true,
+      "characters": {
+        "Jeff": {
+          "lines": 53,
+          "words": 863,
+          "pct_lines": 24.2
+        },
+        "Annie": {
+          "lines": 29,
+          "words": 370,
+          "pct_lines": 13.24
+        },
+        "Abed": {
+          "lines": 9,
+          "words": 83,
+          "pct_lines": 4.11
+        },
+        "Britta": {
+          "lines": 22,
+          "words": 339,
+          "pct_lines": 10.05
+        },
+        "Troy": {
+          "lines": 39,
+          "words": 354,
+          "pct_lines": 17.81
+        },
+        "Pierce": {
+          "lines": 20,
+          "words": 226,
+          "pct_lines": 9.13
+        },
+        "Shirley": {
+          "lines": 17,
+          "words": 216,
+          "pct_lines": 7.76
+        },
+        "Chang": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        },
+        "Pelton": {
+          "lines": 30,
+          "words": 650,
+          "pct_lines": 13.7
+        },
+        "Duncan": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        }
+      },
+      "edges": {
+        "Annie|||Troy": 10,
+        "Troy|||Annie": 8,
+        "Annie|||Jeff": 9,
+        "Jeff|||Troy": 19,
+        "Annie|||Pierce": 2,
+        "Pierce|||Troy": 2,
+        "Troy|||Abed": 5,
+        "Abed|||Pierce": 1,
+        "Troy|||Pelton": 1,
+        "Pelton|||Pierce": 14,
+        "Pierce|||Britta": 1,
+        "Britta|||Pierce": 1,
+        "Pierce|||Pelton": 12,
+        "Pelton|||Jeff": 13,
+        "Jeff|||Pelton": 14,
+        "Pelton|||Shirley": 1,
+        "Shirley|||Pelton": 1,
+        "Pelton|||Annie": 1,
+        "Annie|||Pelton": 1,
+        "Pelton|||Troy": 1,
+        "Troy|||Jeff": 21,
+        "Jeff|||Shirley": 3,
+        "Shirley|||Britta": 13,
+        "Britta|||Annie": 6,
+        "Annie|||Britta": 5,
+        "Britta|||Jeff": 2,
+        "Jeff|||Britta": 2,
+        "Britta|||Abed": 1,
+        "Abed|||Jeff": 2,
+        "Jeff|||Abed": 1,
+        "Jeff|||Annie": 10,
+        "Britta|||Shirley": 11,
+        "Britta|||Pelton": 1,
+        "Pierce|||Jeff": 4,
+        "Shirley|||Troy": 1,
+        "Troy|||Pierce": 1,
+        "Jeff|||Pierce": 1,
+        "Pierce|||Annie": 1,
+        "Annie|||Shirley": 1,
+        "Annie|||Abed": 1,
+        "Abed|||Troy": 4
+      }
+    },
+    {
+      "code": "1x8",
+      "season": 1,
+      "episode": 8,
+      "title": "Home Economics",
+      "air_date": "November\u00a05,\u00a02009",
+      "viewers": 5.45,
+      "overall": 8,
+      "has_script": true,
+      "characters": {
+        "Jeff": {
+          "lines": 46,
+          "words": 589,
+          "pct_lines": 24.86
+        },
+        "Annie": {
+          "lines": 23,
+          "words": 280,
+          "pct_lines": 12.43
+        },
+        "Abed": {
+          "lines": 26,
+          "words": 305,
+          "pct_lines": 14.05
+        },
+        "Britta": {
+          "lines": 37,
+          "words": 463,
+          "pct_lines": 20.0
+        },
+        "Troy": {
+          "lines": 18,
+          "words": 215,
+          "pct_lines": 9.73
+        },
+        "Pierce": {
+          "lines": 21,
+          "words": 308,
+          "pct_lines": 11.35
+        },
+        "Shirley": {
+          "lines": 12,
+          "words": 216,
+          "pct_lines": 6.49
+        },
+        "Chang": {
+          "lines": 2,
+          "words": 30,
+          "pct_lines": 1.08
+        },
+        "Pelton": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        },
+        "Duncan": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        }
+      },
+      "edges": {
+        "Chang|||Troy": 1,
+        "Troy|||Annie": 15,
+        "Annie|||Troy": 10,
+        "Annie|||Shirley": 6,
+        "Shirley|||Britta": 3,
+        "Britta|||Jeff": 21,
+        "Jeff|||Britta": 18,
+        "Britta|||Pierce": 7,
+        "Pierce|||Britta": 5,
+        "Pierce|||Shirley": 1,
+        "Britta|||Shirley": 2,
+        "Shirley|||Pierce": 1,
+        "Pierce|||Abed": 1,
+        "Abed|||Pierce": 1,
+        "Pierce|||Jeff": 1,
+        "Shirley|||Jeff": 1,
+        "Jeff|||Shirley": 2,
+        "Shirley|||Troy": 3,
+        "Troy|||Abed": 1,
+        "Abed|||Jeff": 18,
+        "Annie|||Britta": 2,
+        "Jeff|||Abed": 18,
+        "Jeff|||Troy": 1,
+        "Shirley|||Annie": 3,
+        "Pierce|||Annie": 1,
+        "Abed|||Britta": 4,
+        "Britta|||Abed": 4,
+        "Jeff|||Pierce": 1
+      }
+    },
+    {
+      "code": "1x9",
+      "season": 1,
+      "episode": 9,
+      "title": "Debate 109",
+      "air_date": "November\u00a012,\u00a02009",
+      "viewers": 5.09,
+      "overall": 9,
+      "has_script": true,
+      "characters": {
+        "Jeff": {
+          "lines": 50,
+          "words": 535,
+          "pct_lines": 25.64
+        },
+        "Annie": {
+          "lines": 33,
+          "words": 359,
+          "pct_lines": 16.92
+        },
+        "Abed": {
+          "lines": 20,
+          "words": 201,
+          "pct_lines": 10.26
+        },
+        "Britta": {
+          "lines": 20,
+          "words": 235,
+          "pct_lines": 10.26
+        },
+        "Troy": {
+          "lines": 16,
+          "words": 138,
+          "pct_lines": 8.21
+        },
+        "Pierce": {
+          "lines": 24,
+          "words": 470,
+          "pct_lines": 12.31
+        },
+        "Shirley": {
+          "lines": 21,
+          "words": 175,
+          "pct_lines": 10.77
+        },
+        "Chang": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        },
+        "Pelton": {
+          "lines": 11,
+          "words": 178,
+          "pct_lines": 5.64
+        },
+        "Duncan": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        }
+      },
+      "edges": {
+        "Pierce|||Jeff": 4,
+        "Jeff|||Pierce": 5,
+        "Pierce|||Britta": 8,
+        "Britta|||Shirley": 2,
+        "Shirley|||Jeff": 2,
+        "Jeff|||Britta": 6,
+        "Britta|||Jeff": 6,
+        "Jeff|||Annie": 16,
+        "Annie|||Britta": 1,
+        "Britta|||Pierce": 9,
+        "Jeff|||Troy": 4,
+        "Troy|||Jeff": 2,
+        "Troy|||Shirley": 5,
+        "Shirley|||Troy": 3,
+        "Shirley|||Britta": 1,
+        "Britta|||Troy": 2,
+        "Troy|||Pierce": 1,
+        "Pierce|||Pelton": 1,
+        "Pelton|||Jeff": 5,
+        "Jeff|||Pelton": 5,
+        "Pelton|||Annie": 2,
+        "Pelton|||Britta": 2,
+        "Pierce|||Annie": 2,
+        "Annie|||Jeff": 18,
+        "Shirley|||Abed": 10,
+        "Abed|||Shirley": 8,
+        "Troy|||Abed": 4,
+        "Abed|||Troy": 1,
+        "Abed|||Pierce": 2,
+        "Jeff|||Abed": 1,
+        "Abed|||Jeff": 1,
+        "Pierce|||Shirley": 2,
+        "Shirley|||Pierce": 1,
+        "Troy|||Britta": 1,
+        "Shirley|||Annie": 4,
+        "Annie|||Shirley": 2,
+        "Jeff|||Shirley": 1,
+        "Britta|||Annie": 1,
+        "Annie|||Troy": 1,
+        "Abed|||Britta": 1,
+        "Abed|||Annie": 1
+      }
+    },
+    {
+      "code": "1x12",
+      "season": 1,
+      "episode": 12,
+      "title": "Comparative Religion",
+      "air_date": "December\u00a010,\u00a02009",
+      "viewers": 5.51,
+      "overall": 12,
+      "has_script": true,
+      "characters": {
+        "Jeff": {
+          "lines": 58,
+          "words": 613,
+          "pct_lines": 27.62
+        },
+        "Annie": {
+          "lines": 15,
+          "words": 97,
+          "pct_lines": 7.14
+        },
+        "Abed": {
+          "lines": 18,
+          "words": 175,
+          "pct_lines": 8.57
+        },
+        "Britta": {
+          "lines": 16,
+          "words": 236,
+          "pct_lines": 7.62
+        },
+        "Troy": {
+          "lines": 26,
+          "words": 226,
+          "pct_lines": 12.38
+        },
+        "Pierce": {
+          "lines": 29,
+          "words": 479,
+          "pct_lines": 13.81
+        },
+        "Shirley": {
+          "lines": 38,
+          "words": 610,
+          "pct_lines": 18.1
+        },
+        "Chang": {
+          "lines": 8,
+          "words": 93,
+          "pct_lines": 3.81
+        },
+        "Pelton": {
+          "lines": 2,
+          "words": 48,
+          "pct_lines": 0.95
+        },
+        "Duncan": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        }
+      },
+      "edges": {
+        "Pelton|||Shirley": 1,
+        "Shirley|||Jeff": 13,
+        "Jeff|||Troy": 10,
+        "Troy|||Shirley": 6,
+        "Shirley|||Annie": 8,
+        "Annie|||Pierce": 2,
+        "Pierce|||Troy": 7,
+        "Shirley|||Britta": 3,
+        "Britta|||Shirley": 5,
+        "Jeff|||Pelton": 1,
+        "Pierce|||Abed": 3,
+        "Abed|||Jeff": 6,
+        "Jeff|||Abed": 6,
+        "Abed|||Pierce": 1,
+        "Pierce|||Jeff": 9,
+        "Jeff|||Shirley": 13,
+        "Shirley|||Pierce": 5,
+        "Pierce|||Britta": 4,
+        "Britta|||Pierce": 5,
+        "Jeff|||Annie": 2,
+        "Annie|||Jeff": 2,
+        "Annie|||Shirley": 6,
+        "Shirley|||Abed": 1,
+        "Abed|||Troy": 3,
+        "Troy|||Britta": 2,
+        "Jeff|||Pierce": 8,
+        "Pierce|||Shirley": 2,
+        "Shirley|||Troy": 3,
+        "Troy|||Abed": 3,
+        "Jeff|||Chang": 3,
+        "Chang|||Shirley": 2,
+        "Britta|||Jeff": 1,
+        "Chang|||Jeff": 1,
+        "Troy|||Pierce": 4,
+        "Troy|||Jeff": 9,
+        "Annie|||Troy": 1,
+        "Britta|||Troy": 1,
+        "Abed|||Britta": 2,
+        "Britta|||Annie": 1,
+        "Annie|||Britta": 2,
+        "Pierce|||Annie": 2,
+        "Britta|||Abed": 1,
+        "Pierce|||Chang": 2,
+        "Shirley|||Chang": 1,
+        "Chang|||Annie": 2,
+        "Annie|||Chang": 2,
+        "Chang|||Pierce": 2,
+        "Abed|||Shirley": 1
+      }
+    },
+    {
+      "code": "1x24",
+      "season": 1,
+      "episode": 24,
+      "title": "English as a Second Language",
+      "air_date": "May\u00a013,\u00a02010",
+      "viewers": 4.49,
+      "overall": 24,
+      "has_script": true,
+      "characters": {
+        "Jeff": {
+          "lines": 53,
+          "words": 703,
+          "pct_lines": 25.48
+        },
+        "Annie": {
+          "lines": 29,
+          "words": 388,
+          "pct_lines": 13.94
+        },
+        "Abed": {
+          "lines": 22,
+          "words": 191,
+          "pct_lines": 10.58
+        },
+        "Britta": {
+          "lines": 12,
+          "words": 133,
+          "pct_lines": 5.77
+        },
+        "Troy": {
+          "lines": 20,
+          "words": 196,
+          "pct_lines": 9.62
+        },
+        "Pierce": {
+          "lines": 15,
+          "words": 82,
+          "pct_lines": 7.21
+        },
+        "Shirley": {
+          "lines": 27,
+          "words": 202,
+          "pct_lines": 12.98
+        },
+        "Chang": {
+          "lines": 23,
+          "words": 362,
+          "pct_lines": 11.06
+        },
+        "Pelton": {
+          "lines": 7,
+          "words": 252,
+          "pct_lines": 3.37
+        },
+        "Duncan": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        }
+      },
+      "edges": {
+        "Pelton|||Britta": 1,
+        "Britta|||Shirley": 4,
+        "Shirley|||Britta": 4,
+        "Britta|||Annie": 3,
+        "Annie|||Pierce": 4,
+        "Pierce|||Troy": 1,
+        "Troy|||Pierce": 2,
+        "Pierce|||Annie": 1,
+        "Annie|||Jeff": 13,
+        "Jeff|||Annie": 14,
+        "Annie|||Shirley": 3,
+        "Shirley|||Troy": 3,
+        "Troy|||Abed": 6,
+        "Abed|||Jeff": 6,
+        "Pierce|||Pelton": 1,
+        "Pelton|||Annie": 2,
+        "Shirley|||Abed": 4,
+        "Abed|||Shirley": 2,
+        "Shirley|||Annie": 3,
+        "Jeff|||Troy": 4,
+        "Troy|||Jeff": 4,
+        "Annie|||Britta": 3,
+        "Pierce|||Chang": 1,
+        "Shirley|||Chang": 1,
+        "Chang|||Jeff": 15,
+        "Jeff|||Chang": 15,
+        "Chang|||Shirley": 2,
+        "Abed|||Chang": 2,
+        "Chang|||Annie": 3,
+        "Annie|||Pelton": 2,
+        "Pelton|||Shirley": 1,
+        "Shirley|||Pelton": 1,
+        "Pelton|||Pierce": 1,
+        "Jeff|||Abed": 7,
+        "Britta|||Troy": 1,
+        "Pierce|||Jeff": 4,
+        "Jeff|||Pierce": 3,
+        "Troy|||Annie": 2,
+        "Britta|||Abed": 1,
+        "Abed|||Troy": 8,
+        "Jeff|||Shirley": 5,
+        "Shirley|||Jeff": 6,
+        "Jeff|||Pelton": 1,
+        "Pierce|||Shirley": 1,
+        "Abed|||Britta": 2,
+        "Troy|||Shirley": 4,
+        "Jeff|||Britta": 1,
+        "Shirley|||Pierce": 2,
+        "Annie|||Chang": 1,
+        "Britta|||Chang": 1,
+        "Annie|||Troy": 1,
+        "Pierce|||Abed": 1
+      }
+    },
+    {
+      "code": "2x2",
+      "season": 2,
+      "episode": 2,
+      "title": "Accounting for Lawyers",
+      "air_date": "September\u00a030,\u00a02010",
+      "viewers": 4.53,
+      "overall": 27,
+      "has_script": true,
+      "characters": {
+        "Jeff": {
+          "lines": 63,
+          "words": 805,
+          "pct_lines": 30.43
+        },
+        "Annie": {
+          "lines": 22,
+          "words": 270,
+          "pct_lines": 10.63
+        },
+        "Abed": {
+          "lines": 26,
+          "words": 240,
+          "pct_lines": 12.56
+        },
+        "Britta": {
+          "lines": 14,
+          "words": 148,
+          "pct_lines": 6.76
+        },
+        "Troy": {
+          "lines": 27,
+          "words": 151,
+          "pct_lines": 13.04
+        },
+        "Pierce": {
+          "lines": 14,
+          "words": 142,
+          "pct_lines": 6.76
+        },
+        "Shirley": {
+          "lines": 15,
+          "words": 128,
+          "pct_lines": 7.25
+        },
+        "Chang": {
+          "lines": 13,
+          "words": 118,
+          "pct_lines": 6.28
+        },
+        "Pelton": {
+          "lines": 13,
+          "words": 195,
+          "pct_lines": 6.28
+        },
+        "Duncan": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        }
+      },
+      "edges": {
+        "Jeff|||Pierce": 5,
+        "Pierce|||Jeff": 6,
+        "Jeff|||Pelton": 2,
+        "Pelton|||Britta": 1,
+        "Britta|||Annie": 3,
+        "Annie|||Pelton": 1,
+        "Pelton|||Troy": 1,
+        "Troy|||Pelton": 3,
+        "Pelton|||Shirley": 3,
+        "Shirley|||Jeff": 7,
+        "Jeff|||Abed": 9,
+        "Abed|||Jeff": 7,
+        "Jeff|||Troy": 5,
+        "Troy|||Chang": 3,
+        "Chang|||Annie": 3,
+        "Annie|||Chang": 2,
+        "Chang|||Britta": 2,
+        "Britta|||Chang": 2,
+        "Chang|||Troy": 2,
+        "Annie|||Britta": 2,
+        "Annie|||Abed": 5,
+        "Abed|||Shirley": 2,
+        "Shirley|||Abed": 2,
+        "Troy|||Annie": 7,
+        "Jeff|||Shirley": 5,
+        "Pierce|||Troy": 1,
+        "Troy|||Jeff": 3,
+        "Troy|||Pierce": 2,
+        "Pierce|||Annie": 3,
+        "Britta|||Abed": 1,
+        "Abed|||Annie": 1,
+        "Annie|||Troy": 6,
+        "Shirley|||Annie": 1,
+        "Annie|||Shirley": 1,
+        "Shirley|||Britta": 1,
+        "Britta|||Jeff": 5,
+        "Jeff|||Annie": 2,
+        "Annie|||Jeff": 3,
+        "Jeff|||Britta": 5,
+        "Chang|||Abed": 2,
+        "Britta|||Pierce": 1,
+        "Shirley|||Pierce": 2,
+        "Pierce|||Chang": 1,
+        "Chang|||Pelton": 3,
+        "Pelton|||Chang": 4,
+        "Abed|||Troy": 7,
+        "Troy|||Abed": 5,
+        "Chang|||Pierce": 1,
+        "Shirley|||Troy": 1,
+        "Pelton|||Annie": 1,
+        "Troy|||Britta": 2,
+        "Britta|||Pelton": 1,
+        "Abed|||Britta": 1,
+        "Britta|||Shirley": 1,
+        "Pelton|||Abed": 1
+      }
+    },
+    {
+      "code": "2x4",
+      "season": 2,
+      "episode": 4,
+      "title": "Basic Rocket Science",
+      "air_date": "October\u00a014,\u00a02010",
+      "viewers": 4.81,
+      "overall": 29,
+      "has_script": true,
+      "characters": {
+        "Jeff": {
+          "lines": 2,
+          "words": 23,
+          "pct_lines": 7.14
+        },
+        "Annie": {
+          "lines": 3,
+          "words": 24,
+          "pct_lines": 10.71
+        },
+        "Abed": {
+          "lines": 2,
+          "words": 11,
+          "pct_lines": 7.14
+        },
+        "Britta": {
+          "lines": 2,
+          "words": 20,
+          "pct_lines": 7.14
+        },
+        "Troy": {
+          "lines": 1,
+          "words": 13,
+          "pct_lines": 3.57
+        },
+        "Pierce": {
+          "lines": 1,
+          "words": 6,
+          "pct_lines": 3.57
+        },
+        "Shirley": {
+          "lines": 1,
+          "words": 3,
+          "pct_lines": 3.57
+        },
+        "Chang": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        },
+        "Pelton": {
+          "lines": 16,
+          "words": 275,
+          "pct_lines": 57.14
+        },
+        "Duncan": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        }
+      },
+      "edges": {
+        "Jeff|||Abed": 1,
+        "Abed|||Pierce": 1,
+        "Pelton|||Annie": 2,
+        "Annie|||Pelton": 2,
+        "Pelton|||Troy": 1,
+        "Troy|||Pelton": 1,
+        "Pelton|||Abed": 1,
+        "Abed|||Pelton": 1,
+        "Pelton|||Britta": 1,
+        "Britta|||Shirley": 1,
+        "Shirley|||Annie": 1,
+        "Annie|||Jeff": 1
+      }
+    },
+    {
+      "code": "2x6",
+      "season": 2,
+      "episode": 6,
+      "title": "Epidemiology",
+      "air_date": "October\u00a028,\u00a02010",
+      "viewers": 5.64,
+      "overall": 31,
+      "has_script": true,
+      "characters": {
+        "Jeff": {
+          "lines": 46,
+          "words": 456,
+          "pct_lines": 23.83
+        },
+        "Annie": {
+          "lines": 19,
+          "words": 169,
+          "pct_lines": 9.84
+        },
+        "Abed": {
+          "lines": 23,
+          "words": 243,
+          "pct_lines": 11.92
+        },
+        "Britta": {
+          "lines": 11,
+          "words": 108,
+          "pct_lines": 5.7
+        },
+        "Troy": {
+          "lines": 32,
+          "words": 346,
+          "pct_lines": 16.58
+        },
+        "Pierce": {
+          "lines": 2,
+          "words": 9,
+          "pct_lines": 1.04
+        },
+        "Shirley": {
+          "lines": 15,
+          "words": 91,
+          "pct_lines": 7.77
+        },
+        "Chang": {
+          "lines": 20,
+          "words": 109,
+          "pct_lines": 10.36
+        },
+        "Pelton": {
+          "lines": 25,
+          "words": 261,
+          "pct_lines": 12.95
+        },
+        "Duncan": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        }
+      },
+      "edges": {
+        "Pelton|||Jeff": 4,
+        "Jeff|||Pelton": 6,
+        "Pelton|||Britta": 1,
+        "Britta|||Pelton": 1,
+        "Jeff|||Britta": 3,
+        "Britta|||Jeff": 3,
+        "Jeff|||Annie": 5,
+        "Annie|||Shirley": 2,
+        "Shirley|||Britta": 1,
+        "Britta|||Shirley": 3,
+        "Shirley|||Annie": 2,
+        "Annie|||Pierce": 1,
+        "Pierce|||Jeff": 1,
+        "Annie|||Jeff": 3,
+        "Jeff|||Pierce": 1,
+        "Pierce|||Britta": 1,
+        "Britta|||Annie": 1,
+        "Troy|||Jeff": 9,
+        "Jeff|||Troy": 8,
+        "Chang|||Britta": 2,
+        "Britta|||Chang": 2,
+        "Chang|||Jeff": 6,
+        "Jeff|||Chang": 7,
+        "Britta|||Troy": 1,
+        "Troy|||Abed": 14,
+        "Abed|||Troy": 13,
+        "Pelton|||Shirley": 1,
+        "Shirley|||Jeff": 4,
+        "Annie|||Troy": 2,
+        "Abed|||Annie": 2,
+        "Pelton|||Abed": 1,
+        "Abed|||Chang": 1,
+        "Jeff|||Shirley": 2,
+        "Shirley|||Chang": 5,
+        "Chang|||Shirley": 5,
+        "Abed|||Britta": 1,
+        "Chang|||Abed": 1,
+        "Abed|||Jeff": 4,
+        "Jeff|||Abed": 4,
+        "Troy|||Pelton": 3,
+        "Pelton|||Troy": 3,
+        "Troy|||Shirley": 1,
+        "Chang|||Troy": 1
+      }
+    },
+    {
+      "code": "2x8",
+      "season": 2,
+      "episode": 8,
+      "title": "Cooperative Calligraphy",
+      "air_date": "November\u00a011,\u00a02010",
+      "viewers": 4.53,
+      "overall": 33,
+      "has_script": true,
+      "characters": {
+        "Jeff": {
+          "lines": 50,
+          "words": 553,
+          "pct_lines": 19.84
+        },
+        "Annie": {
+          "lines": 48,
+          "words": 472,
+          "pct_lines": 19.05
+        },
+        "Abed": {
+          "lines": 28,
+          "words": 411,
+          "pct_lines": 11.11
+        },
+        "Britta": {
+          "lines": 44,
+          "words": 541,
+          "pct_lines": 17.46
+        },
+        "Troy": {
+          "lines": 23,
+          "words": 237,
+          "pct_lines": 9.13
+        },
+        "Pierce": {
+          "lines": 23,
+          "words": 208,
+          "pct_lines": 9.13
+        },
+        "Shirley": {
+          "lines": 31,
+          "words": 276,
+          "pct_lines": 12.3
+        },
+        "Chang": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        },
+        "Pelton": {
+          "lines": 5,
+          "words": 44,
+          "pct_lines": 1.98
+        },
+        "Duncan": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        }
+      },
+      "edges": {
+        "Troy|||Jeff": 7,
+        "Jeff|||Annie": 13,
+        "Annie|||Britta": 12,
+        "Britta|||Pierce": 6,
+        "Pierce|||Jeff": 4,
+        "Jeff|||Britta": 11,
+        "Britta|||Pelton": 1,
+        "Pelton|||Troy": 1,
+        "Troy|||Pelton": 2,
+        "Pelton|||Jeff": 1,
+        "Jeff|||Abed": 10,
+        "Abed|||Troy": 1,
+        "Troy|||Annie": 4,
+        "Annie|||Abed": 6,
+        "Abed|||Pierce": 2,
+        "Pierce|||Annie": 5,
+        "Abed|||Shirley": 6,
+        "Shirley|||Pierce": 4,
+        "Britta|||Jeff": 8,
+        "Annie|||Shirley": 8,
+        "Shirley|||Abed": 3,
+        "Abed|||Jeff": 9,
+        "Annie|||Jeff": 12,
+        "Jeff|||Troy": 6,
+        "Annie|||Troy": 5,
+        "Troy|||Abed": 1,
+        "Abed|||Britta": 5,
+        "Britta|||Annie": 13,
+        "Pierce|||Britta": 4,
+        "Jeff|||Pierce": 4,
+        "Britta|||Troy": 1,
+        "Troy|||Britta": 3,
+        "Britta|||Abed": 5,
+        "Shirley|||Britta": 7,
+        "Britta|||Shirley": 10,
+        "Shirley|||Annie": 9,
+        "Troy|||Shirley": 1,
+        "Shirley|||Troy": 2,
+        "Troy|||Pierce": 3,
+        "Pierce|||Troy": 5,
+        "Pierce|||Shirley": 2,
+        "Shirley|||Jeff": 4,
+        "Abed|||Annie": 3,
+        "Annie|||Pierce": 4,
+        "Pierce|||Abed": 1,
+        "Jeff|||Shirley": 1,
+        "Pelton|||Abed": 1,
+        "Abed|||Pelton": 1
+      }
+    },
+    {
+      "code": "2x9",
+      "season": 2,
+      "episode": 9,
+      "title": "Conspiracy Theories and Interior Design",
+      "air_date": "November\u00a018,\u00a02010",
+      "viewers": 4.41,
+      "overall": 34,
+      "has_script": true,
+      "characters": {
+        "Jeff": {
+          "lines": 63,
+          "words": 845,
+          "pct_lines": 29.44
+        },
+        "Annie": {
+          "lines": 53,
+          "words": 579,
+          "pct_lines": 24.77
+        },
+        "Abed": {
+          "lines": 28,
+          "words": 126,
+          "pct_lines": 13.08
+        },
+        "Britta": {
+          "lines": 5,
+          "words": 47,
+          "pct_lines": 2.34
+        },
+        "Troy": {
+          "lines": 28,
+          "words": 147,
+          "pct_lines": 13.08
+        },
+        "Pierce": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        },
+        "Shirley": {
+          "lines": 2,
+          "words": 18,
+          "pct_lines": 0.93
+        },
+        "Chang": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        },
+        "Pelton": {
+          "lines": 35,
+          "words": 345,
+          "pct_lines": 16.36
+        },
+        "Duncan": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        }
+      },
+      "edges": {
+        "Pelton|||Annie": 8,
+        "Abed|||Annie": 3,
+        "Annie|||Shirley": 1,
+        "Shirley|||Annie": 1,
+        "Annie|||Troy": 3,
+        "Troy|||Abed": 19,
+        "Abed|||Britta": 2,
+        "Britta|||Abed": 1,
+        "Britta|||Troy": 1,
+        "Troy|||Shirley": 1,
+        "Shirley|||Britta": 1,
+        "Britta|||Pelton": 2,
+        "Pelton|||Jeff": 15,
+        "Jeff|||Pelton": 16,
+        "Pelton|||Britta": 1,
+        "Annie|||Jeff": 30,
+        "Jeff|||Annie": 31,
+        "Annie|||Pelton": 8,
+        "Pelton|||Troy": 1,
+        "Abed|||Troy": 19,
+        "Troy|||Jeff": 4,
+        "Annie|||Abed": 2,
+        "Abed|||Jeff": 2,
+        "Jeff|||Troy": 2,
+        "Jeff|||Abed": 2,
+        "Troy|||Britta": 1,
+        "Britta|||Annie": 1,
+        "Troy|||Annie": 1
+      }
+    },
+    {
+      "code": "2x10",
+      "season": 2,
+      "episode": 10,
+      "title": "Mixology Certification",
+      "air_date": "December\u00a02,\u00a02010",
+      "viewers": 4.55,
+      "overall": 35,
+      "has_script": true,
+      "characters": {
+        "Jeff": {
+          "lines": 55,
+          "words": 485,
+          "pct_lines": 22.0
+        },
+        "Annie": {
+          "lines": 36,
+          "words": 511,
+          "pct_lines": 14.4
+        },
+        "Abed": {
+          "lines": 25,
+          "words": 270,
+          "pct_lines": 10.0
+        },
+        "Britta": {
+          "lines": 56,
+          "words": 410,
+          "pct_lines": 22.4
+        },
+        "Troy": {
+          "lines": 44,
+          "words": 507,
+          "pct_lines": 17.6
+        },
+        "Pierce": {
+          "lines": 14,
+          "words": 148,
+          "pct_lines": 5.6
+        },
+        "Shirley": {
+          "lines": 20,
+          "words": 133,
+          "pct_lines": 8.0
+        },
+        "Chang": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        },
+        "Pelton": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        },
+        "Duncan": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        }
+      },
+      "edges": {
+        "Pierce|||Shirley": 3,
+        "Shirley|||Abed": 1,
+        "Abed|||Troy": 7,
+        "Troy|||Britta": 9,
+        "Britta|||Jeff": 26,
+        "Jeff|||Abed": 3,
+        "Abed|||Shirley": 2,
+        "Shirley|||Pierce": 4,
+        "Pierce|||Jeff": 1,
+        "Jeff|||Pierce": 3,
+        "Pierce|||Troy": 1,
+        "Troy|||Pierce": 1,
+        "Pierce|||Britta": 2,
+        "Jeff|||Troy": 18,
+        "Troy|||Abed": 6,
+        "Troy|||Shirley": 3,
+        "Pierce|||Annie": 4,
+        "Annie|||Troy": 7,
+        "Troy|||Annie": 7,
+        "Troy|||Jeff": 15,
+        "Pierce|||Abed": 1,
+        "Abed|||Pierce": 1,
+        "Britta|||Troy": 8,
+        "Jeff|||Britta": 24,
+        "Britta|||Annie": 10,
+        "Annie|||Jeff": 6,
+        "Jeff|||Shirley": 1,
+        "Shirley|||Jeff": 4,
+        "Britta|||Shirley": 8,
+        "Shirley|||Britta": 6,
+        "Jeff|||Annie": 2,
+        "Annie|||Britta": 8,
+        "Annie|||Shirley": 1,
+        "Shirley|||Annie": 2,
+        "Annie|||Abed": 2,
+        "Abed|||Annie": 1,
+        "Shirley|||Troy": 2,
+        "Britta|||Abed": 2,
+        "Abed|||Britta": 3
+      }
+    },
+    {
+      "code": "2x11",
+      "season": 2,
+      "episode": 11,
+      "title": "Abed's Uncontrollable Christmas",
+      "air_date": "December\u00a09,\u00a02010",
+      "viewers": 4.29,
+      "overall": 36,
+      "has_script": true,
+      "characters": {
+        "Jeff": {
+          "lines": 21,
+          "words": 135,
+          "pct_lines": 8.82
+        },
+        "Annie": {
+          "lines": 18,
+          "words": 153,
+          "pct_lines": 7.56
+        },
+        "Abed": {
+          "lines": 75,
+          "words": 900,
+          "pct_lines": 31.51
+        },
+        "Britta": {
+          "lines": 16,
+          "words": 192,
+          "pct_lines": 6.72
+        },
+        "Troy": {
+          "lines": 27,
+          "words": 185,
+          "pct_lines": 11.34
+        },
+        "Pierce": {
+          "lines": 20,
+          "words": 181,
+          "pct_lines": 8.4
+        },
+        "Shirley": {
+          "lines": 11,
+          "words": 156,
+          "pct_lines": 4.62
+        },
+        "Chang": {
+          "lines": 4,
+          "words": 49,
+          "pct_lines": 1.68
+        },
+        "Pelton": {
+          "lines": 2,
+          "words": 65,
+          "pct_lines": 0.84
+        },
+        "Duncan": {
+          "lines": 44,
+          "words": 749,
+          "pct_lines": 18.49
+        }
+      },
+      "edges": {
+        "Pelton|||Abed": 2,
+        "Abed|||Shirley": 5,
+        "Shirley|||Abed": 3,
+        "Abed|||Annie": 3,
+        "Annie|||Troy": 3,
+        "Troy|||Abed": 12,
+        "Abed|||Pierce": 7,
+        "Pierce|||Abed": 12,
+        "Abed|||Jeff": 7,
+        "Jeff|||Britta": 4,
+        "Britta|||Abed": 6,
+        "Shirley|||Pierce": 1,
+        "Jeff|||Pierce": 2,
+        "Pierce|||Troy": 1,
+        "Abed|||Britta": 6,
+        "Abed|||Duncan": 27,
+        "Duncan|||Abed": 22,
+        "Abed|||Chang": 4,
+        "Chang|||Abed": 4,
+        "Pierce|||Jeff": 1,
+        "Jeff|||Duncan": 4,
+        "Duncan|||Pierce": 4,
+        "Duncan|||Jeff": 5,
+        "Duncan|||Troy": 6,
+        "Troy|||Pierce": 4,
+        "Pierce|||Duncan": 4,
+        "Jeff|||Abed": 4,
+        "Annie|||Abed": 5,
+        "Abed|||Troy": 13,
+        "Britta|||Jeff": 3,
+        "Shirley|||Duncan": 1,
+        "Duncan|||Shirley": 3,
+        "Shirley|||Britta": 3,
+        "Britta|||Shirley": 2,
+        "Shirley|||Annie": 1,
+        "Annie|||Britta": 2,
+        "Jeff|||Annie": 3,
+        "Annie|||Jeff": 1,
+        "Jeff|||Troy": 1,
+        "Troy|||Britta": 1,
+        "Troy|||Annie": 6,
+        "Britta|||Troy": 2,
+        "Annie|||Pierce": 1,
+        "Troy|||Duncan": 3,
+        "Duncan|||Annie": 3,
+        "Annie|||Duncan": 5,
+        "Britta|||Annie": 1,
+        "Jeff|||Shirley": 1,
+        "Shirley|||Jeff": 1,
+        "Troy|||Jeff": 1,
+        "Britta|||Pelton": 1
+      }
+    },
+    {
+      "code": "2x13",
+      "season": 2,
+      "episode": 13,
+      "title": "Celebrity Pharmacology",
+      "air_date": "January\u00a027,\u00a02011",
+      "viewers": 4.59,
+      "overall": 38,
+      "has_script": true,
+      "characters": {
+        "Jeff": {
+          "lines": 27,
+          "words": 295,
+          "pct_lines": 11.64
+        },
+        "Annie": {
+          "lines": 56,
+          "words": 644,
+          "pct_lines": 24.14
+        },
+        "Abed": {
+          "lines": 15,
+          "words": 125,
+          "pct_lines": 6.47
+        },
+        "Britta": {
+          "lines": 25,
+          "words": 260,
+          "pct_lines": 10.78
+        },
+        "Troy": {
+          "lines": 16,
+          "words": 111,
+          "pct_lines": 6.9
+        },
+        "Pierce": {
+          "lines": 56,
+          "words": 664,
+          "pct_lines": 24.14
+        },
+        "Shirley": {
+          "lines": 16,
+          "words": 159,
+          "pct_lines": 6.9
+        },
+        "Chang": {
+          "lines": 14,
+          "words": 187,
+          "pct_lines": 6.03
+        },
+        "Pelton": {
+          "lines": 7,
+          "words": 226,
+          "pct_lines": 3.02
+        },
+        "Duncan": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        }
+      },
+      "edges": {
+        "Troy|||Abed": 6,
+        "Abed|||Troy": 7,
+        "Abed|||Pierce": 2,
+        "Pierce|||Annie": 39,
+        "Annie|||Pierce": 40,
+        "Pierce|||Jeff": 3,
+        "Jeff|||Abed": 4,
+        "Troy|||Shirley": 2,
+        "Shirley|||Annie": 3,
+        "Annie|||Shirley": 3,
+        "Annie|||Britta": 6,
+        "Britta|||Annie": 5,
+        "Britta|||Pelton": 1,
+        "Pelton|||Jeff": 2,
+        "Jeff|||Shirley": 3,
+        "Shirley|||Pelton": 1,
+        "Pelton|||Annie": 1,
+        "Annie|||Pelton": 3,
+        "Pelton|||Troy": 2,
+        "Troy|||Britta": 3,
+        "Britta|||Jeff": 8,
+        "Jeff|||Britta": 6,
+        "Britta|||Chang": 4,
+        "Chang|||Shirley": 3,
+        "Shirley|||Britta": 5,
+        "Britta|||Shirley": 2,
+        "Shirley|||Pierce": 2,
+        "Pierce|||Abed": 3,
+        "Abed|||Jeff": 5,
+        "Jeff|||Annie": 4,
+        "Annie|||Jeff": 1,
+        "Annie|||Troy": 3,
+        "Shirley|||Troy": 2,
+        "Troy|||Pierce": 4,
+        "Pierce|||Pelton": 1,
+        "Pelton|||Chang": 1,
+        "Chang|||Britta": 3,
+        "Pierce|||Chang": 1,
+        "Shirley|||Chang": 3,
+        "Chang|||Annie": 2,
+        "Pelton|||Pierce": 1,
+        "Britta|||Pierce": 2,
+        "Pierce|||Shirley": 2,
+        "Pierce|||Britta": 2,
+        "Pierce|||Troy": 1,
+        "Jeff|||Pierce": 1,
+        "Chang|||Jeff": 1,
+        "Jeff|||Chang": 1,
+        "Chang|||Pelton": 1,
+        "Britta|||Abed": 2,
+        "Troy|||Jeff": 1,
+        "Abed|||Chang": 1,
+        "Chang|||Pierce": 1
+      }
+    },
+    {
+      "code": "2x14",
+      "season": 2,
+      "episode": 14,
+      "title": "Advanced Dungeons & Dragons",
+      "air_date": "February\u00a03,\u00a02011",
+      "viewers": 4.37,
+      "overall": 39,
+      "has_script": true,
+      "characters": {
+        "Jeff": {
+          "lines": 58,
+          "words": 491,
+          "pct_lines": 22.92
+        },
+        "Annie": {
+          "lines": 13,
+          "words": 121,
+          "pct_lines": 5.14
+        },
+        "Abed": {
+          "lines": 76,
+          "words": 955,
+          "pct_lines": 30.04
+        },
+        "Britta": {
+          "lines": 21,
+          "words": 160,
+          "pct_lines": 8.3
+        },
+        "Troy": {
+          "lines": 17,
+          "words": 130,
+          "pct_lines": 6.72
+        },
+        "Pierce": {
+          "lines": 48,
+          "words": 523,
+          "pct_lines": 18.97
+        },
+        "Shirley": {
+          "lines": 13,
+          "words": 91,
+          "pct_lines": 5.14
+        },
+        "Chang": {
+          "lines": 7,
+          "words": 53,
+          "pct_lines": 2.77
+        },
+        "Pelton": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        },
+        "Duncan": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        }
+      },
+      "edges": {
+        "Chang|||Shirley": 1,
+        "Shirley|||Chang": 1,
+        "Chang|||Jeff": 1,
+        "Jeff|||Chang": 2,
+        "Troy|||Shirley": 1,
+        "Shirley|||Jeff": 4,
+        "Jeff|||Troy": 4,
+        "Troy|||Abed": 11,
+        "Abed|||Chang": 2,
+        "Chang|||Abed": 3,
+        "Abed|||Troy": 6,
+        "Abed|||Jeff": 22,
+        "Jeff|||Abed": 21,
+        "Abed|||Shirley": 5,
+        "Shirley|||Abed": 2,
+        "Troy|||Annie": 1,
+        "Annie|||Abed": 8,
+        "Shirley|||Britta": 1,
+        "Britta|||Jeff": 6,
+        "Abed|||Britta": 12,
+        "Britta|||Abed": 8,
+        "Jeff|||Britta": 5,
+        "Jeff|||Pierce": 16,
+        "Pierce|||Shirley": 4,
+        "Shirley|||Pierce": 2,
+        "Pierce|||Troy": 2,
+        "Abed|||Pierce": 15,
+        "Pierce|||Britta": 2,
+        "Britta|||Pierce": 4,
+        "Pierce|||Jeff": 13,
+        "Pierce|||Abed": 16,
+        "Pierce|||Chang": 1,
+        "Chang|||Pierce": 1,
+        "Pierce|||Annie": 3,
+        "Shirley|||Annie": 1,
+        "Abed|||Annie": 6,
+        "Britta|||Shirley": 1,
+        "Jeff|||Annie": 2,
+        "Annie|||Troy": 1,
+        "Annie|||Jeff": 1,
+        "Annie|||Pierce": 2,
+        "Troy|||Jeff": 1
+      }
+    },
+    {
+      "code": "2x15",
+      "season": 2,
+      "episode": 15,
+      "title": "Early 21st Century Romanticism",
+      "air_date": "February\u00a010,\u00a02011",
+      "viewers": 3.81,
+      "overall": 40,
+      "has_script": true,
+      "characters": {
+        "Jeff": {
+          "lines": 42,
+          "words": 541,
+          "pct_lines": 20.9
+        },
+        "Annie": {
+          "lines": 15,
+          "words": 108,
+          "pct_lines": 7.46
+        },
+        "Abed": {
+          "lines": 23,
+          "words": 185,
+          "pct_lines": 11.44
+        },
+        "Britta": {
+          "lines": 28,
+          "words": 336,
+          "pct_lines": 13.93
+        },
+        "Troy": {
+          "lines": 30,
+          "words": 284,
+          "pct_lines": 14.93
+        },
+        "Pierce": {
+          "lines": 15,
+          "words": 148,
+          "pct_lines": 7.46
+        },
+        "Shirley": {
+          "lines": 4,
+          "words": 26,
+          "pct_lines": 1.99
+        },
+        "Chang": {
+          "lines": 22,
+          "words": 295,
+          "pct_lines": 10.95
+        },
+        "Pelton": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        },
+        "Duncan": {
+          "lines": 22,
+          "words": 280,
+          "pct_lines": 10.95
+        }
+      },
+      "edges": {
+        "Troy|||Abed": 15,
+        "Abed|||Troy": 14,
+        "Troy|||Jeff": 3,
+        "Jeff|||Abed": 2,
+        "Abed|||Jeff": 2,
+        "Jeff|||Pierce": 2,
+        "Pierce|||Jeff": 2,
+        "Jeff|||Shirley": 2,
+        "Shirley|||Pierce": 2,
+        "Pierce|||Annie": 5,
+        "Annie|||Pierce": 4,
+        "Pierce|||Britta": 1,
+        "Britta|||Troy": 2,
+        "Troy|||Britta": 1,
+        "Britta|||Annie": 5,
+        "Annie|||Britta": 6,
+        "Britta|||Pierce": 1,
+        "Pierce|||Shirley": 2,
+        "Shirley|||Jeff": 2,
+        "Jeff|||Troy": 1,
+        "Jeff|||Britta": 3,
+        "Annie|||Jeff": 2,
+        "Jeff|||Annie": 1,
+        "Britta|||Jeff": 2,
+        "Jeff|||Duncan": 15,
+        "Duncan|||Jeff": 13,
+        "Abed|||Annie": 1,
+        "Britta|||Duncan": 1,
+        "Jeff|||Chang": 13,
+        "Chang|||Jeff": 14,
+        "Chang|||Duncan": 5,
+        "Duncan|||Chang": 7,
+        "Chang|||Abed": 1,
+        "Abed|||Pierce": 1
+      }
+    },
+    {
+      "code": "2x16",
+      "season": 2,
+      "episode": 16,
+      "title": "Intermediate Documentary Filmmaking",
+      "air_date": "February\u00a017,\u00a02011",
+      "viewers": 4.11,
+      "overall": 41,
+      "has_script": true,
+      "characters": {
+        "Jeff": {
+          "lines": 48,
+          "words": 536,
+          "pct_lines": 25.0
+        },
+        "Annie": {
+          "lines": 17,
+          "words": 197,
+          "pct_lines": 8.85
+        },
+        "Abed": {
+          "lines": 13,
+          "words": 233,
+          "pct_lines": 6.77
+        },
+        "Britta": {
+          "lines": 32,
+          "words": 488,
+          "pct_lines": 16.67
+        },
+        "Troy": {
+          "lines": 13,
+          "words": 199,
+          "pct_lines": 6.77
+        },
+        "Pierce": {
+          "lines": 44,
+          "words": 636,
+          "pct_lines": 22.92
+        },
+        "Shirley": {
+          "lines": 25,
+          "words": 230,
+          "pct_lines": 13.02
+        },
+        "Chang": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        },
+        "Pelton": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        },
+        "Duncan": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        }
+      },
+      "edges": {
+        "Jeff|||Shirley": 3,
+        "Shirley|||Jeff": 3,
+        "Jeff|||Annie": 3,
+        "Annie|||Britta": 2,
+        "Annie|||Pierce": 7,
+        "Pierce|||Shirley": 6,
+        "Shirley|||Pierce": 8,
+        "Pierce|||Jeff": 20,
+        "Jeff|||Abed": 6,
+        "Abed|||Pierce": 1,
+        "Pierce|||Troy": 1,
+        "Troy|||Pierce": 1,
+        "Pierce|||Abed": 2,
+        "Abed|||Annie": 1,
+        "Annie|||Troy": 2,
+        "Troy|||Jeff": 4,
+        "Jeff|||Britta": 8,
+        "Britta|||Jeff": 10,
+        "Annie|||Shirley": 4,
+        "Shirley|||Abed": 3,
+        "Troy|||Annie": 2,
+        "Troy|||Shirley": 2,
+        "Shirley|||Britta": 6,
+        "Britta|||Shirley": 6,
+        "Britta|||Pierce": 8,
+        "Pierce|||Britta": 5,
+        "Pierce|||Annie": 7,
+        "Jeff|||Troy": 4,
+        "Troy|||Britta": 3,
+        "Britta|||Annie": 1,
+        "Jeff|||Pierce": 16,
+        "Shirley|||Troy": 1,
+        "Abed|||Jeff": 5,
+        "Annie|||Jeff": 1,
+        "Abed|||Troy": 2,
+        "Abed|||Shirley": 2
+      }
+    },
+    {
+      "code": "2x19",
+      "season": 2,
+      "episode": 19,
+      "title": "Critical Film Studies",
+      "air_date": "March\u00a024,\u00a02011",
+      "viewers": 4.46,
+      "overall": 44,
+      "has_script": true,
+      "characters": {
+        "Jeff": {
+          "lines": 48,
+          "words": 785,
+          "pct_lines": 31.37
+        },
+        "Annie": {
+          "lines": 9,
+          "words": 53,
+          "pct_lines": 5.88
+        },
+        "Abed": {
+          "lines": 52,
+          "words": 721,
+          "pct_lines": 33.99
+        },
+        "Britta": {
+          "lines": 10,
+          "words": 121,
+          "pct_lines": 6.54
+        },
+        "Troy": {
+          "lines": 17,
+          "words": 114,
+          "pct_lines": 11.11
+        },
+        "Pierce": {
+          "lines": 6,
+          "words": 50,
+          "pct_lines": 3.92
+        },
+        "Shirley": {
+          "lines": 5,
+          "words": 11,
+          "pct_lines": 3.27
+        },
+        "Chang": {
+          "lines": 6,
+          "words": 127,
+          "pct_lines": 3.92
+        },
+        "Pelton": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        },
+        "Duncan": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        }
+      },
+      "edges": {
+        "Jeff|||Abed": 38,
+        "Abed|||Jeff": 39,
+        "Britta|||Pierce": 1,
+        "Pierce|||Shirley": 3,
+        "Shirley|||Pierce": 1,
+        "Shirley|||Annie": 2,
+        "Annie|||Pierce": 2,
+        "Pierce|||Annie": 1,
+        "Annie|||Troy": 3,
+        "Troy|||Annie": 3,
+        "Troy|||Chang": 3,
+        "Chang|||Britta": 2,
+        "Britta|||Troy": 3,
+        "Troy|||Britta": 2,
+        "Britta|||Annie": 2,
+        "Annie|||Britta": 2,
+        "Shirley|||Troy": 1,
+        "Troy|||Jeff": 3,
+        "Abed|||Chang": 2,
+        "Chang|||Troy": 4,
+        "Annie|||Shirley": 1,
+        "Shirley|||Abed": 1,
+        "Britta|||Chang": 1,
+        "Jeff|||Pierce": 2,
+        "Pierce|||Jeff": 1,
+        "Pierce|||Abed": 1,
+        "Jeff|||Britta": 1,
+        "Britta|||Abed": 1,
+        "Jeff|||Troy": 1,
+        "Abed|||Troy": 5,
+        "Troy|||Abed": 5
+      }
+    },
+    {
+      "code": "2x21",
+      "season": 2,
+      "episode": 21,
+      "title": "Paradigms of Human Memory",
+      "air_date": "April\u00a021,\u00a02011",
+      "viewers": 3.17,
+      "overall": 46,
+      "has_script": true,
+      "characters": {
+        "Jeff": {
+          "lines": 50,
+          "words": 511,
+          "pct_lines": 25.64
+        },
+        "Annie": {
+          "lines": 19,
+          "words": 214,
+          "pct_lines": 9.74
+        },
+        "Abed": {
+          "lines": 22,
+          "words": 181,
+          "pct_lines": 11.28
+        },
+        "Britta": {
+          "lines": 28,
+          "words": 233,
+          "pct_lines": 14.36
+        },
+        "Troy": {
+          "lines": 23,
+          "words": 246,
+          "pct_lines": 11.79
+        },
+        "Pierce": {
+          "lines": 13,
+          "words": 69,
+          "pct_lines": 6.67
+        },
+        "Shirley": {
+          "lines": 18,
+          "words": 181,
+          "pct_lines": 9.23
+        },
+        "Chang": {
+          "lines": 9,
+          "words": 136,
+          "pct_lines": 4.62
+        },
+        "Pelton": {
+          "lines": 11,
+          "words": 215,
+          "pct_lines": 5.64
+        },
+        "Duncan": {
+          "lines": 2,
+          "words": 8,
+          "pct_lines": 1.03
+        }
+      },
+      "edges": {
+        "Annie|||Britta": 5,
+        "Britta|||Annie": 2,
+        "Annie|||Jeff": 9,
+        "Jeff|||Shirley": 3,
+        "Shirley|||Troy": 5,
+        "Troy|||Chang": 1,
+        "Jeff|||Chang": 1,
+        "Chang|||Troy": 3,
+        "Troy|||Pierce": 4,
+        "Pierce|||Chang": 2,
+        "Chang|||Shirley": 1,
+        "Shirley|||Chang": 2,
+        "Chang|||Abed": 1,
+        "Abed|||Chang": 1,
+        "Troy|||Britta": 3,
+        "Britta|||Jeff": 14,
+        "Jeff|||Annie": 10,
+        "Britta|||Shirley": 2,
+        "Jeff|||Abed": 7,
+        "Abed|||Jeff": 6,
+        "Abed|||Britta": 6,
+        "Britta|||Troy": 3,
+        "Troy|||Jeff": 8,
+        "Jeff|||Britta": 12,
+        "Troy|||Annie": 1,
+        "Jeff|||Pierce": 3,
+        "Pierce|||Duncan": 1,
+        "Duncan|||Abed": 2,
+        "Abed|||Annie": 2,
+        "Britta|||Abed": 5,
+        "Britta|||Duncan": 1,
+        "Jeff|||Troy": 6,
+        "Troy|||Shirley": 3,
+        "Shirley|||Britta": 1,
+        "Pierce|||Troy": 4,
+        "Pierce|||Jeff": 2,
+        "Shirley|||Jeff": 3,
+        "Jeff|||Pelton": 4,
+        "Pelton|||Shirley": 2,
+        "Pierce|||Shirley": 2,
+        "Shirley|||Pierce": 3,
+        "Troy|||Abed": 2,
+        "Annie|||Shirley": 3,
+        "Shirley|||Annie": 1,
+        "Abed|||Pierce": 3,
+        "Shirley|||Pelton": 1,
+        "Pelton|||Jeff": 3,
+        "Pierce|||Abed": 1,
+        "Pierce|||Britta": 1,
+        "Abed|||Shirley": 2,
+        "Chang|||Jeff": 1,
+        "Annie|||Troy": 1,
+        "Shirley|||Abed": 2,
+        "Britta|||Chang": 1,
+        "Chang|||Pelton": 1,
+        "Pelton|||Abed": 1
+      }
+    },
+    {
+      "code": "3x2",
+      "season": 3,
+      "episode": 2,
+      "title": "Geography of Global Conflict",
+      "air_date": "September\u00a029,\u00a02011",
+      "viewers": 3.98,
+      "overall": 51,
+      "has_script": true,
+      "characters": {
+        "Jeff": {
+          "lines": 37,
+          "words": 442,
+          "pct_lines": 18.5
+        },
+        "Annie": {
+          "lines": 27,
+          "words": 260,
+          "pct_lines": 13.5
+        },
+        "Abed": {
+          "lines": 24,
+          "words": 204,
+          "pct_lines": 12.0
+        },
+        "Britta": {
+          "lines": 29,
+          "words": 308,
+          "pct_lines": 14.5
+        },
+        "Troy": {
+          "lines": 17,
+          "words": 169,
+          "pct_lines": 8.5
+        },
+        "Pierce": {
+          "lines": 14,
+          "words": 204,
+          "pct_lines": 7.0
+        },
+        "Shirley": {
+          "lines": 22,
+          "words": 214,
+          "pct_lines": 11.0
+        },
+        "Chang": {
+          "lines": 18,
+          "words": 474,
+          "pct_lines": 9.0
+        },
+        "Pelton": {
+          "lines": 12,
+          "words": 168,
+          "pct_lines": 6.0
+        },
+        "Duncan": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        }
+      },
+      "edges": {
+        "Chang|||Shirley": 1,
+        "Pierce|||Abed": 1,
+        "Abed|||Pierce": 2,
+        "Pierce|||Britta": 3,
+        "Britta|||Jeff": 3,
+        "Jeff|||Pelton": 2,
+        "Pelton|||Jeff": 2,
+        "Pelton|||Britta": 1,
+        "Britta|||Pelton": 1,
+        "Pelton|||Chang": 5,
+        "Chang|||Pelton": 3,
+        "Troy|||Shirley": 3,
+        "Annie|||Britta": 6,
+        "Britta|||Shirley": 6,
+        "Shirley|||Abed": 3,
+        "Pierce|||Troy": 2,
+        "Troy|||Abed": 5,
+        "Britta|||Abed": 3,
+        "Abed|||Troy": 3,
+        "Shirley|||Jeff": 3,
+        "Jeff|||Pierce": 3,
+        "Pierce|||Chang": 3,
+        "Chang|||Annie": 1,
+        "Annie|||Jeff": 10,
+        "Jeff|||Annie": 6,
+        "Jeff|||Troy": 2,
+        "Abed|||Shirley": 3,
+        "Shirley|||Britta": 4,
+        "Shirley|||Chang": 1,
+        "Chang|||Troy": 1,
+        "Troy|||Britta": 5,
+        "Britta|||Troy": 4,
+        "Abed|||Annie": 2,
+        "Annie|||Shirley": 4,
+        "Annie|||Pierce": 1,
+        "Britta|||Annie": 7,
+        "Jeff|||Shirley": 3,
+        "Abed|||Jeff": 10,
+        "Jeff|||Abed": 7,
+        "Shirley|||Pierce": 3,
+        "Annie|||Abed": 2,
+        "Shirley|||Annie": 2,
+        "Abed|||Britta": 2,
+        "Troy|||Jeff": 1,
+        "Chang|||Jeff": 1,
+        "Jeff|||Britta": 4,
+        "Pierce|||Jeff": 1,
+        "Pierce|||Annie": 1,
+        "Shirley|||Troy": 1,
+        "Troy|||Annie": 1
+      }
+    },
+    {
+      "code": "3x4",
+      "season": 3,
+      "episode": 4,
+      "title": "Remedial Chaos Theory",
+      "air_date": "October\u00a013,\u00a02011",
+      "viewers": 3.78,
+      "overall": 53,
+      "has_script": true,
+      "characters": {
+        "Jeff": {
+          "lines": 88,
+          "words": 628,
+          "pct_lines": 25.66
+        },
+        "Annie": {
+          "lines": 42,
+          "words": 283,
+          "pct_lines": 12.24
+        },
+        "Abed": {
+          "lines": 54,
+          "words": 569,
+          "pct_lines": 15.74
+        },
+        "Britta": {
+          "lines": 39,
+          "words": 351,
+          "pct_lines": 11.37
+        },
+        "Troy": {
+          "lines": 48,
+          "words": 282,
+          "pct_lines": 13.99
+        },
+        "Pierce": {
+          "lines": 38,
+          "words": 386,
+          "pct_lines": 11.08
+        },
+        "Shirley": {
+          "lines": 34,
+          "words": 197,
+          "pct_lines": 9.91
+        },
+        "Chang": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        },
+        "Pelton": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        },
+        "Duncan": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        }
+      },
+      "edges": {
+        "Britta|||Annie": 3,
+        "Annie|||Troy": 8,
+        "Troy|||Annie": 9,
+        "Annie|||Britta": 3,
+        "Britta|||Abed": 10,
+        "Abed|||Shirley": 5,
+        "Shirley|||Troy": 4,
+        "Annie|||Abed": 4,
+        "Abed|||Troy": 5,
+        "Troy|||Abed": 5,
+        "Abed|||Britta": 7,
+        "Annie|||Shirley": 4,
+        "Shirley|||Abed": 7,
+        "Abed|||Annie": 4,
+        "Troy|||Jeff": 11,
+        "Jeff|||Troy": 9,
+        "Troy|||Pierce": 12,
+        "Pierce|||Troy": 8,
+        "Pierce|||Jeff": 8,
+        "Jeff|||Abed": 19,
+        "Abed|||Jeff": 19,
+        "Jeff|||Annie": 17,
+        "Annie|||Pierce": 4,
+        "Jeff|||Pierce": 9,
+        "Pierce|||Shirley": 7,
+        "Jeff|||Britta": 10,
+        "Annie|||Jeff": 15,
+        "Jeff|||Shirley": 3,
+        "Shirley|||Jeff": 5,
+        "Pierce|||Annie": 2,
+        "Britta|||Shirley": 5,
+        "Britta|||Troy": 9,
+        "Troy|||Britta": 5,
+        "Shirley|||Annie": 4,
+        "Pierce|||Abed": 4,
+        "Britta|||Pierce": 1,
+        "Abed|||Pierce": 4,
+        "Pierce|||Britta": 2,
+        "Britta|||Jeff": 2,
+        "Shirley|||Pierce": 1,
+        "Troy|||Shirley": 2,
+        "Shirley|||Britta": 2
+      }
+    },
+    {
+      "code": "3x5",
+      "season": 3,
+      "episode": 5,
+      "title": "Horror Fiction in Seven Spooky Steps",
+      "air_date": "October\u00a027,\u00a02011",
+      "viewers": 3.42,
+      "overall": 54,
+      "has_script": true,
+      "characters": {
+        "Jeff": {
+          "lines": 24,
+          "words": 334,
+          "pct_lines": 19.51
+        },
+        "Annie": {
+          "lines": 14,
+          "words": 484,
+          "pct_lines": 11.38
+        },
+        "Abed": {
+          "lines": 14,
+          "words": 417,
+          "pct_lines": 11.38
+        },
+        "Britta": {
+          "lines": 30,
+          "words": 531,
+          "pct_lines": 24.39
+        },
+        "Troy": {
+          "lines": 12,
+          "words": 340,
+          "pct_lines": 9.76
+        },
+        "Pierce": {
+          "lines": 18,
+          "words": 377,
+          "pct_lines": 14.63
+        },
+        "Shirley": {
+          "lines": 5,
+          "words": 132,
+          "pct_lines": 4.07
+        },
+        "Chang": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        },
+        "Pelton": {
+          "lines": 6,
+          "words": 137,
+          "pct_lines": 4.88
+        },
+        "Duncan": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        }
+      },
+      "edges": {
+        "Britta|||Shirley": 1,
+        "Shirley|||Pierce": 2,
+        "Pierce|||Britta": 5,
+        "Britta|||Troy": 4,
+        "Troy|||Abed": 1,
+        "Abed|||Annie": 2,
+        "Annie|||Britta": 3,
+        "Britta|||Jeff": 8,
+        "Jeff|||Abed": 2,
+        "Abed|||Jeff": 2,
+        "Jeff|||Britta": 7,
+        "Britta|||Pelton": 1,
+        "Pelton|||Jeff": 3,
+        "Jeff|||Pelton": 2,
+        "Jeff|||Troy": 4,
+        "Troy|||Britta": 5,
+        "Britta|||Abed": 4,
+        "Abed|||Britta": 6,
+        "Britta|||Pierce": 5,
+        "Pierce|||Abed": 4,
+        "Abed|||Pierce": 3,
+        "Annie|||Abed": 3,
+        "Jeff|||Annie": 4,
+        "Annie|||Jeff": 5,
+        "Troy|||Pierce": 4,
+        "Pierce|||Troy": 3,
+        "Pierce|||Jeff": 2,
+        "Pierce|||Annie": 2,
+        "Annie|||Shirley": 1,
+        "Pelton|||Shirley": 1,
+        "Britta|||Annie": 5,
+        "Annie|||Troy": 1,
+        "Troy|||Jeff": 1,
+        "Jeff|||Pierce": 3,
+        "Troy|||Shirley": 1,
+        "Shirley|||Britta": 1,
+        "Abed|||Shirley": 1,
+        "Shirley|||Jeff": 1
+      }
+    },
+    {
+      "code": "3x7",
+      "season": 3,
+      "episode": 7,
+      "title": "Studies in Modern Movement",
+      "air_date": "November\u00a010,\u00a02011",
+      "viewers": 3.49,
+      "overall": 56,
+      "has_script": true,
+      "characters": {
+        "Jeff": {
+          "lines": 23,
+          "words": 157,
+          "pct_lines": 10.22
+        },
+        "Annie": {
+          "lines": 45,
+          "words": 562,
+          "pct_lines": 20.0
+        },
+        "Abed": {
+          "lines": 39,
+          "words": 346,
+          "pct_lines": 17.33
+        },
+        "Britta": {
+          "lines": 30,
+          "words": 362,
+          "pct_lines": 13.33
+        },
+        "Troy": {
+          "lines": 39,
+          "words": 363,
+          "pct_lines": 17.33
+        },
+        "Pierce": {
+          "lines": 13,
+          "words": 148,
+          "pct_lines": 5.78
+        },
+        "Shirley": {
+          "lines": 17,
+          "words": 129,
+          "pct_lines": 7.56
+        },
+        "Chang": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        },
+        "Pelton": {
+          "lines": 19,
+          "words": 325,
+          "pct_lines": 8.44
+        },
+        "Duncan": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        }
+      },
+      "edges": {
+        "Britta|||Annie": 9,
+        "Annie|||Britta": 8,
+        "Britta|||Troy": 3,
+        "Troy|||Abed": 19,
+        "Abed|||Troy": 22,
+        "Troy|||Annie": 16,
+        "Annie|||Abed": 14,
+        "Troy|||Britta": 2,
+        "Annie|||Pierce": 7,
+        "Pierce|||Shirley": 2,
+        "Shirley|||Pierce": 3,
+        "Pierce|||Annie": 6,
+        "Pierce|||Britta": 1,
+        "Jeff|||Annie": 2,
+        "Abed|||Annie": 11,
+        "Annie|||Troy": 13,
+        "Pierce|||Troy": 1,
+        "Annie|||Shirley": 1,
+        "Shirley|||Britta": 10,
+        "Britta|||Shirley": 7,
+        "Shirley|||Pelton": 1,
+        "Pelton|||Jeff": 12,
+        "Jeff|||Pelton": 13,
+        "Pelton|||Britta": 1,
+        "Pierce|||Abed": 1,
+        "Troy|||Jeff": 2,
+        "Pelton|||Pierce": 1,
+        "Abed|||Pelton": 1,
+        "Britta|||Pierce": 1,
+        "Pierce|||Pelton": 1,
+        "Pelton|||Abed": 1,
+        "Abed|||Pierce": 1,
+        "Abed|||Britta": 1,
+        "Annie|||Jeff": 1,
+        "Jeff|||Britta": 2,
+        "Britta|||Jeff": 2
+      }
+    },
+    {
+      "code": "3x8",
+      "season": 3,
+      "episode": 8,
+      "title": "Documentary Filmmaking: Redux",
+      "air_date": "November\u00a017,\u00a02011",
+      "viewers": 3.62,
+      "overall": 57,
+      "has_script": true,
+      "characters": {
+        "Jeff": {
+          "lines": 15,
+          "words": 243,
+          "pct_lines": 10.27
+        },
+        "Annie": {
+          "lines": 13,
+          "words": 229,
+          "pct_lines": 8.9
+        },
+        "Abed": {
+          "lines": 14,
+          "words": 268,
+          "pct_lines": 9.59
+        },
+        "Britta": {
+          "lines": 14,
+          "words": 105,
+          "pct_lines": 9.59
+        },
+        "Troy": {
+          "lines": 7,
+          "words": 48,
+          "pct_lines": 4.79
+        },
+        "Pierce": {
+          "lines": 10,
+          "words": 148,
+          "pct_lines": 6.85
+        },
+        "Shirley": {
+          "lines": 8,
+          "words": 97,
+          "pct_lines": 5.48
+        },
+        "Chang": {
+          "lines": 2,
+          "words": 59,
+          "pct_lines": 1.37
+        },
+        "Pelton": {
+          "lines": 63,
+          "words": 1333,
+          "pct_lines": 43.15
+        },
+        "Duncan": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        }
+      },
+      "edges": {
+        "Pelton|||Pierce": 3,
+        "Pierce|||Pelton": 5,
+        "Pelton|||Troy": 5,
+        "Troy|||Pelton": 2,
+        "Pelton|||Jeff": 10,
+        "Jeff|||Pelton": 10,
+        "Pelton|||Shirley": 4,
+        "Shirley|||Pelton": 5,
+        "Pelton|||Abed": 6,
+        "Abed|||Pierce": 1,
+        "Pelton|||Annie": 5,
+        "Annie|||Pelton": 5,
+        "Troy|||Shirley": 1,
+        "Shirley|||Britta": 1,
+        "Britta|||Pelton": 6,
+        "Pelton|||Britta": 7,
+        "Annie|||Pierce": 1,
+        "Britta|||Abed": 3,
+        "Abed|||Britta": 3,
+        "Abed|||Pelton": 6,
+        "Abed|||Annie": 2,
+        "Troy|||Britta": 1,
+        "Britta|||Troy": 1,
+        "Troy|||Annie": 2,
+        "Annie|||Britta": 2,
+        "Abed|||Troy": 1,
+        "Troy|||Abed": 1,
+        "Britta|||Jeff": 1,
+        "Pelton|||Chang": 2,
+        "Annie|||Abed": 1,
+        "Annie|||Shirley": 1,
+        "Shirley|||Pierce": 1,
+        "Pierce|||Jeff": 1,
+        "Jeff|||Pierce": 1,
+        "Pierce|||Abed": 1,
+        "Abed|||Jeff": 1,
+        "Jeff|||Annie": 1,
+        "Annie|||Jeff": 1,
+        "Chang|||Pelton": 1,
+        "Britta|||Annie": 1,
+        "Britta|||Shirley": 1
+      }
+    },
+    {
+      "code": "3x9",
+      "season": 3,
+      "episode": 9,
+      "title": "Foosball and Nocturnal Vigilantism",
+      "air_date": "December\u00a01,\u00a02011",
+      "viewers": 3.74,
+      "overall": 58,
+      "has_script": true,
+      "characters": {
+        "Jeff": {
+          "lines": 52,
+          "words": 613,
+          "pct_lines": 25.87
+        },
+        "Annie": {
+          "lines": 41,
+          "words": 324,
+          "pct_lines": 20.4
+        },
+        "Abed": {
+          "lines": 28,
+          "words": 339,
+          "pct_lines": 13.93
+        },
+        "Britta": {
+          "lines": 6,
+          "words": 62,
+          "pct_lines": 2.99
+        },
+        "Troy": {
+          "lines": 27,
+          "words": 214,
+          "pct_lines": 13.43
+        },
+        "Pierce": {
+          "lines": 2,
+          "words": 16,
+          "pct_lines": 1.0
+        },
+        "Shirley": {
+          "lines": 45,
+          "words": 548,
+          "pct_lines": 22.39
+        },
+        "Chang": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        },
+        "Pelton": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        },
+        "Duncan": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        }
+      },
+      "edges": {
+        "Annie|||Pierce": 1,
+        "Pierce|||Jeff": 1,
+        "Jeff|||Britta": 2,
+        "Britta|||Shirley": 2,
+        "Shirley|||Troy": 1,
+        "Troy|||Abed": 4,
+        "Abed|||Troy": 7,
+        "Troy|||Britta": 1,
+        "Britta|||Jeff": 2,
+        "Troy|||Annie": 18,
+        "Annie|||Abed": 15,
+        "Abed|||Annie": 15,
+        "Jeff|||Abed": 2,
+        "Jeff|||Shirley": 34,
+        "Shirley|||Jeff": 34,
+        "Shirley|||Britta": 1,
+        "Britta|||Annie": 1,
+        "Annie|||Troy": 18,
+        "Annie|||Shirley": 2,
+        "Troy|||Jeff": 3,
+        "Jeff|||Troy": 1,
+        "Shirley|||Pierce": 1
+      }
+    },
+    {
+      "code": "3x10",
+      "season": 3,
+      "episode": 10,
+      "title": "Regional Holiday Music",
+      "air_date": "December\u00a08,\u00a02011",
+      "viewers": 3.6,
+      "overall": 59,
+      "has_script": true,
+      "characters": {
+        "Jeff": {
+          "lines": 26,
+          "words": 284,
+          "pct_lines": 15.76
+        },
+        "Annie": {
+          "lines": 22,
+          "words": 360,
+          "pct_lines": 13.33
+        },
+        "Abed": {
+          "lines": 31,
+          "words": 487,
+          "pct_lines": 18.79
+        },
+        "Britta": {
+          "lines": 19,
+          "words": 165,
+          "pct_lines": 11.52
+        },
+        "Troy": {
+          "lines": 24,
+          "words": 401,
+          "pct_lines": 14.55
+        },
+        "Pierce": {
+          "lines": 9,
+          "words": 107,
+          "pct_lines": 5.45
+        },
+        "Shirley": {
+          "lines": 17,
+          "words": 122,
+          "pct_lines": 10.3
+        },
+        "Chang": {
+          "lines": 5,
+          "words": 21,
+          "pct_lines": 3.03
+        },
+        "Pelton": {
+          "lines": 12,
+          "words": 154,
+          "pct_lines": 7.27
+        },
+        "Duncan": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        }
+      },
+      "edges": {
+        "Annie|||Shirley": 3,
+        "Shirley|||Jeff": 4,
+        "Jeff|||Abed": 2,
+        "Abed|||Troy": 10,
+        "Troy|||Shirley": 2,
+        "Shirley|||Annie": 1,
+        "Annie|||Troy": 5,
+        "Troy|||Annie": 3,
+        "Troy|||Abed": 8,
+        "Abed|||Jeff": 1,
+        "Jeff|||Shirley": 3,
+        "Britta|||Jeff": 5,
+        "Chang|||Jeff": 1,
+        "Pelton|||Pierce": 1,
+        "Pierce|||Pelton": 1,
+        "Pelton|||Troy": 1,
+        "Annie|||Pelton": 1,
+        "Pelton|||Annie": 1,
+        "Annie|||Jeff": 7,
+        "Shirley|||Troy": 1,
+        "Troy|||Britta": 1,
+        "Jeff|||Britta": 3,
+        "Britta|||Annie": 1,
+        "Troy|||Pierce": 2,
+        "Pierce|||Abed": 3,
+        "Annie|||Abed": 1,
+        "Abed|||Annie": 1,
+        "Annie|||Britta": 1,
+        "Pierce|||Britta": 1,
+        "Britta|||Pierce": 2,
+        "Troy|||Jeff": 2,
+        "Jeff|||Troy": 3,
+        "Pierce|||Annie": 1,
+        "Shirley|||Britta": 4,
+        "Jeff|||Annie": 7,
+        "Pierce|||Shirley": 2,
+        "Shirley|||Pierce": 1,
+        "Jeff|||Pierce": 1,
+        "Abed|||Britta": 3,
+        "Britta|||Abed": 2,
+        "Pelton|||Britta": 1,
+        "Jeff|||Pelton": 1,
+        "Pelton|||Abed": 1,
+        "Pelton|||Chang": 3,
+        "Chang|||Pelton": 3
+      }
+    },
+    {
+      "code": "3x15",
+      "season": 3,
+      "episode": 15,
+      "title": "Origins of Vampire Mythology",
+      "air_date": "April\u00a012,\u00a02012",
+      "viewers": 3.09,
+      "overall": 64,
+      "has_script": true,
+      "characters": {
+        "Jeff": {
+          "lines": 51,
+          "words": 639,
+          "pct_lines": 17.89
+        },
+        "Annie": {
+          "lines": 52,
+          "words": 521,
+          "pct_lines": 18.25
+        },
+        "Abed": {
+          "lines": 28,
+          "words": 224,
+          "pct_lines": 9.82
+        },
+        "Britta": {
+          "lines": 46,
+          "words": 587,
+          "pct_lines": 16.14
+        },
+        "Troy": {
+          "lines": 29,
+          "words": 179,
+          "pct_lines": 10.18
+        },
+        "Pierce": {
+          "lines": 19,
+          "words": 140,
+          "pct_lines": 6.67
+        },
+        "Shirley": {
+          "lines": 27,
+          "words": 245,
+          "pct_lines": 9.47
+        },
+        "Chang": {
+          "lines": 9,
+          "words": 73,
+          "pct_lines": 3.16
+        },
+        "Pelton": {
+          "lines": 24,
+          "words": 238,
+          "pct_lines": 8.42
+        },
+        "Duncan": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        }
+      },
+      "edges": {
+        "Abed|||Jeff": 4,
+        "Jeff|||Pierce": 5,
+        "Pierce|||Annie": 3,
+        "Annie|||Pierce": 1,
+        "Pelton|||Britta": 3,
+        "Britta|||Pelton": 3,
+        "Annie|||Pelton": 7,
+        "Pelton|||Jeff": 4,
+        "Pierce|||Britta": 3,
+        "Britta|||Abed": 3,
+        "Jeff|||Troy": 2,
+        "Troy|||Britta": 5,
+        "Jeff|||Abed": 2,
+        "Abed|||Britta": 5,
+        "Britta|||Troy": 4,
+        "Troy|||Abed": 11,
+        "Britta|||Pierce": 1,
+        "Pierce|||Shirley": 2,
+        "Shirley|||Pierce": 5,
+        "Britta|||Shirley": 3,
+        "Shirley|||Britta": 2,
+        "Shirley|||Annie": 1,
+        "Annie|||Britta": 21,
+        "Britta|||Jeff": 7,
+        "Shirley|||Jeff": 14,
+        "Britta|||Annie": 23,
+        "Annie|||Shirley": 1,
+        "Shirley|||Troy": 1,
+        "Jeff|||Annie": 3,
+        "Annie|||Jeff": 4,
+        "Jeff|||Britta": 7,
+        "Pelton|||Troy": 3,
+        "Annie|||Abed": 7,
+        "Abed|||Troy": 9,
+        "Abed|||Annie": 4,
+        "Annie|||Troy": 8,
+        "Troy|||Annie": 9,
+        "Pelton|||Abed": 2,
+        "Abed|||Pelton": 3,
+        "Jeff|||Shirley": 17,
+        "Pierce|||Chang": 6,
+        "Chang|||Shirley": 1,
+        "Pierce|||Jeff": 2,
+        "Jeff|||Chang": 3,
+        "Chang|||Jeff": 2,
+        "Chang|||Pierce": 5,
+        "Pelton|||Annie": 6,
+        "Troy|||Pelton": 3,
+        "Chang|||Troy": 1,
+        "Pierce|||Troy": 1
+      }
+    },
+    {
+      "code": "3x17",
+      "season": 3,
+      "episode": 17,
+      "title": "Basic Lupine Urology",
+      "air_date": "April\u00a026,\u00a02012",
+      "viewers": 3.21,
+      "overall": 66,
+      "has_script": true,
+      "characters": {
+        "Jeff": {
+          "lines": 27,
+          "words": 433,
+          "pct_lines": 16.98
+        },
+        "Annie": {
+          "lines": 26,
+          "words": 498,
+          "pct_lines": 16.35
+        },
+        "Abed": {
+          "lines": 34,
+          "words": 330,
+          "pct_lines": 21.38
+        },
+        "Britta": {
+          "lines": 2,
+          "words": 45,
+          "pct_lines": 1.26
+        },
+        "Troy": {
+          "lines": 38,
+          "words": 324,
+          "pct_lines": 23.9
+        },
+        "Pierce": {
+          "lines": 9,
+          "words": 116,
+          "pct_lines": 5.66
+        },
+        "Shirley": {
+          "lines": 12,
+          "words": 150,
+          "pct_lines": 7.55
+        },
+        "Chang": {
+          "lines": 1,
+          "words": 6,
+          "pct_lines": 0.63
+        },
+        "Pelton": {
+          "lines": 10,
+          "words": 104,
+          "pct_lines": 6.29
+        },
+        "Duncan": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        }
+      },
+      "edges": {
+        "Chang|||Jeff": 1,
+        "Annie|||Jeff": 8,
+        "Jeff|||Annie": 8,
+        "Shirley|||Annie": 1,
+        "Annie|||Shirley": 1,
+        "Shirley|||Troy": 3,
+        "Troy|||Abed": 13,
+        "Abed|||Shirley": 3,
+        "Abed|||Troy": 16,
+        "Troy|||Pierce": 5,
+        "Pierce|||Abed": 4,
+        "Abed|||Pierce": 2,
+        "Pierce|||Troy": 2,
+        "Britta|||Shirley": 1,
+        "Shirley|||Abed": 2,
+        "Shirley|||Britta": 1,
+        "Troy|||Shirley": 2,
+        "Abed|||Annie": 1,
+        "Annie|||Troy": 1,
+        "Troy|||Jeff": 3,
+        "Jeff|||Abed": 2,
+        "Abed|||Jeff": 1,
+        "Jeff|||Troy": 1,
+        "Troy|||Pelton": 1,
+        "Pelton|||Jeff": 5,
+        "Jeff|||Pelton": 2,
+        "Troy|||Annie": 1,
+        "Annie|||Abed": 1,
+        "Jeff|||Shirley": 1,
+        "Shirley|||Jeff": 1,
+        "Pelton|||Annie": 1,
+        "Shirley|||Pelton": 2,
+        "Pelton|||Shirley": 2
+      }
+    },
+    {
+      "code": "3x20",
+      "season": 3,
+      "episode": 20,
+      "title": "Digital Estate Planning",
+      "air_date": "May\u00a017,\u00a02012",
+      "viewers": 2.97,
+      "overall": 69,
+      "has_script": true,
+      "characters": {
+        "Jeff": {
+          "lines": 52,
+          "words": 446,
+          "pct_lines": 19.48
+        },
+        "Annie": {
+          "lines": 35,
+          "words": 181,
+          "pct_lines": 13.11
+        },
+        "Abed": {
+          "lines": 50,
+          "words": 442,
+          "pct_lines": 18.73
+        },
+        "Britta": {
+          "lines": 31,
+          "words": 245,
+          "pct_lines": 11.61
+        },
+        "Troy": {
+          "lines": 31,
+          "words": 274,
+          "pct_lines": 11.61
+        },
+        "Pierce": {
+          "lines": 43,
+          "words": 389,
+          "pct_lines": 16.1
+        },
+        "Shirley": {
+          "lines": 25,
+          "words": 137,
+          "pct_lines": 9.36
+        },
+        "Chang": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        },
+        "Pelton": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        },
+        "Duncan": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        }
+      },
+      "edges": {
+        "Jeff|||Pierce": 6,
+        "Pierce|||Abed": 5,
+        "Abed|||Annie": 4,
+        "Annie|||Pierce": 6,
+        "Jeff|||Abed": 9,
+        "Abed|||Troy": 10,
+        "Troy|||Pierce": 4,
+        "Abed|||Jeff": 6,
+        "Troy|||Abed": 13,
+        "Abed|||Britta": 5,
+        "Britta|||Annie": 4,
+        "Annie|||Shirley": 9,
+        "Shirley|||Jeff": 8,
+        "Jeff|||Britta": 11,
+        "Britta|||Pierce": 4,
+        "Annie|||Abed": 2,
+        "Annie|||Troy": 3,
+        "Troy|||Annie": 3,
+        "Britta|||Jeff": 10,
+        "Jeff|||Annie": 5,
+        "Annie|||Jeff": 4,
+        "Jeff|||Troy": 2,
+        "Troy|||Jeff": 3,
+        "Abed|||Shirley": 5,
+        "Pierce|||Annie": 2,
+        "Britta|||Abed": 5,
+        "Pierce|||Troy": 4,
+        "Pierce|||Jeff": 8,
+        "Britta|||Troy": 2,
+        "Troy|||Britta": 2,
+        "Pierce|||Britta": 6,
+        "Shirley|||Pierce": 2,
+        "Shirley|||Annie": 8,
+        "Shirley|||Troy": 2,
+        "Shirley|||Abed": 1,
+        "Abed|||Pierce": 2,
+        "Troy|||Shirley": 1,
+        "Jeff|||Shirley": 1,
+        "Britta|||Shirley": 2,
+        "Annie|||Britta": 1
+      }
+    },
+    {
+      "code": "3x21",
+      "season": 3,
+      "episode": 21,
+      "title": "The First Chang Dynasty",
+      "air_date": "May\u00a017,\u00a02012",
+      "viewers": 2.61,
+      "overall": 70,
+      "has_script": true,
+      "characters": {
+        "Jeff": {
+          "lines": 24,
+          "words": 387,
+          "pct_lines": 16.9
+        },
+        "Annie": {
+          "lines": 11,
+          "words": 120,
+          "pct_lines": 7.75
+        },
+        "Abed": {
+          "lines": 10,
+          "words": 131,
+          "pct_lines": 7.04
+        },
+        "Britta": {
+          "lines": 12,
+          "words": 121,
+          "pct_lines": 8.45
+        },
+        "Troy": {
+          "lines": 20,
+          "words": 241,
+          "pct_lines": 14.08
+        },
+        "Pierce": {
+          "lines": 15,
+          "words": 174,
+          "pct_lines": 10.56
+        },
+        "Shirley": {
+          "lines": 7,
+          "words": 57,
+          "pct_lines": 4.93
+        },
+        "Chang": {
+          "lines": 26,
+          "words": 397,
+          "pct_lines": 18.31
+        },
+        "Pelton": {
+          "lines": 17,
+          "words": 317,
+          "pct_lines": 11.97
+        },
+        "Duncan": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        }
+      },
+      "edges": {
+        "Jeff|||Troy": 5,
+        "Troy|||Britta": 5,
+        "Britta|||Annie": 3,
+        "Annie|||Shirley": 3,
+        "Pierce|||Annie": 1,
+        "Chang|||Pelton": 6,
+        "Pelton|||Chang": 5,
+        "Pelton|||Troy": 2,
+        "Annie|||Britta": 3,
+        "Britta|||Troy": 3,
+        "Troy|||Annie": 3,
+        "Annie|||Troy": 1,
+        "Shirley|||Abed": 2,
+        "Abed|||Pierce": 1,
+        "Pierce|||Jeff": 6,
+        "Britta|||Jeff": 3,
+        "Jeff|||Britta": 4,
+        "Britta|||Pierce": 1,
+        "Jeff|||Shirley": 1,
+        "Troy|||Abed": 2,
+        "Abed|||Troy": 1,
+        "Abed|||Jeff": 2,
+        "Annie|||Pierce": 1,
+        "Jeff|||Pierce": 1,
+        "Jeff|||Chang": 6,
+        "Chang|||Jeff": 4,
+        "Chang|||Pierce": 4,
+        "Pierce|||Chang": 3,
+        "Abed|||Pelton": 2,
+        "Troy|||Pelton": 1,
+        "Pelton|||Abed": 1,
+        "Abed|||Chang": 1,
+        "Pierce|||Pelton": 2,
+        "Pelton|||Shirley": 1,
+        "Shirley|||Pierce": 3,
+        "Chang|||Troy": 1,
+        "Britta|||Chang": 1,
+        "Chang|||Annie": 1,
+        "Annie|||Chang": 1,
+        "Chang|||Shirley": 1,
+        "Pelton|||Jeff": 2,
+        "Troy|||Shirley": 1,
+        "Annie|||Abed": 1
+      }
+    },
+    {
+      "code": "3x22",
+      "season": 3,
+      "episode": 22,
+      "title": "Introduction to Finality",
+      "air_date": "May\u00a017,\u00a02012",
+      "viewers": 2.48,
+      "overall": 71,
+      "has_script": true,
+      "characters": {
+        "Jeff": {
+          "lines": 39,
+          "words": 541,
+          "pct_lines": 23.93
+        },
+        "Annie": {
+          "lines": 10,
+          "words": 73,
+          "pct_lines": 6.13
+        },
+        "Abed": {
+          "lines": 32,
+          "words": 410,
+          "pct_lines": 19.63
+        },
+        "Britta": {
+          "lines": 23,
+          "words": 150,
+          "pct_lines": 14.11
+        },
+        "Troy": {
+          "lines": 14,
+          "words": 163,
+          "pct_lines": 8.59
+        },
+        "Pierce": {
+          "lines": 16,
+          "words": 140,
+          "pct_lines": 9.82
+        },
+        "Shirley": {
+          "lines": 17,
+          "words": 193,
+          "pct_lines": 10.43
+        },
+        "Chang": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        },
+        "Pelton": {
+          "lines": 12,
+          "words": 144,
+          "pct_lines": 7.36
+        },
+        "Duncan": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        }
+      },
+      "edges": {
+        "Jeff|||Britta": 5,
+        "Britta|||Jeff": 4,
+        "Jeff|||Annie": 4,
+        "Annie|||Jeff": 4,
+        "Jeff|||Pelton": 4,
+        "Pelton|||Shirley": 3,
+        "Shirley|||Jeff": 9,
+        "Shirley|||Pelton": 2,
+        "Shirley|||Pierce": 3,
+        "Pierce|||Shirley": 4,
+        "Pelton|||Pierce": 4,
+        "Shirley|||Annie": 2,
+        "Abed|||Shirley": 2,
+        "Jeff|||Shirley": 5,
+        "Jeff|||Pierce": 6,
+        "Pierce|||Jeff": 7,
+        "Pierce|||Pelton": 2,
+        "Britta|||Abed": 14,
+        "Abed|||Troy": 4,
+        "Pelton|||Britta": 1,
+        "Abed|||Britta": 12,
+        "Annie|||Britta": 2,
+        "Britta|||Annie": 1,
+        "Pelton|||Jeff": 1,
+        "Troy|||Annie": 1,
+        "Annie|||Shirley": 1,
+        "Annie|||Pierce": 1,
+        "Pierce|||Abed": 1,
+        "Troy|||Britta": 2,
+        "Troy|||Abed": 1,
+        "Britta|||Pierce": 1
+      }
+    },
+    {
+      "code": "4x9",
+      "season": 4,
+      "episode": 9,
+      "title": "Intro to Felt Surrogacy",
+      "air_date": "April\u00a011,\u00a02013",
+      "viewers": 2.84,
+      "overall": 80,
+      "has_script": true,
+      "characters": {
+        "Jeff": {
+          "lines": 35,
+          "words": 375,
+          "pct_lines": 18.23
+        },
+        "Annie": {
+          "lines": 21,
+          "words": 124,
+          "pct_lines": 10.94
+        },
+        "Abed": {
+          "lines": 22,
+          "words": 217,
+          "pct_lines": 11.46
+        },
+        "Britta": {
+          "lines": 31,
+          "words": 227,
+          "pct_lines": 16.15
+        },
+        "Troy": {
+          "lines": 19,
+          "words": 154,
+          "pct_lines": 9.9
+        },
+        "Pierce": {
+          "lines": 13,
+          "words": 94,
+          "pct_lines": 6.77
+        },
+        "Shirley": {
+          "lines": 27,
+          "words": 270,
+          "pct_lines": 14.06
+        },
+        "Chang": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        },
+        "Pelton": {
+          "lines": 24,
+          "words": 417,
+          "pct_lines": 12.5
+        },
+        "Duncan": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        }
+      },
+      "edges": {
+        "Pelton|||Annie": 1,
+        "Annie|||Pelton": 2,
+        "Pelton|||Jeff": 7,
+        "Jeff|||Pelton": 5,
+        "Jeff|||Britta": 9,
+        "Britta|||Pelton": 4,
+        "Pelton|||Britta": 4,
+        "Pelton|||Troy": 3,
+        "Troy|||Pelton": 3,
+        "Pelton|||Shirley": 2,
+        "Shirley|||Abed": 5,
+        "Abed|||Pelton": 3,
+        "Britta|||Annie": 5,
+        "Annie|||Britta": 2,
+        "Britta|||Jeff": 5,
+        "Britta|||Troy": 7,
+        "Pelton|||Abed": 2,
+        "Abed|||Britta": 2,
+        "Troy|||Abed": 2,
+        "Abed|||Jeff": 4,
+        "Jeff|||Abed": 5,
+        "Abed|||Shirley": 6,
+        "Abed|||Pierce": 2,
+        "Pierce|||Troy": 2,
+        "Troy|||Shirley": 3,
+        "Shirley|||Annie": 6,
+        "Annie|||Abed": 4,
+        "Abed|||Annie": 4,
+        "Annie|||Pierce": 3,
+        "Pierce|||Shirley": 2,
+        "Shirley|||Britta": 7,
+        "Annie|||Jeff": 3,
+        "Jeff|||Annie": 2,
+        "Annie|||Shirley": 4,
+        "Pierce|||Abed": 2,
+        "Britta|||Shirley": 4,
+        "Pierce|||Britta": 1,
+        "Britta|||Pierce": 5,
+        "Troy|||Jeff": 2,
+        "Pierce|||Jeff": 1,
+        "Jeff|||Shirley": 3,
+        "Troy|||Britta": 3,
+        "Troy|||Annie": 2,
+        "Jeff|||Troy": 2,
+        "Shirley|||Jeff": 3,
+        "Britta|||Abed": 1,
+        "Annie|||Troy": 1,
+        "Shirley|||Pelton": 1
+      }
+    },
+    {
+      "code": "4x10",
+      "season": 4,
+      "episode": 10,
+      "title": "Intro to Knots",
+      "air_date": "April\u00a018,\u00a02013",
+      "viewers": 3.13,
+      "overall": 81,
+      "has_script": true,
+      "characters": {
+        "Jeff": {
+          "lines": 78,
+          "words": 1194,
+          "pct_lines": 35.29
+        },
+        "Annie": {
+          "lines": 48,
+          "words": 490,
+          "pct_lines": 21.72
+        },
+        "Abed": {
+          "lines": 15,
+          "words": 159,
+          "pct_lines": 6.79
+        },
+        "Britta": {
+          "lines": 24,
+          "words": 135,
+          "pct_lines": 10.86
+        },
+        "Troy": {
+          "lines": 14,
+          "words": 128,
+          "pct_lines": 6.33
+        },
+        "Pierce": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        },
+        "Shirley": {
+          "lines": 21,
+          "words": 154,
+          "pct_lines": 9.5
+        },
+        "Chang": {
+          "lines": 16,
+          "words": 128,
+          "pct_lines": 7.24
+        },
+        "Pelton": {
+          "lines": 5,
+          "words": 106,
+          "pct_lines": 2.26
+        },
+        "Duncan": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        }
+      },
+      "edges": {
+        "Jeff|||Annie": 21,
+        "Annie|||Jeff": 26,
+        "Jeff|||Shirley": 4,
+        "Shirley|||Jeff": 4,
+        "Shirley|||Annie": 7,
+        "Annie|||Troy": 4,
+        "Troy|||Britta": 3,
+        "Britta|||Jeff": 14,
+        "Jeff|||Chang": 6,
+        "Chang|||Abed": 2,
+        "Abed|||Annie": 4,
+        "Troy|||Annie": 3,
+        "Annie|||Shirley": 8,
+        "Jeff|||Britta": 13,
+        "Britta|||Abed": 2,
+        "Annie|||Britta": 3,
+        "Britta|||Troy": 3,
+        "Troy|||Jeff": 3,
+        "Jeff|||Abed": 5,
+        "Abed|||Jeff": 4,
+        "Jeff|||Troy": 2,
+        "Troy|||Abed": 3,
+        "Abed|||Troy": 2,
+        "Abed|||Chang": 1,
+        "Chang|||Jeff": 5,
+        "Chang|||Shirley": 2,
+        "Shirley|||Chang": 2,
+        "Chang|||Annie": 3,
+        "Shirley|||Britta": 2,
+        "Britta|||Annie": 2,
+        "Britta|||Shirley": 1,
+        "Shirley|||Abed": 1,
+        "Abed|||Pelton": 1,
+        "Pelton|||Jeff": 2,
+        "Jeff|||Pelton": 2,
+        "Annie|||Chang": 3,
+        "Abed|||Britta": 1,
+        "Pelton|||Chang": 1
+      }
+    },
+    {
+      "code": "6x6",
+      "season": 6,
+      "episode": 6,
+      "title": "Basic Email Security",
+      "air_date": "April\u00a014,\u00a02015",
+      "viewers": null,
+      "overall": 103,
+      "has_script": true,
+      "characters": {
+        "Jeff": {
+          "lines": 38,
+          "words": 391,
+          "pct_lines": 20.43
+        },
+        "Annie": {
+          "lines": 42,
+          "words": 252,
+          "pct_lines": 22.58
+        },
+        "Abed": {
+          "lines": 17,
+          "words": 255,
+          "pct_lines": 9.14
+        },
+        "Britta": {
+          "lines": 43,
+          "words": 703,
+          "pct_lines": 23.12
+        },
+        "Troy": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        },
+        "Pierce": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        },
+        "Shirley": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        },
+        "Chang": {
+          "lines": 17,
+          "words": 173,
+          "pct_lines": 9.14
+        },
+        "Pelton": {
+          "lines": 29,
+          "words": 396,
+          "pct_lines": 15.59
+        },
+        "Duncan": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        }
+      },
+      "edges": {
+        "Britta|||Jeff": 10,
+        "Jeff|||Abed": 3,
+        "Britta|||Chang": 2,
+        "Chang|||Pelton": 1,
+        "Pelton|||Britta": 8,
+        "Britta|||Pelton": 5,
+        "Jeff|||Pelton": 2,
+        "Jeff|||Britta": 9,
+        "Britta|||Annie": 13,
+        "Annie|||Britta": 8,
+        "Britta|||Abed": 2,
+        "Abed|||Pelton": 1,
+        "Abed|||Chang": 2,
+        "Abed|||Annie": 4,
+        "Annie|||Abed": 4,
+        "Annie|||Jeff": 6,
+        "Chang|||Abed": 1,
+        "Abed|||Britta": 2,
+        "Jeff|||Annie": 3,
+        "Chang|||Annie": 2,
+        "Annie|||Chang": 4,
+        "Chang|||Britta": 3,
+        "Jeff|||Chang": 2,
+        "Chang|||Jeff": 3,
+        "Annie|||Pelton": 1,
+        "Pelton|||Jeff": 1
+      }
+    },
+    {
+      "code": "6x13",
+      "season": 6,
+      "episode": 13,
+      "title": "Emotional Consequences of Broadcast Television",
+      "air_date": "June\u00a02,\u00a02015",
+      "viewers": null,
+      "overall": 110,
+      "has_script": true,
+      "characters": {
+        "Jeff": {
+          "lines": 61,
+          "words": 785,
+          "pct_lines": 27.35
+        },
+        "Annie": {
+          "lines": 36,
+          "words": 469,
+          "pct_lines": 16.14
+        },
+        "Abed": {
+          "lines": 37,
+          "words": 528,
+          "pct_lines": 16.59
+        },
+        "Britta": {
+          "lines": 31,
+          "words": 306,
+          "pct_lines": 13.9
+        },
+        "Troy": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        },
+        "Pierce": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        },
+        "Shirley": {
+          "lines": 6,
+          "words": 60,
+          "pct_lines": 2.69
+        },
+        "Chang": {
+          "lines": 27,
+          "words": 185,
+          "pct_lines": 12.11
+        },
+        "Pelton": {
+          "lines": 25,
+          "words": 315,
+          "pct_lines": 11.21
+        },
+        "Duncan": {
+          "lines": 0,
+          "words": 0,
+          "pct_lines": 0.0
+        }
+      },
+      "edges": {
+        "Jeff|||Abed": 10,
+        "Abed|||Jeff": 8,
+        "Britta|||Annie": 6,
+        "Jeff|||Britta": 10,
+        "Britta|||Abed": 5,
+        "Abed|||Annie": 4,
+        "Annie|||Britta": 2,
+        "Britta|||Pelton": 6,
+        "Pelton|||Jeff": 3,
+        "Jeff|||Chang": 7,
+        "Chang|||Pelton": 2,
+        "Pelton|||Britta": 5,
+        "Britta|||Jeff": 6,
+        "Chang|||Abed": 6,
+        "Abed|||Chang": 2,
+        "Abed|||Pelton": 4,
+        "Annie|||Shirley": 1,
+        "Shirley|||Annie": 1,
+        "Pelton|||Abed": 5,
+        "Abed|||Britta": 6,
+        "Jeff|||Pelton": 2,
+        "Annie|||Jeff": 12,
+        "Shirley|||Chang": 1,
+        "Britta|||Chang": 4,
+        "Chang|||Shirley": 1,
+        "Jeff|||Annie": 16,
+        "Chang|||Jeff": 7,
+        "Annie|||Chang": 4,
+        "Chang|||Annie": 2,
+        "Annie|||Pelton": 4,
+        "Pelton|||Annie": 1,
+        "Pelton|||Chang": 3,
+        "Annie|||Abed": 2,
+        "Chang|||Britta": 1
+      }
+    }
+  ]
+}

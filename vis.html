@@ -1,421 +1,853 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Community: Character Analysis Visualizations</title>
-    <link rel="stylesheet" href="styles.css" />
-    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Community — Character Analysis</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,600;1,9..40,300&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <style>
+    /* ── TOKENS ─────────────────────────────────────────────── */
+    :root {
+      --bg:        #764ba2;
+      --surface:   #ffffff;
+      --surface2:  #f5f5f5;
+      --border:    #e0e0e0;
+      --text:      #333333;
+      --muted:     #888888;
+      --accent:    #667eea;
+      --accent2:   #764ba2;
+      --c-jeff:    #1a6fba;
+      --c-annie:   #c2197a;
+      --c-abed:    #d4660a;
+      --c-britta:  #c0392b;
+      --c-troy:    #6c3db5;
+      --c-pierce:  #7a5230;
+      --c-shirley: #297a29;
+      --c-chang:   #555555;
+      --c-pelton:  #8a7a00;
+      --c-duncan:  #0e8fa8;
+      --font-display: 'Bebas Neue', sans-serif;
+      --font-body:    'DM Sans', sans-serif;
+      --radius: 8px;
+    }
 
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            padding: 40px 20px;
-        }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-        .main-container {
-            max-width: 1400px;
-            margin: 0 auto;
-        }
+    body {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      background-attachment: fixed;
+      color: var(--text);
+      font-family: var(--font-body);
+      font-size: 15px;
+      line-height: 1.6;
+      min-height: 100vh;
+    }
 
-        .header {
-            background: white;
-            border-radius: 12px 12px 0 0;
-            padding: 40px;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-        }
+    .page { max-width: 1280px; margin: 0 auto; padding: 0 32px 80px; }
+    section { margin-top: 32px; }
 
-        h1 {
-            color: #333;
-            margin-bottom: 10px;
-            font-size: 28px;
-        }
+    /* White card wrapper — wraps hero + all sections */
+    .card-wrap {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+      padding: 40px 40px 48px;
+      margin-top: 40px;
+    }
 
-        .subtitle {
-            color: #666;
-            margin-bottom: 20px;
-            font-size: 16px;
-        }
+    h2.section-title {
+      font-family: var(--font-display);
+      font-size: 2rem;
+      letter-spacing: 2px;
+      color: var(--accent);
+      margin-bottom: 4px;
+    }
+    .section-desc { color: var(--muted); font-size: 13px; margin-bottom: 24px; line-height: 1.7; }
 
-        .controls {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-            margin-bottom: 0;
-        }
+    /* ── HERO ───────────────────────────────────────────────── */
+    .hero {
+      position: relative;
+      padding: 8px 0 40px;
+      border-bottom: 1px solid var(--border);
+      overflow: hidden;
+    }
+    .hero-bg {
+      position: absolute;
+      top: -20px; right: -10px;
+      font-family: var(--font-display);
+      font-size: 18rem;
+      color: rgba(102,126,234,.06);
+      line-height: 1;
+      pointer-events: none;
+      user-select: none;
+      letter-spacing: -6px;
+    }
+    .hero-eyebrow {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 10px;
+    }
+    .hero-title {
+      font-family: var(--font-display);
+      font-size: clamp(4.5rem, 11vw, 9rem);
+      line-height: 0.9;
+      letter-spacing: 4px;
+      color: var(--text);
+    }
+    .hero-title em { color: var(--accent); font-style: normal; }
+    .hero-tagline {
+      margin-top: 18px;
+      font-size: 15px;
+      color: var(--muted);
+      font-style: italic;
+      max-width: 560px;
+      line-height: 1.7;
+    }
+    .hero-meta {
+      display: flex;
+      gap: 40px;
+      margin-top: 36px;
+      flex-wrap: wrap;
+      padding-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 24px;
+    }
+    .meta-item { display: flex; flex-direction: column; gap: 2px; }
+    .meta-label { font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: var(--muted); }
+    .meta-value { font-family: var(--font-display); font-size: 1.7rem; letter-spacing: 1px; color: var(--text); }
+    .meta-sub { font-size: 11px; color: var(--muted); margin-top: -2px; }
 
-        .controls label {
-            font-weight: 500;
-            color: #333;
-        }
+    /* ── CAST PILLS ─────────────────────────────────────────── */
+    .cast-row-label {
+      font-size: 10px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 10px;
+    }
+    .cast-grid { display: flex; flex-wrap: wrap; gap: 8px; }
+    .cast-pill {
+      display: flex; align-items: center; gap: 8px;
+      padding: 6px 14px 6px 10px;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 100px;
+      font-size: 13px; font-weight: 600;
+      cursor: pointer;
+      transition: border-color .15s, background .15s, opacity .15s;
+      user-select: none;
+      color: var(--text);
+    }
+    .cast-pill:hover { background: #ebebeb; }
+    .cast-pill.active { border-color: var(--accent); background: rgba(102,126,234,.1); }
+    .cast-pill:not(.active) { opacity: 0.4; }
+    .cast-swatch { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
 
-        .controls select {
-            padding: 8px 12px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            font-size: 14px;
-        }
+    /* ── CONTROLS ───────────────────────────────────────────── */
+    .controls-row {
+      display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 20px;
+    }
+    .ctrl-label {
+      font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: var(--muted);
+    }
+    .seg-control {
+      display: flex;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+    .seg-control button {
+      padding: 7px 16px;
+      background: transparent; border: none;
+      color: var(--muted);
+      font-family: var(--font-body); font-size: 13px; font-weight: 600;
+      cursor: pointer;
+      transition: color .15s, background .15s;
+    }
+    .seg-control button.active { background: var(--accent); color: #fff; }
+    .seg-control button:not(.active):hover { color: var(--text); }
 
-        .status-text {
-            color: #666;
-            font-size: 14px;
-            margin-left: auto;
-        }
+    /* ── CHART CARDS ────────────────────────────────────────── */
+    .chart-card {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 28px 28px 20px;
+      margin-bottom: 16px;
+    }
+    .chart-card h3 {
+      font-family: var(--font-display);
+      font-size: 1.1rem; letter-spacing: 1px;
+      color: var(--text); margin-bottom: 3px;
+    }
+    .chart-card .chart-sub { font-size: 12px; color: var(--muted); margin-bottom: 20px; }
 
-        /* Stacked Area Chart Section */
-        .chart-section {
-            background: white;
-            border-bottom: 1px solid #eee;
-            padding: 40px;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-        }
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    @media (max-width: 800px) { .two-col { grid-template-columns: 1fr; } }
 
-        .chart-section h2 {
-            color: #333;
-            margin-bottom: 5px;
-            font-size: 22px;
-        }
+    /* ── AXES & GRID ────────────────────────────────────────── */
+    .axis text { fill: var(--muted); font-size: 11px; font-family: var(--font-body); }
+    .axis path, .axis line { stroke: #ccc; }
+    .grid line { stroke: #ddd; stroke-dasharray: 3; opacity: .8; }
+    .grid path { stroke: none; }
 
-        .chart-section .description {
-            color: #666;
-            margin-bottom: 20px;
-            font-size: 14px;
-        }
+    /* ── EPISODE GRID ───────────────────────────────────────── */
+    .ep-grid-wrap { overflow-x: auto; padding-bottom: 4px; }
+    #ep-grid-svg { display: block; }
 
-        #stackedAreaChart {
-            width: 100%;
-            min-height: 500px;
-        }
+    /* ── TOOLTIP ─────────────────────────────────────────────── */
+    #tooltip {
+      position: fixed;
+      background: rgba(0,0,0,0.82);
+      border-radius: var(--radius);
+      padding: 10px 14px;
+      font-size: 13px; color: #fff;
+      pointer-events: none; opacity: 0;
+      transition: opacity .1s; z-index: 9999;
+      max-width: 250px; line-height: 1.75;
+    }
+    #tooltip.vis { opacity: 1; }
+    #tooltip strong { color: #c9d4ff; display: block; margin-bottom: 2px; font-size: 13px; }
+    .tip-row { display: flex; justify-content: space-between; gap: 16px; }
 
-        .legend {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            margin-top: 20px;
-            padding-top: 20px;
-            border-top: 1px solid #eee;
-        }
+    /* ── DATA NOTE ───────────────────────────────────────────── */
+    .data-note {
+      margin-top: 40px; padding: 16px 20px;
+      background: rgba(102,126,234,.08);
+      border-left: 3px solid var(--accent);
+      border-radius: 0 var(--radius) var(--radius) 0;
+      font-size: 12px; color: var(--muted); line-height: 1.8;
+    }
+    .data-note strong { color: var(--accent2); }
 
-        .legend-item {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            font-size: 14px;
-        }
-
-        .legend-color {
-            width: 16px;
-            height: 16px;
-            border-radius: 2px;
-        }
-
-        /* Chord Chart Section */
-        .chord-section {
-            background: white;
-            border-radius: 0 0 12px 12px;
-            padding: 40px;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-        }
-
-        .chord-section h2 {
-            color: #333;
-            margin-bottom: 5px;
-            font-size: 22px;
-        }
-
-        .chord-section .description {
-            color: #666;
-            margin-bottom: 20px;
-            font-size: 14px;
-        }
-
-        .chord-content {
-            display: grid;
-            grid-template-columns: 1fr 300px;
-            gap: 40px;
-            align-items: start;
-        }
-
-        #chordChart {
-            width: 100%;
-            height: auto;
-        }
-
-        .chord-info {
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-        }
-
-        .info-card {
-            padding: 15px;
-            background: #f5f5f5;
-            border-radius: 4px;
-            border-left: 4px solid #667eea;
-        }
-
-        .info-card h3 {
-            font-size: 14px;
-            font-weight: 600;
-            color: #333;
-            margin-bottom: 10px;
-        }
-
-        #speakerList {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            font-size: 13px;
-        }
-
-        #speakerList li {
-            padding: 6px 0;
-            color: #555;
-        }
-
-        .tooltip {
-            position: absolute;
-            padding: 8px 12px;
-            background: rgba(0, 0, 0, 0.8);
-            color: white;
-            border-radius: 4px;
-            font-size: 12px;
-            pointer-events: none;
-            display: none;
-            z-index: 1000;
-            white-space: nowrap;
-        }
-
-        .tooltip.active {
-            display: block;
-        }
-
-        .axis {
-            font-size: 12px;
-        }
-
-        .axis-label {
-            font-size: 14px;
-            font-weight: 500;
-        }
-
-        .grid line {
-            stroke: #eee;
-            stroke-dasharray: 4;
-            opacity: 0.5;
-        }
-
-        .grid path {
-            stroke: none;
-        }
-
-        .area {
-            opacity: 0.8;
-            transition: opacity 0.2s;
-        }
-
-        .area:hover {
-            opacity: 1;
-        }
-
-        .info {
-            margin-top: 15px;
-            padding: 12px;
-            background: #f0f0f0;
-            border-radius: 4px;
-            font-size: 13px;
-            color: #555;
-            line-height: 1.5;
-        }
-
-        @media (max-width: 1200px) {
-            .chord-content {
-                grid-template-columns: 1fr;
-            }
-        }
-
-        /* App-shell styling from original */
-        .app-shell {
-            width: 100%;
-        }
-
-        .hero {
-            background: white;
-            border-radius: 12px 12px 0 0;
-            padding: 40px;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            gap: 40px;
-        }
-
-        .hero div:first-child {
-            flex: 1;
-        }
-
-        .eyebrow {
-            color: #999;
-            font-size: 12px;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            margin-bottom: 10px;
-        }
-
-        .lede {
-            color: #666;
-            font-size: 16px;
-            line-height: 1.6;
-            margin-bottom: 0;
-        }
-
-        .viz-grid {
-            background: white;
-            border-radius: 0 0 12px 12px;
-            padding: 40px;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-            display: grid;
-            grid-template-columns: 1fr 300px;
-            gap: 40px;
-            align-items: start;
-        }
-
-        .viz-panel {
-            width: 100%;
-        }
-
-        .side-panel {
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-        }
-
-        .card {
-            padding: 15px;
-            background: #f5f5f5;
-            border-radius: 4px;
-            border-left: 4px solid #667eea;
-        }
-
-        .card h2 {
-            font-size: 14px;
-            font-weight: 600;
-            color: #333;
-            margin-bottom: 10px;
-        }
-
-        .card p {
-            font-size: 13px;
-            color: #555;
-            line-height: 1.5;
-        }
-
-        .card code {
-            background: #eee;
-            padding: 2px 6px;
-            border-radius: 2px;
-            font-family: "Courier New", monospace;
-            font-size: 12px;
-        }
-
-        .speaker-list {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            counter-reset: speaker-counter;
-        }
-
-        .speaker-list li {
-            padding: 6px 0;
-            color: #555;
-            font-size: 13px;
-            counter-increment: speaker-counter;
-        }
-
-        .speaker-list li::before {
-            content: counter(speaker-counter) ". ";
-            font-weight: 600;
-            color: #667eea;
-        }
-
-        .small-note {
-            font-size: 12px !important;
-            background: #fff8f0 !important;
-            border-left-color: #ff9800 !important;
-        }
-
-        .small-note p {
-            font-size: 12px;
-        }
-
-        .hint {
-            font-size: 13px;
-            color: #999;
-        }
-    </style>
+    @media (max-width: 700px) {
+      .page { padding: 0 16px 60px; }
+      .hero-title { font-size: 4rem; }
+      .hero-meta { gap: 20px; }
+      .card-wrap { padding: 24px 20px 36px; }
+    }
+  </style>
 </head>
 <body>
-    <div class="main-container">
-        <!-- Header Section -->
-        <div class="header">
-            <h1>Community: Character Analysis</h1>
-            <p class="subtitle">Comprehensive analysis of speaking patterns and character interactions</p>
-            <div class="controls">
-                <label for="datasetSelect">Dataset</label>
-                <select id="datasetSelect"></select>
-                <p class="hint status-text" id="statusText">Loading scripts…</p>
-            </div>
-        </div>
+<div class="page">
+<div class="card-wrap">
 
-        <!-- Stacked Area Chart Section -->
-        <div class="chart-section">
-            <h2>Speech Share (Percent Stacked Area Chart)</h2>
-            <p class="description">Percentage of lines spoken by each character across all episodes, by season, or breakdown for a selected episode. Hover over the chart for detailed information.</p>
-            <svg id="stackedAreaChart"></svg>
-            <div class="legend" id="legend"></div>
-        </div>
+  <!-- ═══════════════════════ HERO -->
+  <div class="hero">
+    <div class="hero-bg">GCC</div>
+    <p class="hero-eyebrow">Character Analysis · Greendale Community College</p>
+    <h1 class="hero-title">COMMU<em>NITY</em></h1>
+    <p class="hero-tagline">
+      Six seasons of paintball wars, darkest timelines, and a study group that
+      somehow survived it all — explored through 39 episode transcripts.
+    </p>
 
-        <!-- Chord Diagram Section -->
-        <div class="chord-section">
-            <h2>Character Interaction Network (Chord Diagram)</h2>
-            <p class="description">Shows speaking volume and dialogue flow between characters. Node size represents total lines spoken, links show who follows whom.</p>
-            <div class="chord-content">
-                <div class="viz-panel">
-                    <svg id="chordChart" viewBox="0 0 1200 900" preserveAspectRatio="xMidYMid meet"></svg>
-                </div>
-                <aside class="chord-info">
-                    <div class="info-card">
-                        <h3>What it shows</h3>
-                        <p>
-                            Character size is based on total lines spoken. Each curved link represents a dialogue exchange where one character speaks immediately after another character.
-                        </p>
-                    </div>
-                    <div class="info-card">
-                        <h3>Top speakers</h3>
-                        <ol id="speakerList" class="speaker-list"></ol>
-                    </div>
-                    <div class="info-card small-note">
-                        <p>
-                            <strong>Tip:</strong> Hover over a character or link for exact counts. The "All episodes" view aggregates all episodes in <code>scripts_csv</code>.
-                        </p>
-                    </div>
-                </aside>
-            </div>
-        </div>
+    <div class="hero-meta">
+      <div class="meta-item">
+        <span class="meta-label">Network</span>
+        <span class="meta-value">NBC</span>
+        <span class="meta-sub">Yahoo! Screen (S6)</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">Ran</span>
+        <span class="meta-value">2009–2015</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">Seasons</span>
+        <span class="meta-value">6</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">Total Episodes</span>
+        <span class="meta-value">110</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">Scripts Analyzed</span>
+        <span class="meta-value" id="scripts-count">—</span>
+        <span class="meta-sub">publicly available</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">Genre</span>
+        <span class="meta-value">Sitcom</span>
+        <span class="meta-sub">Meta / Genre-parody</span>
+      </div>
     </div>
 
-    <!-- Tooltips -->
-    <div class="tooltip" id="tooltip"></div>
+    <p class="cast-row-label">Main cast — click to highlight or filter</p>
+    <div class="cast-grid" id="cast-grid"></div>
+  </div>
 
-    <!-- Scripts -->
-    <script defer src="main.js"></script>
+  <!-- ═══════════════════════ SECTION 1: CHARACTER IMPORTANCE -->
+  <section>
+    <h2 class="section-title">Character Importance</h2>
+    <p class="section-desc">
+      Who speaks the most? Select a season to narrow the view, or see the full series at once.
+      Click cast members above to highlight or hide them across all charts.
+    </p>
+
+    <div class="controls-row">
+      <span class="ctrl-label">Season</span>
+      <div class="seg-control" id="bar-seg"></div>
+    </div>
+
+    <div class="two-col">
+      <div class="chart-card">
+        <h3>Lines of Dialogue</h3>
+        <p class="chart-sub">Total dialogue lines · hover for details</p>
+        <svg id="bar-lines" style="width:100%;overflow:visible;"></svg>
+      </div>
+      <div class="chart-card">
+        <h3>Episodes Appeared In</h3>
+        <p class="chart-sub">Episodes with at least one spoken line</p>
+        <svg id="bar-eps" style="width:100%;overflow:visible;"></svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ SECTION 2: EPISODE PRESENCE GRID -->
+  <section>
+    <h2 class="section-title">Episode Presence</h2>
+    <p class="section-desc">
+      Each cell represents one character in one episode. Color intensity shows how many lines
+      they spoke — darker means more. Light grey cells have a script but zero lines;
+      dark cells have no available transcript. Hover any cell for exact counts.
+    </p>
+
+    <div class="controls-row">
+      <span class="ctrl-label">Season</span>
+      <div class="seg-control" id="grid-seg"></div>
+    </div>
+
+    <div class="chart-card" style="padding:20px 20px 16px;">
+      <div class="ep-grid-wrap">
+        <svg id="ep-grid-svg"></svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ SECTION 3: SPEECH SHARE AREA -->
+  <section>
+    <h2 class="section-title">Speech Share Over Time</h2>
+    <p class="section-desc">
+      Percentage of lines spoken by each character, episode by episode across all available scripts.
+      Each colored layer is one character — hover to see the breakdown at any episode.
+      Toggle characters with the cast bar to focus on specific arcs.
+    </p>
+
+    <div class="controls-row">
+      <span class="ctrl-label">Season</span>
+      <div class="seg-control" id="area-seg"></div>
+    </div>
+
+    <div class="chart-card">
+      <svg id="area-svg" style="width:100%;overflow:visible;"></svg>
+    </div>
+  </section>
+
+  <div class="data-note">
+    <strong>Data note:</strong>
+    This analysis covers 39 of 110 total Community episodes — all scripts publicly available
+    online (Seasons 1–4 and 6; Season 5 transcripts do not exist online). The 10 recurring
+    cast members shown account for the majority of on-screen dialogue. Minor characters,
+    scene directions, ensemble lines, and one-off guests are excluded. Episode presence grid
+    shows all 110 episode slots; grey cells indicate no transcript was available.
+  </div>
+
+</div><!-- /card-wrap -->
+</div><!-- /page -->
+<div id="tooltip"></div>
+
+<script>
+// ════════════════════════════════════════════════════════════
+// CONFIG
+// ════════════════════════════════════════════════════════════
+const CHARS = ["Jeff","Annie","Abed","Britta","Troy","Pierce","Shirley","Chang","Pelton","Duncan"];
+
+const COLOR = {
+  Jeff:"#1a6fba",Annie:"#c2197a",Abed:"#d4660a",Britta:"#c0392b",
+  Troy:"#6c3db5",Pierce:"#7a5230",Shirley:"#297a29",
+  Chang:"#555555",Pelton:"#8a7a00",Duncan:"#0e8fa8"
+};
+
+const SEASON_MAX = {1:25, 2:24, 3:22, 4:13, 5:13, 6:13};
+const SEASONS = [1,2,3,4,6]; // no S5 scripts exist
+
+// ════════════════════════════════════════════════════════════
+// STATE
+// ════════════════════════════════════════════════════════════
+let DATA = null;
+let activeChars = new Set(CHARS);
+let barSeason  = "all";
+let gridSeason = "all";
+let areaSeason = "all";
+
+// ════════════════════════════════════════════════════════════
+// TOOLTIP
+// ════════════════════════════════════════════════════════════
+const tipEl = document.getElementById("tooltip");
+function showTip(html, evt) {
+  tipEl.innerHTML = html;
+  tipEl.classList.add("vis");
+  moveTip(evt);
+}
+function moveTip(evt) {
+  const x = evt.clientX + 18, y = evt.clientY - 12;
+  tipEl.style.left = Math.min(x, window.innerWidth - 270) + "px";
+  tipEl.style.top  = Math.max(y, 8) + "px";
+}
+function hideTip() { tipEl.classList.remove("vis"); }
+
+// ════════════════════════════════════════════════════════════
+// LOAD
+// ════════════════════════════════════════════════════════════
+async function init() {
+  const res = await fetch("all_scripts/community_data.json");
+  DATA = await res.json();
+  document.getElementById("scripts-count").textContent = DATA.episodes.length;
+
+  buildCastPills();
+  buildSeg("bar-seg",  "all", v => { barSeason  = v; renderBars(); });
+  buildSeg("grid-seg", "all", v => { gridSeason = v; renderGrid(); });
+  buildSeg("area-seg", "all", v => { areaSeason = v; renderArea(); });
+
+  renderBars();
+  renderGrid();
+  renderArea();
+
+  window.addEventListener("resize", debounce(() => {
+    renderBars(); renderGrid(); renderArea();
+  }, 120));
+}
+
+function debounce(fn, ms) {
+  let t; return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), ms); };
+}
+
+// ════════════════════════════════════════════════════════════
+// CAST PILLS
+// ════════════════════════════════════════════════════════════
+function buildCastPills() {
+  const container = document.getElementById("cast-grid");
+  CHARS.forEach(c => {
+    const pill = document.createElement("div");
+    pill.className = "cast-pill active";
+    pill.dataset.char = c;
+    pill.innerHTML = `<span class="cast-swatch" style="background:${COLOR[c]}"></span>${c}`;
+    pill.addEventListener("click", () => {
+      if (activeChars.has(c)) {
+        if (activeChars.size === 1) return;
+        activeChars.delete(c);
+        pill.classList.remove("active");
+      } else {
+        activeChars.add(c);
+        pill.classList.add("active");
+      }
+      renderBars();
+      renderArea();
+      renderGrid();
+    });
+    container.appendChild(pill);
+  });
+}
+
+// ════════════════════════════════════════════════════════════
+// SEGMENTED CONTROLS
+// ════════════════════════════════════════════════════════════
+function buildSeg(id, defaultVal, onChange) {
+  const el = document.getElementById(id);
+  const opts = [
+    {val:"all", label:"All"},
+    {val:"1",   label:"S1"},
+    {val:"2",   label:"S2"},
+    {val:"3",   label:"S3"},
+    {val:"4",   label:"S4"},
+    {val:"6",   label:"S6"},
+  ];
+  opts.forEach(o => {
+    const btn = document.createElement("button");
+    btn.textContent = o.label;
+    btn.dataset.val = o.val;
+    if (o.val === defaultVal) btn.classList.add("active");
+    btn.addEventListener("click", () => {
+      el.querySelectorAll("button").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      onChange(o.val);
+    });
+    el.appendChild(btn);
+  });
+}
+
+// ════════════════════════════════════════════════════════════
+// GET CHAR STATS (filtered by season & active chars)
+// ════════════════════════════════════════════════════════════
+function getStats(season) {
+  return CHARS.filter(c => activeChars.has(c)).map(c => {
+    const cs = DATA.character_summary[c];
+    if (season === "all") {
+      return { name:c, lines:cs.total_lines, words:cs.total_words, episodes:cs.episodes_appeared };
+    }
+    const s = parseInt(season);
+    const sd = cs.by_season[s] || {lines:0, words:0, episodes:0};
+    return { name:c, lines:sd.lines, words:sd.words, episodes:sd.episodes };
+  }).filter(d => d.lines > 0 || d.episodes > 0);
+}
+
+// ════════════════════════════════════════════════════════════
+// BAR CHARTS
+// ════════════════════════════════════════════════════════════
+function renderBars() {
+  const stats = getStats(barSeason);
+  drawBar("bar-lines",
+    [...stats].sort((a,b) => b.lines - a.lines),
+    d => d.lines,
+    d => `${d.lines.toLocaleString()} lines · ${d.words.toLocaleString()} words`
+  );
+  drawBar("bar-eps",
+    [...stats].sort((a,b) => b.episodes - a.episodes),
+    d => d.episodes,
+    d => `${d.episodes} episode${d.episodes !== 1 ? "s" : ""}`
+  );
+}
+
+function drawBar(svgId, data, valFn, tipFn) {
+  const svgEl = document.getElementById(svgId);
+  const svg = d3.select(svgEl);
+  svg.selectAll("*").remove();
+  if (!data.length) return;
+
+  const labelW = 82, rightPad = 80, barH = 26, rowH = 40;
+  const W = svgEl.parentElement.clientWidth - 56;
+  const iW = W - labelW - rightPad;
+  const H = data.length * rowH + 8;
+
+  svg.attr("viewBox", `0 0 ${W} ${H}`).attr("height", H);
+
+  const maxVal = d3.max(data, valFn) || 1;
+  const xScale = d3.scaleLinear().domain([0, maxVal]).range([0, iW]);
+
+  const g = svg.append("g").attr("transform", `translate(${labelW},4)`);
+
+  // subtle grid
+  g.append("g").attr("class","grid")
+    .call(d3.axisBottom(xScale).ticks(4).tickSize(H - 8).tickFormat(""))
+    .attr("transform","translate(0,0)")
+    .select(".domain").remove();
+
+  data.forEach((d, i) => {
+    const row = g.append("g").attr("transform", `translate(0,${i * rowH})`);
+    const isActive = activeChars.has(d.name);
+    const val = valFn(d);
+    const bw = Math.max(xScale(val), val > 0 ? 4 : 0);
+
+    // name
+    row.append("text")
+      .attr("x", -10).attr("y", barH / 2 + 5)
+      .attr("text-anchor","end")
+      .attr("fill", isActive ? COLOR[d.name] : "#444")
+      .attr("font-size", 13).attr("font-weight", 600)
+      .attr("font-family","var(--font-body)")
+      .text(d.name);
+
+    // bar
+    row.append("rect")
+      .attr("x",0).attr("y",3)
+      .attr("width", bw).attr("height", barH)
+      .attr("rx", 3)
+      .attr("fill", COLOR[d.name])
+      .attr("opacity", isActive ? 0.82 : 0.12)
+      .on("mouseover", function(evt) {
+        d3.select(this).attr("opacity", isActive ? 1 : 0.25);
+        showTip(`<strong>${d.name}</strong>${tipFn(d)}`, evt);
+      })
+      .on("mousemove", moveTip)
+      .on("mouseout", function() {
+        d3.select(this).attr("opacity", isActive ? 0.82 : 0.12);
+        hideTip();
+      });
+
+    // value label
+    row.append("text")
+      .attr("x", bw + 8).attr("y", barH / 2 + 5)
+      .attr("fill", isActive ? "#999" : "#3a3a3a")
+      .attr("font-size", 12).attr("font-family","var(--font-body)")
+      .text(val > 0 ? val.toLocaleString() : "—");
+  });
+}
+
+// ════════════════════════════════════════════════════════════
+// EPISODE PRESENCE GRID
+// ════════════════════════════════════════════════════════════
+function renderGrid() {
+  const svgEl = document.getElementById("ep-grid-svg");
+  const svg = d3.select(svgEl);
+  svg.selectAll("*").remove();
+
+  const seasonFilter = gridSeason === "all" ? null : parseInt(gridSeason);
+  const seasons = seasonFilter ? [seasonFilter] : SEASONS;
+
+  const labelW = 82;
+  const cellW = 28, cellH = 22, cellGap = 2, rowGap = 6;
+  const seasonGapPx = 22;
+  const headerH = 30;
+
+  // Build episode slots per season
+  const slotsBySeason = {};
+  seasons.forEach(s => {
+    const scriptMap = {};
+    DATA.episodes.filter(e => e.season === s).forEach(e => { scriptMap[e.episode] = e; });
+    const total = SEASON_MAX[s] || 13;
+    const slots = [];
+    for (let ep = 1; ep <= total; ep++) {
+      slots.push(scriptMap[ep] || { code:`${s}x${ep}`, season:s, episode:ep, title:null, has_script:false, characters:{} });
+    }
+    slotsBySeason[s] = slots;
+  });
+
+  // Compute SVG size
+  const totalSeasonWidths = seasons.map(s => slotsBySeason[s].length * (cellW + cellGap));
+  const totalW = labelW + totalSeasonWidths.reduce((a,b)=>a+b,0) + (seasons.length - 1) * seasonGapPx + 8;
+  const chars = CHARS; // always render all rows; active state controls opacity
+  const totalH = headerH + chars.length * (cellH + rowGap) + 4;
+
+  svg.attr("width", totalW).attr("height", totalH);
+  svgEl.style.minWidth = totalW + "px";
+
+  // Max lines for color scale
+  const maxLines = d3.max(DATA.episodes, ep =>
+    d3.max(chars, c => (ep.characters[c] || {lines:0}).lines)
+  ) || 1;
+  const opScale = d3.scaleSqrt().domain([0, maxLines]).range([0, 1]).clamp(true);
+
+  let xCursor = labelW;
+
+  seasons.forEach((s, si) => {
+    const slots = slotsBySeason[s];
+    const sW = slots.length * (cellW + cellGap);
+
+    // Season header
+    svg.append("text")
+      .attr("x", xCursor + sW / 2)
+      .attr("y", 14)
+      .attr("text-anchor","middle")
+      .attr("fill","var(--accent)")
+      .attr("font-family","var(--font-display)")
+      .attr("font-size", 14).attr("letter-spacing",1)
+      .text(`SEASON ${s}`);
+
+    slots.forEach((ep, ei) => {
+      const cx = xCursor + ei * (cellW + cellGap);
+
+      // Ep number label on multiples of 5 and ep 1
+      if (ep.episode === 1 || ep.episode % 5 === 0) {
+        svg.append("text")
+          .attr("x", cx + cellW / 2).attr("y", 26)
+          .attr("text-anchor","middle")
+          .attr("fill","var(--muted)").attr("font-size", 9)
+          .text(ep.episode);
+      }
+
+      chars.forEach((c, ci) => {
+        const isActive = activeChars.has(c);
+
+        // Character label on first season column only
+        if (si === 0 && ei === 0) {
+          svg.append("text")
+            .attr("x", labelW - 8)
+            .attr("y", headerH + ci * (cellH + rowGap) + cellH / 2 + 4)
+            .attr("text-anchor","end")
+            .attr("fill", COLOR[c])
+            .attr("opacity", isActive ? 1 : 0.2)
+            .attr("font-size", 12).attr("font-weight", 600)
+            .attr("font-family","var(--font-body)")
+            .text(c);
+        }
+
+        const ry = headerH + ci * (cellH + rowGap);
+        const lines = ep.has_script ? ((ep.characters[c] || {}).lines || 0) : null;
+
+        let fillColor, baseOpacity, stroke;
+        if (lines === null) {
+          fillColor = "#e8e8e8"; baseOpacity = isActive ? 1 : 0.25; stroke = "#d8d8d8";
+        } else if (lines === 0) {
+          fillColor = "#f0f0f0"; baseOpacity = isActive ? 1 : 0.25; stroke = "#e0e0e0";
+        } else {
+          fillColor = COLOR[c];
+          baseOpacity = isActive ? (0.12 + opScale(lines) * 0.82) : 0.08;
+          stroke = "none";
+        }
+
+        const cell = svg.append("rect")
+          .attr("x", cx).attr("y", ry)
+          .attr("width", cellW).attr("height", cellH)
+          .attr("rx", 2)
+          .attr("fill", fillColor)
+          .attr("opacity", baseOpacity)
+          .attr("stroke", stroke).attr("stroke-width", 0.5);
+
+        if (ep.has_script && isActive) {
+          const words = ((ep.characters[c] || {}).words || 0);
+          const pct   = ((ep.characters[c] || {}).pct_lines || 0);
+          cell.style("cursor","pointer")
+            .on("mouseover", function(evt) {
+              d3.select(this).attr("stroke","#333").attr("stroke-width", 1.5);
+              let tipHtml = `<strong>${ep.title || ep.code}</strong>`;
+              tipHtml += `<span style="color:${COLOR[c]}">${c}</span>: `;
+              if (lines > 0) {
+                tipHtml += `${lines} lines · ${words} words<br/>${pct.toFixed(1)}% of episode`;
+              } else {
+                tipHtml += `no lines in this episode`;
+              }
+              showTip(tipHtml, evt);
+            })
+            .on("mousemove", moveTip)
+            .on("mouseout", function() {
+              d3.select(this).attr("stroke","none");
+              hideTip();
+            });
+        }
+      });
+    });
+
+    xCursor += sW + seasonGapPx;
+  });
+}
+
+// ════════════════════════════════════════════════════════════
+// STACKED AREA CHART
+// ════════════════════════════════════════════════════════════
+function renderArea() {
+  const svg = d3.select("#area-svg");
+  svg.selectAll("*").remove();
+
+  const seasonFilter = areaSeason === "all" ? null : parseInt(areaSeason);
+  const eps = seasonFilter
+    ? DATA.episodes.filter(e => e.season === seasonFilter)
+    : DATA.episodes;
+
+  if (!eps.length) return;
+
+  const chars = CHARS.filter(c => activeChars.has(c));
+  if (!chars.length) return;
+
+  // Compute per-episode percentages among active chars only
+  const rows = eps.map((ep, i) => {
+    const total = chars.reduce((s, c) => s + ((ep.characters[c] || {}).lines || 0), 0);
+    const obj = { _ep: ep.code, _title: ep.title, _idx: i };
+    chars.forEach(c => {
+      obj[c] = total > 0 ? ((ep.characters[c] || {}).lines || 0) / total * 100 : 0;
+    });
+    return obj;
+  });
+
+  const margin = {top:12, right:20, bottom:52, left:44};
+  const svgEl = document.getElementById("area-svg");
+  const W = svgEl.parentElement.clientWidth - 56;
+  const H = 320;
+  const iW = W - margin.left - margin.right;
+  const iH = H - margin.top - margin.bottom;
+
+  svg.attr("viewBox",`0 0 ${W} ${H}`).attr("height", H);
+
+  const xSc = d3.scaleLinear().domain([0, rows.length - 1]).range([0, iW]);
+  const ySc = d3.scaleLinear().domain([0, 100]).range([iH, 0]);
+
+  const stack = d3.stack().keys(chars).offset(d3.stackOffsetNone);
+  let series;
+  try { series = stack(rows); } catch(e) { return; }
+
+  const areaGen = d3.area()
+    .x((d,i) => xSc(d.data._idx))
+    .y0(d => ySc(d[0]))
+    .y1(d => ySc(d[1]))
+    .curve(d3.curveCatmullRom.alpha(0.5));
+
+  const g = svg.append("g").attr("transform",`translate(${margin.left},${margin.top})`);
+
+  // Grid
+  g.append("g").attr("class","grid")
+    .call(d3.axisLeft(ySc).ticks(5).tickSize(-iW).tickFormat(""))
+    .select(".domain").remove();
+
+  // Areas
+  g.selectAll(".ap")
+    .data(series)
+    .join("path")
+    .attr("class","ap")
+    .attr("fill", d => COLOR[d.key])
+    .attr("opacity", 0.75)
+    .attr("d", areaGen)
+    .on("mouseover", function(evt, d) {
+      g.selectAll(".ap").attr("opacity", 0.18);
+      d3.select(this).attr("opacity", 1);
+      showTip(`<strong style="color:${COLOR[d.key]}">${d.key}</strong>Click to focus`, evt);
+    })
+    .on("mousemove", moveTip)
+    .on("mouseout", function() {
+      g.selectAll(".ap").attr("opacity", 0.75);
+      hideTip();
+    });
+
+  // Hover overlay for episode tooltip
+  g.append("rect")
+    .attr("width", iW).attr("height", iH)
+    .attr("fill","none").attr("pointer-events","all")
+    .on("mousemove", function(evt) {
+      const [mx] = d3.pointer(evt);
+      const idx = Math.round(xSc.invert(mx));
+      if (idx < 0 || idx >= rows.length) { hideTip(); return; }
+      const row = rows[idx];
+      const ep = eps[idx];
+      const sorted = chars.map(c => ({name:c, pct:row[c]})).sort((a,b) => b.pct - a.pct);
+      let html = `<strong>${ep.title || ep.code}</strong>`;
+      sorted.filter(x => x.pct > 0.5).slice(0, 6).forEach(x => {
+        html += `<div class="tip-row"><span style="color:${COLOR[x.name]}">${x.name}</span><span>${x.pct.toFixed(1)}%</span></div>`;
+      });
+      showTip(html, evt);
+    })
+    .on("mouseleave", hideTip);
+
+  // X axis
+  const tickEvery = Math.max(1, Math.floor(rows.length / 14));
+  g.append("g").attr("class","axis")
+    .attr("transform",`translate(0,${iH})`)
+    .call(
+      d3.axisBottom(xSc)
+        .tickValues(d3.range(0, rows.length, tickEvery))
+        .tickFormat(i => rows[i] ? rows[i]._ep : "")
+    )
+    .selectAll("text")
+    .attr("transform","rotate(-40)")
+    .attr("text-anchor","end")
+    .attr("dy","0.4em").attr("dx","-0.4em");
+
+  // Y axis
+  g.append("g").attr("class","axis")
+    .call(d3.axisLeft(ySc).ticks(5).tickFormat(d => d + "%"));
+
+  // Inline legend
+  const legG = svg.append("g").attr("transform",`translate(${margin.left},${H - 12})`);
+  const legStep = Math.min(iW / chars.length, 90);
+  chars.forEach((c, i) => {
+    const lx = i * legStep;
+    legG.append("rect").attr("x",lx).attr("y",0).attr("width",9).attr("height",9).attr("rx",2).attr("fill",COLOR[c]);
+    if (legStep > 50) {
+      legG.append("text").attr("x",lx + 13).attr("y",8)
+        .attr("fill","#666").attr("font-size",11).attr("font-family","var(--font-body)")
+        .text(c);
+    }
+  });
+}
+
+// ════════════════════════════════════════════════════════════
+// START
+// ════════════════════════════════════════════════════════════
+init().catch(e => console.error(e));
+</script>
 </body>
 </html>

@@ -381,11 +381,11 @@ function renderStackedAreaChart(dataset) {
   
   characters.forEach(character => {
     const item = legend.append("div")
-      .attr("class", "legend-item");
+      .attr("class", "legend-item")
+      .style("background-color", colorScale(character));
 
     item.append("div")
       .attr("class", "legend-color")
-      .style("background-color", colorScale(character));
 
     item.append("span")
       .text(character);
@@ -711,10 +711,18 @@ function renderCastSwatches() {
   if (!container) return;
   ALLOWED_CHARACTERS.forEach(c => {
     const pill = document.createElement("div");
-    pill.style.cssText = "display:flex;align-items:center;gap:6px;padding:5px 12px 5px 8px;background:#f5f5f5;border:1px solid #e0e0e0;border-radius:100px;font-size:13px;font-weight:600;color:#333;";
-    const swatch = document.createElement("span");
-    swatch.style.cssText = `width:10px;height:10px;border-radius:50%;background:${colorScale(c)};flex-shrink:0;`;
-    pill.appendChild(swatch);
+    pill.style.cssText = `
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:1px 14px;
+    background:${colorScale(c)};
+    border:1px solid ${colorScale(c)};
+    font-size:18px;
+    font-weight:700;
+    color:white;
+    min-width:82px;
+  `;
     pill.appendChild(document.createTextNode(c));
     container.appendChild(pill);
   });
@@ -785,13 +793,13 @@ function renderLinesBarChart(dataset) {
       .attr("x", -8).attr("y", barH / 2 + 5)
       .attr("text-anchor", "end")
       .attr("fill", colorScale(d.name))
-      .attr("font-size", 13).attr("font-weight", 600)
+      .attr("font-size", 25).attr("font-weight", 600)
       .attr("font-family", "inherit")
       .text(d.name);
 
     row.append("rect")
-      .attr("x", 0).attr("y", 2)
-      .attr("width", bw).attr("height", barH).attr("rx", 3)
+      .attr("x", 4).attr("y", 2)
+      .attr("width", bw).attr("height", barH + 7).attr("rx", 1)
       .attr("fill", colorScale(d.name)).attr("opacity", 0.8)
       .on("mouseover", function(evt) {
         d3.select(this).attr("opacity", 1);
@@ -809,8 +817,8 @@ function renderLinesBarChart(dataset) {
       });
 
     row.append("text")
-      .attr("x", bw + 6).attr("y", barH / 2 + 5)
-      .attr("fill", "#999").attr("font-size", 12).attr("font-family","inherit")
+      .attr("x", bw + 6).attr("y", barH / 2 + 10)
+      .attr("fill", "#999").attr("font-size", 18).attr("font-family","inherit")
       .text(d.lines.toLocaleString());
   });
 }

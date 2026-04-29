@@ -512,18 +512,6 @@
                     </div>
                 </div>
 
-                <!-- CENTERED TEXT BLOCK -->
-                <p class="lede" style="
-                    color:#555;
-                    font-size:15px;
-                    line-height:1.6;
-                    max-width:700px;
-                    text-align:center;
-                    margin: 0 auto;
-                ">
-                    A group of misfits at Greendale Community College form an unlikely study group — and an even
-                    unlikelier family. Six seasons of paintball, darkest timelines, and meta-comedy like no other.
-                </p>
 
             </div>
             <div style="margin-top: 24px; padding-top: 20px; border-top: 1px solid #eee;">
@@ -554,34 +542,32 @@
         <!-- Stacked Area Chart Section -->
         <div class="chart-section">
             <h2>Speech Share (Percent Stacked Area Chart)</h2>
-            <p class="description">Percentage of lines spoken by each character across all episodes, by season, or
-                breakdown for a selected episode. Hover over the chart for detailed information.</p>
+            <p class="description">Hover over the chart for detailed information.</p>
             <svg id="stackedAreaChart"></svg>
             <div class="legend" id="legend"></div>
         </div>
 
-        <!-- Lines Spoken Bar Chart Section -->
+        <!--Lines Spoken Bar Chart Section
         <div class="chart-section" style="border-radius: 0; border-top: 1px solid #eee;">
             <h2>Lines Spoken per Character</h2>
             <p class="description">Total dialogue lines per character for the selected dataset. Shows overall importance
                 and how much each character contributes to the conversation.</p>
             <svg id="linesBarChart" style="width:100%; overflow:visible;"></svg>
-        </div>
+        </div>-->
 
         <!-- Episode Distinctive Words Section -->
         <div class="chart-section" id="episodeWordsSection"
             style="border-radius: 0; border-top: 1px solid #eee; display: none;">
-            <h2 id="episodeWordsTitle">Distinctive Words</h2>
-            <p class="description">The words most unique to this episode compared to all others, ranked by TF-IDF score.
-                A higher score means the word appears far more in this episode than across the rest of the series.</p>
+            <h2 id="episodeWordsTitle">Important Words</h2>
+            <p class="description">The words most important to this episode compared to all others, ranked by TF-IDF score.</p>
             <svg id="episodeWordsChart" style="width:100%; overflow:visible;"></svg>
         </div>
 
         <!-- Chord Diagram Section -->
         <div class="chord-section">
             <h2>Character Interaction Network (Chord Diagram)</h2>
-            <p class="description">Shows speaking volume and dialogue flow between characters. Node size represents
-                total lines spoken, links show who follows whom.</p>
+            <!--<p class="description">Shows speaking volume and dialogue flow between characters. Node size represents
+                total lines spoken, links show who follows whom.</p>-->
             <div class="chord-content">
                 <div class="viz-panel">
                     <div class="tv-chart-wrapper">
@@ -592,11 +578,11 @@
                 </div>
                 <aside class="chord-info">
                     <div class="info-card">
-                        <h3>What it shows</h3>
+                        <!--<h3>What it shows</h3>
                         <p>
                             Character size is based on total lines spoken. Each curved link represents a dialogue
                             exchange where one character speaks immediately after another character.
-                        </p>
+                        </p>-->
                     </div>
                     <div class="info-card">
                         <h3>Top speakers</h3>

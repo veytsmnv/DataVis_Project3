@@ -1,2420 +1,2420 @@
 {
   "1x1": [
     {
-      "word": "duncan",
-      "tfidf_score": 0.6369265968285623
-    },
-    {
-      "word": "pierce",
-      "tfidf_score": 0.18944283305271173
-    },
-    {
       "word": "featuring",
-      "tfidf_score": 0.18245323104740482
+      "tfidf_score": 0.23324281736896965
     },
     {
       "word": "setting",
-      "tfidf_score": 0.174738131060744
+      "tfidf_score": 0.22338006159949508
     },
     {
       "word": "study",
-      "tfidf_score": 0.17152873338547459
+      "tfidf_score": 0.21927726247919466
     },
     {
       "word": "group",
-      "tfidf_score": 0.13136283817216743
+      "tfidf_score": 0.16793036931694377
     },
     {
       "word": "spanish",
-      "tfidf_score": 0.12814129611121228
+      "tfidf_score": 0.16381204517296308
     },
     {
       "word": "untutorable",
-      "tfidf_score": 0.09753012887203806
+      "tfidf_score": 0.12467963382113212
     },
     {
       "word": "forgive",
-      "tfidf_score": 0.09331579078581066
+      "tfidf_score": 0.11929214858486553
     },
     {
       "word": "answers",
-      "tfidf_score": 0.08916972355599874
+      "tfidf_score": 0.11399193879339718
     },
     {
       "word": "uh",
-      "tfidf_score": 0.08171925786656924
+      "tfidf_score": 0.1044674836870808
     },
     {
       "word": "tutor",
-      "tfidf_score": 0.07802410309763044
+      "tfidf_score": 0.09974370705690569
     },
     {
       "word": "cool",
-      "tfidf_score": 0.07377611772874482
+      "tfidf_score": 0.0943132081290812
     },
     {
       "word": "test",
-      "tfidf_score": 0.07257894838896385
+      "tfidf_score": 0.0927827822326732
     },
     {
       "word": "say",
-      "tfidf_score": 0.07184959794607147
+      "tfidf_score": 0.09185040218561705
+    },
+    {
+      "word": "dinner",
+      "tfidf_score": 0.08578324550129186
+    },
+    {
+      "word": "deal",
+      "tfidf_score": 0.08453057653524246
     }
   ],
   "1x12": [
     {
       "word": "mike",
-      "tfidf_score": 0.6419863850553252
+      "tfidf_score": 0.6343798099994976
     },
     {
       "word": "christmas",
-      "tfidf_score": 0.22883165053609683
+      "tfidf_score": 0.2261203389483881
     },
     {
       "word": "fight",
-      "tfidf_score": 0.2114362413722619
+      "tfidf_score": 0.20893103927302797
     },
     {
-      "word": "pierce",
-      "tfidf_score": 0.1927535198208214
+      "word": "up",
+      "tfidf_score": 0.14381229846665283
     },
     {
       "word": "youre",
-      "tfidf_score": 0.10915251734506304
+      "tfidf_score": 0.10785922384998961
     },
     {
       "word": "party",
-      "tfidf_score": 0.10283167435350622
+      "tfidf_score": 0.10161327336044006
     },
     {
       "word": "dude",
-      "tfidf_score": 0.09948125725986474
-    },
-    {
-      "word": "chang",
-      "tfidf_score": 0.09327138997095376
+      "tfidf_score": 0.09830255368045776
     },
     {
       "word": "whats",
-      "tfidf_score": 0.08926256032704938
-    },
-    {
-      "word": "spanish",
-      "tfidf_score": 0.0825871771569723
+      "tfidf_score": 0.08820493296826273
     },
     {
       "word": "jesus",
-      "tfidf_score": 0.0825871771569723
+      "tfidf_score": 0.08160864306915155
     },
     {
-      "word": "punched",
-      "tfidf_score": 0.07619936712894958
+      "word": "spanish",
+      "tfidf_score": 0.08160864306915155
     },
     {
       "word": "religion",
-      "tfidf_score": 0.07619936712894958
+      "tfidf_score": 0.07529651900200218
+    },
+    {
+      "word": "punched",
+      "tfidf_score": 0.07529651900200218
     },
     {
       "word": "merry",
-      "tfidf_score": 0.07105085561137525
+      "tfidf_score": 0.07020900961811151
     },
     {
-      "word": "agnostic",
-      "tfidf_score": 0.06914407847675748
+      "word": "moneymaker",
+      "tfidf_score": 0.0683248249305095
+    },
+    {
+      "word": "buddhist",
+      "tfidf_score": 0.0683248249305095
     }
   ],
   "1x2": [
     {
-      "word": "pierce",
-      "tfidf_score": 0.39860126829969295
-    },
-    {
       "word": "protest",
-      "tfidf_score": 0.2950187801753387
+      "tfidf_score": 0.30684601234399894
     },
     {
       "word": "guatemala",
-      "tfidf_score": 0.24625243894031007
+      "tfidf_score": 0.2561246401802274
     },
     {
       "word": "featuring",
-      "tfidf_score": 0.20474381111234535
+      "tfidf_score": 0.21295194141402587
     },
     {
       "word": "setting",
-      "tfidf_score": 0.19608614599283142
+      "tfidf_score": 0.20394719257548177
     },
     {
       "word": "spanish",
-      "tfidf_score": 0.16340512166069285
+      "tfidf_score": 0.1699559938129015
     },
     {
       "word": "la",
-      "tfidf_score": 0.12652165498870835
+      "tfidf_score": 0.1315938778045753
     },
     {
       "word": "shirt",
-      "tfidf_score": 0.09919234007948058
+      "tfidf_score": 0.10316893721263755
     },
     {
       "word": "biblioteca",
-      "tfidf_score": 0.09833959339177957
+      "tfidf_score": 0.10228200411466631
     },
     {
       "word": "es",
-      "tfidf_score": 0.09045980708972047
+      "tfidf_score": 0.09408631906887811
+    },
+    {
+      "word": "were",
+      "tfidf_score": 0.0898499026176923
     },
     {
       "word": "study",
-      "tfidf_score": 0.08593064797983264
-    },
-    {
-      "word": "sperm",
-      "tfidf_score": 0.08208414631343669
+      "tfidf_score": 0.08937558705610726
     },
     {
       "word": "sausage",
-      "tfidf_score": 0.08208414631343669
+      "tfidf_score": 0.08537488006007579
+    },
+    {
+      "word": "sperm",
+      "tfidf_score": 0.08537488006007579
     },
     {
       "word": "odds",
-      "tfidf_score": 0.08208414631343669
+      "tfidf_score": 0.08537488006007579
     },
     {
       "word": "morning",
-      "tfidf_score": 0.0813841704572117
+      "tfidf_score": 0.08464684233958877
     }
   ],
   "1x24": [
     {
       "word": "anthropology",
-      "tfidf_score": 0.3148442101875631
+      "tfidf_score": 0.3143057779426677
     },
     {
       "word": "spanish",
-      "tfidf_score": 0.29894749522214076
+      "tfidf_score": 0.29843624881598185
     },
     {
       "word": "escodera",
-      "tfidf_score": 0.27531506415166507
+      "tfidf_score": 0.2748442328540007
     },
     {
       "word": "exam",
-      "tfidf_score": 0.2698664658750541
-    },
-    {
-      "word": "chang",
-      "tfidf_score": 0.25782044081683453
+      "tfidf_score": 0.2694049525222866
     },
     {
       "word": "dr",
-      "tfidf_score": 0.21218054352895838
+      "tfidf_score": 0.21181768201625223
     },
     {
       "word": "jerry",
-      "tfidf_score": 0.20239984940629055
+      "tfidf_score": 0.2020537143917149
     },
     {
       "word": "class",
-      "tfidf_score": 0.13787291961819576
+      "tfidf_score": 0.13763713562338736
     },
     {
-      "word": "pierce",
-      "tfidf_score": 0.128291468402954
+      "word": "were",
+      "tfidf_score": 0.13147750432397443
     },
     {
-      "word": "nooooooo",
-      "tfidf_score": 0.10011456878242367
+      "word": "her",
+      "tfidf_score": 0.12758617545998557
     },
     {
       "word": "invalid",
-      "tfidf_score": 0.10011456878242367
+      "tfidf_score": 0.09994335740145481
+    },
+    {
+      "word": "nooooooo",
+      "tfidf_score": 0.09994335740145481
     },
     {
       "word": "gonna",
-      "tfidf_score": 0.09693327612893408
-    },
-    {
-      "word": "dean",
-      "tfidf_score": 0.08278193180955482
+      "tfidf_score": 0.09676750524993308
     },
     {
       "word": "grades",
-      "tfidf_score": 0.08274750654359422
+      "tfidf_score": 0.08260599552237764
     },
     {
       "word": "alert",
-      "tfidf_score": 0.0771565612832576
+      "tfidf_score": 0.07702461164227353
+    },
+    {
+      "word": "peeing",
+      "tfidf_score": 0.07495751805109112
     }
   ],
   "1x3": [
     {
       "word": "whitman",
-      "tfidf_score": 0.5617215210960482
+      "tfidf_score": 0.5550914030726841
     },
     {
       "word": "gobi",
-      "tfidf_score": 0.36774074875265733
+      "tfidf_score": 0.3634002268487199
     },
     {
       "word": "eustice",
-      "tfidf_score": 0.3309666738773916
+      "tfidf_score": 0.32706020416384796
     },
     {
       "word": "professor",
-      "tfidf_score": 0.301843295302641
+      "tfidf_score": 0.2982805749914933
     },
     {
       "word": "featuring",
-      "tfidf_score": 0.13758925282616036
+      "tfidf_score": 0.1359652577490197
     },
     {
       "word": "setting",
-      "tfidf_score": 0.13177124216912806
+      "tfidf_score": 0.1302159183033771
     },
     {
       "word": "class",
-      "tfidf_score": 0.12466084698387674
+      "tfidf_score": 0.12318944861768467
     },
     {
       "word": "film",
-      "tfidf_score": 0.11360013200228315
+      "tfidf_score": 0.11225928559644267
     },
     {
       "word": "krumping",
-      "tfidf_score": 0.11032222462579719
+      "tfidf_score": 0.10902006805461598
     },
     {
       "word": "dad",
-      "tfidf_score": 0.09773623338214171
+      "tfidf_score": 0.09658263192991631
     },
     {
       "word": "command",
-      "tfidf_score": 0.0826061060435365
+      "tfidf_score": 0.08163108868715943
+    },
+    {
+      "word": "him",
+      "tfidf_score": 0.08127025690997915
     },
     {
       "word": "falafel",
-      "tfidf_score": 0.07354814975053146
-    },
-    {
-      "word": "seize",
-      "tfidf_score": 0.07354814975053146
+      "tfidf_score": 0.07268004536974398
     },
     {
       "word": "accounting",
-      "tfidf_score": 0.07354814975053146
+      "tfidf_score": 0.07268004536974398
     },
     {
-      "word": "morning",
-      "tfidf_score": 0.07292096494801419
+      "word": "seize",
+      "tfidf_score": 0.07268004536974398
     }
   ],
   "1x4": [
     {
-      "word": "vaughn",
-      "tfidf_score": 0.44233673503453413
-    },
-    {
-      "word": "duncan",
-      "tfidf_score": 0.39568522967457853
-    },
-    {
       "word": "seor",
-      "tfidf_score": 0.2042927208379827
+      "tfidf_score": 0.24673392167362587
     },
     {
       "word": "experiment",
-      "tfidf_score": 0.17012951347482083
+      "tfidf_score": 0.2054734103098992
     },
     {
       "word": "green",
-      "tfidf_score": 0.1647405914246865
+      "tfidf_score": 0.19896495584529988
     },
     {
       "word": "tea",
-      "tfidf_score": 0.1564973215608879
+      "tfidf_score": 0.1890091713583819
     },
     {
       "word": "featuring",
-      "tfidf_score": 0.14168439697630758
+      "tfidf_score": 0.1711189060605415
     },
     {
       "word": "setting",
-      "tfidf_score": 0.13569322168745815
-    },
-    {
-      "word": "subjects",
-      "tfidf_score": 0.11360580530908196
+      "tfidf_score": 0.16388308205081445
     },
     {
       "word": "gadget",
-      "tfidf_score": 0.11360580530908196
+      "tfidf_score": 0.13720707107831873
+    },
+    {
+      "word": "subjects",
+      "tfidf_score": 0.13720707107831873
     },
     {
       "word": "lab",
-      "tfidf_score": 0.10982706094979101
+      "tfidf_score": 0.1326433038968666
     },
     {
-      "word": "chang",
-      "tfidf_score": 0.09752126708549265
-    },
-    {
-      "word": "pierce",
-      "tfidf_score": 0.09194511590885086
+      "word": "were",
+      "tfidf_score": 0.13236569276181243
     },
     {
       "word": "hi",
-      "tfidf_score": 0.09085871965192248
+      "tfidf_score": 0.10973434651028136
     },
     {
       "word": "worries",
-      "tfidf_score": 0.08237029571234325
+      "tfidf_score": 0.09948247792264994
+    },
+    {
+      "word": "miller",
+      "tfidf_score": 0.09147138071887914
+    },
+    {
+      "word": "duffle",
+      "tfidf_score": 0.09147138071887914
+    },
+    {
+      "word": "chandler",
+      "tfidf_score": 0.09147138071887914
     }
   ],
   "1x5": [
     {
-      "word": "duncan",
-      "tfidf_score": 0.29517569859300985
-    },
-    {
       "word": "guzman",
-      "tfidf_score": 0.27075042065475996
+      "tfidf_score": 0.28236348643714926
     },
     {
       "word": "cellphone",
-      "tfidf_score": 0.15066374506898342
+      "tfidf_score": 0.1571260359798377
     },
     {
       "word": "paper",
-      "tfidf_score": 0.14758784929650492
-    },
-    {
-      "word": "chang",
-      "tfidf_score": 0.138570502779312
-    },
-    {
-      "word": "luiz",
-      "tfidf_score": 0.13537521032737998
+      "tfidf_score": 0.15391820844577903
     },
     {
       "word": "item",
-      "tfidf_score": 0.13537521032737998
+      "tfidf_score": 0.14118174321857463
+    },
+    {
+      "word": "luiz",
+      "tfidf_score": 0.14118174321857463
     },
     {
       "word": "spanish",
-      "tfidf_score": 0.13496701755878862
+      "tfidf_score": 0.14075604218734758
     },
     {
       "word": "number",
-      "tfidf_score": 0.12465504718409975
+      "tfidf_score": 0.13000176930388435
     },
     {
       "word": "sheet",
-      "tfidf_score": 0.12452782229999336
+      "tfidf_score": 0.1298690874718452
     },
     {
       "word": "looks",
-      "tfidf_score": 0.11085640222344958
+      "tfidf_score": 0.11561127088923642
     },
     {
       "word": "actor",
-      "tfidf_score": 0.10923928755838992
+      "tfidf_score": 0.1139247947105821
     },
     {
       "word": "statue",
-      "tfidf_score": 0.10923928755838992
-    },
-    {
-      "word": "dean",
-      "tfidf_score": 0.09966370347219547
+      "tfidf_score": 0.1139247947105821
     },
     {
       "word": "class",
-      "tfidf_score": 0.0957631334053035
+      "tfidf_score": 0.09987061942535877
+    },
+    {
+      "word": "starburns",
+      "tfidf_score": 0.097980501949319
+    },
+    {
+      "word": "piece",
+      "tfidf_score": 0.097980501949319
+    },
+    {
+      "word": "featuring",
+      "tfidf_score": 0.097980501949319
     }
   ],
   "1x6": [
     {
       "word": "football",
-      "tfidf_score": 0.4342090442742854
-    },
-    {
-      "word": "pelton",
-      "tfidf_score": 0.26063381239362654
+      "tfidf_score": 0.43156396919136164
     },
     {
       "word": "heh",
-      "tfidf_score": 0.1692798426661182
+      "tfidf_score": 0.1682486391484076
     },
     {
       "word": "ha",
-      "tfidf_score": 0.16695553597836402
-    },
-    {
-      "word": "pierce",
-      "tfidf_score": 0.16298436925387932
+      "tfidf_score": 0.16593849146030099
     },
     {
       "word": "mascot",
-      "tfidf_score": 0.15760227604941748
+      "tfidf_score": 0.1566422088677513
     },
     {
       "word": "beings",
-      "tfidf_score": 0.15197316549599987
+      "tfidf_score": 0.15104738921697658
     },
     {
       "word": "youre",
-      "tfidf_score": 0.13130835135710037
+      "tfidf_score": 0.13050845910949654
     },
     {
       "word": "human",
-      "tfidf_score": 0.126143156209642
+      "tfidf_score": 0.12537472882709141
     },
     {
       "word": "uh",
-      "tfidf_score": 0.11850905590174263
+      "tfidf_score": 0.11778713323569032
     },
     {
       "word": "greendale",
-      "tfidf_score": 0.11594019055899604
+      "tfidf_score": 0.11523391667271718
+    },
+    {
+      "word": "there",
+      "tfidf_score": 0.10990186030273393
+    },
+    {
+      "word": "him",
+      "tfidf_score": 0.10990186030273393
+    },
+    {
+      "word": "were",
+      "tfidf_score": 0.10303299403381307
+    },
+    {
+      "word": "or",
+      "tfidf_score": 0.08242639522705045
     },
     {
       "word": "little",
-      "tfidf_score": 0.08196738701139791
+      "tfidf_score": 0.08146806555355361
     },
     {
       "word": "bathroom",
-      "tfidf_score": 0.08085041994820699
-    },
-    {
-      "word": "makeovers",
-      "tfidf_score": 0.07880113802470874
-    },
-    {
-      "word": "astronomy",
-      "tfidf_score": 0.07880113802470874
+      "tfidf_score": 0.08035790272851999
     }
   ],
   "1x8": [
     {
-      "word": "vaughn",
-      "tfidf_score": 0.6050615699086729
-    },
-    {
-      "word": "pierce",
-      "tfidf_score": 0.3006902241559907
-    },
-    {
       "word": "jackie",
-      "tfidf_score": 0.14604934446071416
+      "tfidf_score": 0.18760098434867983
     },
     {
       "word": "faucets",
-      "tfidf_score": 0.13932287780927696
+      "tfidf_score": 0.17896081023726762
     },
     {
       "word": "band",
-      "tfidf_score": 0.1275221832228749
+      "tfidf_score": 0.1638027694491923
     },
     {
       "word": "nurse",
-      "tfidf_score": 0.1252693456342218
+      "tfidf_score": 0.16090899029003483
     },
     {
       "word": "rid",
-      "tfidf_score": 0.1252693456342218
+      "tfidf_score": 0.16090899029003483
     },
     {
       "word": "pavel",
-      "tfidf_score": 0.12518515239489786
+      "tfidf_score": 0.16080084372743986
     },
     {
       "word": "youre",
-      "tfidf_score": 0.12218803894435463
+      "tfidf_score": 0.15695103915897213
     },
     {
       "word": "condo",
-      "tfidf_score": 0.11610239817439746
+      "tfidf_score": 0.14913400853105635
     },
     {
       "word": "cool",
-      "tfidf_score": 0.10133654589258195
+      "tfidf_score": 0.13016721047356206
     },
     {
       "word": "east",
-      "tfidf_score": 0.09288191853951797
+      "tfidf_score": 0.11930720682484507
     },
     {
       "word": "lates",
-      "tfidf_score": 0.09288191853951797
+      "tfidf_score": 0.11930720682484507
     },
     {
       "word": "song",
-      "tfidf_score": 0.08320512359942546
+      "tfidf_score": 0.1068773238780579
     },
     {
       "word": "date",
-      "tfidf_score": 0.07582139612455162
+      "tfidf_score": 0.09739289553253164
+    },
+    {
+      "word": "him",
+      "tfidf_score": 0.09417062349538328
+    },
+    {
+      "word": "lawn",
+      "tfidf_score": 0.08948040511863381
     }
   ],
   "1x9": [
     {
       "word": "simmons",
-      "tfidf_score": 0.5210531883418625
+      "tfidf_score": 0.522469480066351
     },
     {
       "word": "na",
-      "tfidf_score": 0.29261222122164726
-    },
-    {
-      "word": "debate",
-      "tfidf_score": 0.21458229556254133
+      "tfidf_score": 0.2934075800768904
     },
     {
       "word": "whitman",
-      "tfidf_score": 0.21458229556254133
+      "tfidf_score": 0.21516555872305296
+    },
+    {
+      "word": "debate",
+      "tfidf_score": 0.21516555872305296
     },
     {
       "word": "film",
-      "tfidf_score": 0.20865241605585239
+      "tfidf_score": 0.2092195610168012
     },
     {
       "word": "jean",
-      "tfidf_score": 0.19539494562819848
-    },
-    {
-      "word": "pierce",
-      "tfidf_score": 0.1874250690952398
+      "tfidf_score": 0.1959260550248816
     },
     {
       "word": "evil",
-      "tfidf_score": 0.12965774064881241
+      "tfidf_score": 0.13001016759716513
     },
     {
       "word": "professor",
-      "tfidf_score": 0.12251331633566381
-    },
-    {
-      "word": "pelton",
-      "tfidf_score": 0.0861688564033247
-    },
-    {
-      "word": "dean",
-      "tfidf_score": 0.0861688564033247
+      "tfidf_score": 0.1228463237904651
     },
     {
       "word": "gonna",
-      "tfidf_score": 0.08408265516475369
+      "tfidf_score": 0.08431120298165087
     },
     {
       "word": "city",
-      "tfidf_score": 0.07870655811560051
+      "tfidf_score": 0.07892049298715713
     },
     {
       "word": "basketball",
-      "tfidf_score": 0.07802992565910592
+      "tfidf_score": 0.07824202135383744
+    },
+    {
+      "word": "him",
+      "tfidf_score": 0.07445957443944388
+    },
+    {
+      "word": "by",
+      "tfidf_score": 0.06873191486717897
     },
     {
       "word": "coach",
-      "tfidf_score": 0.06692777542615047
+      "tfidf_score": 0.06710969400297777
+    },
+    {
+      "word": "la",
+      "tfidf_score": 0.06710969400297777
     }
   ],
   "2x10": [
     {
       "word": "robert",
-      "tfidf_score": 0.3726010142425904
+      "tfidf_score": 0.3598505795129666
     },
     {
       "word": "bartender",
-      "tfidf_score": 0.3193722979222203
+      "tfidf_score": 0.3084433538682571
     },
     {
       "word": "bouncer",
-      "tfidf_score": 0.1863005071212952
+      "tfidf_score": 0.1799252897564833
     },
     {
       "word": "ok",
-      "tfidf_score": 0.175980123795937
+      "tfidf_score": 0.16995807072468497
     },
     {
       "word": "birthday",
-      "tfidf_score": 0.1525954928071756
-    },
-    {
-      "word": "texas",
-      "tfidf_score": 0.13307179080092515
-    },
-    {
-      "word": "caroline",
-      "tfidf_score": 0.13307179080092515
+      "tfidf_score": 0.1473736635670493
     },
     {
       "word": "corpus",
-      "tfidf_score": 0.13307179080092515
+      "tfidf_score": 0.1285180641117738
+    },
+    {
+      "word": "texas",
+      "tfidf_score": 0.1285180641117738
+    },
+    {
+      "word": "caroline",
+      "tfidf_score": 0.1285180641117738
     },
     {
       "word": "red",
-      "tfidf_score": 0.1271550513487956
+      "tfidf_score": 0.12280379592867693
     },
     {
       "word": "street",
-      "tfidf_score": 0.1271550513487956
+      "tfidf_score": 0.12280379592867693
     },
     {
       "word": "beer",
-      "tfidf_score": 0.11956839158662964
-    },
-    {
-      "word": "pierce",
-      "tfidf_score": 0.11487958685305008
-    },
-    {
-      "word": "accent",
-      "tfidf_score": 0.10645743264074012
+      "tfidf_score": 0.115476752234143
     },
     {
       "word": "christi",
-      "tfidf_score": 0.10645743264074012
+      "tfidf_score": 0.10281445128941903
+    },
+    {
+      "word": "accent",
+      "tfidf_score": 0.10281445128941903
     },
     {
       "word": "drink",
-      "tfidf_score": 0.10275995062158082
+      "tfidf_score": 0.09924349738303227
+    },
+    {
+      "word": "duh",
+      "tfidf_score": 0.0923814017873144
     }
   ],
   "2x11": [
     {
       "word": "christmas",
-      "tfidf_score": 0.6064318875256052
-    },
-    {
-      "word": "duncan",
-      "tfidf_score": 0.4857040054959784
+      "tfidf_score": 0.6830155611182853
     },
     {
       "word": "meaning",
-      "tfidf_score": 0.24054337867062278
+      "tfidf_score": 0.27092056690219246
     },
     {
       "word": "cave",
-      "tfidf_score": 0.15980351872309392
+      "tfidf_score": 0.1799844174663752
     },
     {
       "word": "singing",
-      "tfidf_score": 0.15449373868276212
+      "tfidf_score": 0.17400408815279045
     },
     {
       "word": "wonderland",
-      "tfidf_score": 0.12934607477072155
-    },
-    {
-      "word": "pierce",
-      "tfidf_score": 0.10468426155505757
-    },
-    {
-      "word": "wizard",
-      "tfidf_score": 0.08716555566714214
+      "tfidf_score": 0.1456806339759663
     },
     {
       "word": "journey",
-      "tfidf_score": 0.08716555566714214
+      "tfidf_score": 0.09817331861802282
     },
     {
       "word": "pole",
-      "tfidf_score": 0.08716555566714214
+      "tfidf_score": 0.09817331861802282
+    },
+    {
+      "word": "wizard",
+      "tfidf_score": 0.09817331861802282
     },
     {
       "word": "sing",
-      "tfidf_score": 0.0834317754027951
+      "tfidf_score": 0.093968015310588
     },
     {
       "word": "animated",
-      "tfidf_score": 0.08084129673170097
+      "tfidf_score": 0.09105039623497896
     },
     {
-      "word": "frozen",
-      "tfidf_score": 0.08018112622354091
+      "word": "were",
+      "tfidf_score": 0.09103176212716894
     },
     {
       "word": "therapy",
-      "tfidf_score": 0.08018112622354091
+      "tfidf_score": 0.09030685563406415
+    },
+    {
+      "word": "frozen",
+      "tfidf_score": 0.09030685563406415
     },
     {
       "word": "year",
-      "tfidf_score": 0.07137835557706133
+      "tfidf_score": 0.08039242096105734
+    },
+    {
+      "word": "planet",
+      "tfidf_score": 0.07921969877011223
     }
   ],
   "2x13": [
     {
-      "word": "pierce",
-      "tfidf_score": 0.4902650634188763
-    },
-    {
       "word": "drugs",
-      "tfidf_score": 0.41036947020828135
+      "tfidf_score": 0.45567730531594225
     },
     {
       "word": "marcus",
-      "tfidf_score": 0.2152053075988314
+      "tfidf_score": 0.2389655707247225
     },
     {
       "word": "honey",
-      "tfidf_score": 0.15603537845230545
-    },
-    {
-      "word": "chang",
-      "tfidf_score": 0.14075132012312316
+      "tfidf_score": 0.17326284226507485
     },
     {
       "word": "heh",
-      "tfidf_score": 0.13039286069962439
+      "tfidf_score": 0.14478920024407513
     },
     {
       "word": "nigel",
-      "tfidf_score": 0.11955850422157299
+      "tfidf_score": 0.1327586504026236
     },
     {
       "word": "youre",
-      "tfidf_score": 0.11324277068945349
+      "tfidf_score": 0.12574561301573156
     },
     {
       "word": "cornelius",
-      "tfidf_score": 0.10742635959309092
+      "tfidf_score": 0.11928702696727372
     },
     {
       "word": "message",
-      "tfidf_score": 0.10551405301070864
+      "tfidf_score": 0.11716358754582841
     },
     {
       "word": "dildopolis",
-      "tfidf_score": 0.0956468033772584
+      "tfidf_score": 0.10620692032209887
     },
     {
       "word": "period",
-      "tfidf_score": 0.0956468033772584
+      "tfidf_score": 0.10620692032209887
     },
     {
-      "word": "flushed",
-      "tfidf_score": 0.08594108767447274
+      "word": "show",
+      "tfidf_score": 0.09768206904014715
     },
     {
       "word": "fairy",
-      "tfidf_score": 0.08594108767447274
+      "tfidf_score": 0.09542962157381898
+    },
+    {
+      "word": "flushed",
+      "tfidf_score": 0.09542962157381898
     },
     {
       "word": "kids",
-      "tfidf_score": 0.08568195211760998
+      "tfidf_score": 0.09514187552827902
+    },
+    {
+      "word": "texting",
+      "tfidf_score": 0.08778300642164649
     }
   ],
   "2x14": [
     {
       "word": "neil",
-      "tfidf_score": 0.6138488941839907
-    },
-    {
-      "word": "pierce",
-      "tfidf_score": 0.32391434054370294
+      "tfidf_score": 0.6365880238122725
     },
     {
       "word": "sword",
-      "tfidf_score": 0.29262684076701345
+      "tfidf_score": 0.3034667717792884
     },
     {
       "word": "fat",
-      "tfidf_score": 0.19099978361942682
+      "tfidf_score": 0.1980750897409267
     },
     {
       "word": "duquesne",
-      "tfidf_score": 0.1847183046013646
+      "tfidf_score": 0.19156092256947305
     },
     {
       "word": "ok",
-      "tfidf_score": 0.13995196732335424
+      "tfidf_score": 0.14513628215531182
     },
     {
       "word": "gnome",
-      "tfidf_score": 0.12314553640090972
+      "tfidf_score": 0.127707281712982
     },
     {
       "word": "narrator",
-      "tfidf_score": 0.12276977883679813
+      "tfidf_score": 0.1273176047624545
     },
     {
       "word": "draconis",
-      "tfidf_score": 0.107752344350796
-    },
-    {
-      "word": "pegasus",
-      "tfidf_score": 0.107752344350796
+      "tfidf_score": 0.11174387149885927
     },
     {
       "word": "goblins",
-      "tfidf_score": 0.107752344350796
+      "tfidf_score": 0.11174387149885927
     },
     {
       "word": "elf",
-      "tfidf_score": 0.107752344350796
+      "tfidf_score": 0.11174387149885927
+    },
+    {
+      "word": "pegasus",
+      "tfidf_score": 0.11174387149885927
     },
     {
       "word": "dungeons",
-      "tfidf_score": 0.09681822440480577
+      "tfidf_score": 0.10040471315795008
     },
     {
       "word": "dragons",
-      "tfidf_score": 0.09681822440480577
+      "tfidf_score": 0.10040471315795008
     },
     {
       "word": "fatty",
-      "tfidf_score": 0.0923591523006823
+      "tfidf_score": 0.09578046128473652
+    },
+    {
+      "word": "ha",
+      "tfidf_score": 0.08793613157610404
     }
   ],
   "2x15": [
     {
       "word": "mariah",
-      "tfidf_score": 0.37499845461381953
-    },
-    {
-      "word": "duncan",
-      "tfidf_score": 0.3520366810194892
+      "tfidf_score": 0.4017418986379022
     },
     {
       "word": "page",
-      "tfidf_score": 0.3507617618953589
-    },
-    {
-      "word": "chang",
-      "tfidf_score": 0.2500515314470281
+      "tfidf_score": 0.3757767384362554
     },
     {
       "word": "pop",
-      "tfidf_score": 0.24489508244834035
+      "tfidf_score": 0.2623600555666294
     },
     {
       "word": "hm",
-      "tfidf_score": 0.18692710545024513
+      "tfidf_score": 0.2002580259372124
     },
     {
       "word": "lesbian",
-      "tfidf_score": 0.18062800197578302
-    },
-    {
-      "word": "pierce",
-      "tfidf_score": 0.15174962353949012
+      "tfidf_score": 0.19350969468834608
     },
     {
       "word": "magnitude",
-      "tfidf_score": 0.1083768011854698
+      "tfidf_score": 0.11610581681300763
     },
     {
       "word": "valentines",
-      "tfidf_score": 0.10529551801460392
+      "tfidf_score": 0.11280478840589202
     },
     {
       "word": "heh",
-      "tfidf_score": 0.10456893006267726
+      "tfidf_score": 0.11202638300250163
     },
     {
       "word": "tiny",
-      "tfidf_score": 0.09406612294461461
+      "tfidf_score": 0.10077455617301936
     },
     {
       "word": "barenaked",
-      "tfidf_score": 0.09374961365345488
+      "tfidf_score": 0.10043547465947555
     },
     {
       "word": "yo",
-      "tfidf_score": 0.09183565591812763
+      "tfidf_score": 0.09838502083748603
+    },
+    {
+      "word": "she",
+      "tfidf_score": 0.09740603064278362
     },
     {
       "word": "friend",
-      "tfidf_score": 0.09092183584772871
+      "tfidf_score": 0.09740603064278362
+    },
+    {
+      "word": "dance",
+      "tfidf_score": 0.09694714742456696
+    },
+    {
+      "word": "ha",
+      "tfidf_score": 0.09575643849192052
     }
   ],
   "2x16": [
     {
-      "word": "pierce",
-      "tfidf_score": 0.48217442511803155
-    },
-    {
       "word": "levar",
-      "tfidf_score": 0.3475889733934943
+      "tfidf_score": 0.37646330304491676
     },
     {
       "word": "burton",
-      "tfidf_score": 0.28359070461874714
+      "tfidf_score": 0.30714867716113536
     },
     {
       "word": "father",
-      "tfidf_score": 0.19559612498506734
+      "tfidf_score": 0.21184435903064527
     },
     {
       "word": "nurse",
-      "tfidf_score": 0.16205183121071262
+      "tfidf_score": 0.17551352980636306
     },
     {
       "word": "dad",
-      "tfidf_score": 0.125740366061829
+      "tfidf_score": 0.1361856593768434
     },
     {
       "word": "youre",
-      "tfidf_score": 0.11064603837364081
+      "tfidf_score": 0.1198374409530537
     },
     {
       "word": "bequeathed",
-      "tfidf_score": 0.10513525312838841
+      "tfidf_score": 0.11386887297592654
+    },
+    {
+      "word": "him",
+      "tfidf_score": 0.11234760089348785
     },
     {
       "word": "gonna",
-      "tfidf_score": 0.10179442059554301
+      "tfidf_score": 0.11025051639241348
     },
     {
       "word": "fish",
-      "tfidf_score": 0.08689724334837358
+      "tfidf_score": 0.09411582576122919
+    },
+    {
+      "word": "see",
+      "tfidf_score": 0.0921580256897735
     },
     {
       "word": "hi",
-      "tfidf_score": 0.08408421086877767
+      "tfidf_score": 0.09106911375393416
     },
     {
       "word": "money",
-      "tfidf_score": 0.08032415890349381
+      "tfidf_score": 0.08699671304268138
     },
     {
       "word": "barrel",
-      "tfidf_score": 0.07885143984629131
+      "tfidf_score": 0.08540165473194491
     },
     {
-      "word": "die",
-      "tfidf_score": 0.07098319492525497
-    },
-    {
-      "word": "hes",
-      "tfidf_score": 0.07090800369382816
+      "word": "or",
+      "tfidf_score": 0.08238824065522442
     }
   ],
   "2x19": [
     {
       "word": "waiter",
-      "tfidf_score": 0.19035040957913113
+      "tfidf_score": 0.1789169950594499
     },
     {
       "word": "brian",
-      "tfidf_score": 0.1724429010905406
+      "tfidf_score": 0.1620851026833619
     },
     {
       "word": "narration",
-      "tfidf_score": 0.15353412623201032
+      "tfidf_score": 0.14431208509215196
     },
     {
       "word": "conversation",
-      "tfidf_score": 0.1428192697043147
+      "tfidf_score": 0.13424081738819946
     },
     {
       "word": "tips",
-      "tfidf_score": 0.13795432087243248
+      "tfidf_score": 0.1296680821466895
     },
     {
       "word": "real",
-      "tfidf_score": 0.1374489811739099
+      "tfidf_score": 0.1291930957227369
     },
     {
       "word": "cool",
-      "tfidf_score": 0.13400772312744977
+      "tfidf_score": 0.12595853715121544
     },
     {
       "word": "abeds",
-      "tfidf_score": 0.12702992177088002
+      "tfidf_score": 0.11939985806247821
+    },
+    {
+      "word": "or",
+      "tfidf_score": 0.11390727679173797
     },
     {
       "word": "lie",
-      "tfidf_score": 0.11967582791699799
+      "tfidf_score": 0.11248748851921879
     },
     {
       "word": "movie",
-      "tfidf_score": 0.11730127797865242
+      "tfidf_score": 0.11025556613708819
+    },
+    {
+      "word": "him",
+      "tfidf_score": 0.10441500372575982
     },
     {
       "word": "surprise",
-      "tfidf_score": 0.10539730059512202
-    },
-    {
-      "word": "briefcase",
-      "tfidf_score": 0.10346574065432437
-    },
-    {
-      "word": "restaurant",
-      "tfidf_score": 0.10346574065432437
+      "tfidf_score": 0.09906660222875723
     },
     {
       "word": "background",
-      "tfidf_score": 0.10346574065432437
+      "tfidf_score": 0.09725106161001715
     },
     {
-      "word": "chang",
-      "tfidf_score": 0.09884734206764599
+      "word": "briefcase",
+      "tfidf_score": 0.09725106161001715
     }
   ],
   "2x2": [
     {
       "word": "alan",
-      "tfidf_score": 0.7857290178609011
+      "tfidf_score": 0.7844080913430621
     },
     {
       "word": "ted",
-      "tfidf_score": 0.1901010759426325
+      "tfidf_score": 0.18978148795927666
     },
     {
       "word": "ha",
-      "tfidf_score": 0.11277450795129294
-    },
-    {
-      "word": "chang",
-      "tfidf_score": 0.09791171014440547
+      "tfidf_score": 0.11258491734854971
     },
     {
       "word": "hey",
-      "tfidf_score": 0.09744174688766563
+      "tfidf_score": 0.09727793292065844
     },
     {
       "word": "popandiockathon",
-      "tfidf_score": 0.09505053797131625
-    },
-    {
-      "word": "dean",
-      "tfidf_score": 0.09431355194551155
-    },
-    {
-      "word": "pierce",
-      "tfidf_score": 0.08205620790540263
-    },
-    {
-      "word": "pelton",
-      "tfidf_score": 0.08173841168611003
+      "tfidf_score": 0.09489074397963833
     },
     {
       "word": "hurts",
-      "tfidf_score": 0.07856194266637519
+      "tfidf_score": 0.07842986843849001
     },
     {
       "word": "partner",
-      "tfidf_score": 0.07829975290693812
+      "tfidf_score": 0.07816811945875952
     },
     {
       "word": "narcotics",
-      "tfidf_score": 0.076040430377053
+      "tfidf_score": 0.07591259518371066
     },
     {
       "word": "youre",
-      "tfidf_score": 0.07002290488877688
+      "tfidf_score": 0.06990518604446652
     },
     {
       "word": "firm",
-      "tfidf_score": 0.06832426242268705
+      "tfidf_score": 0.06820939924722279
+    },
+    {
+      "word": "lawyer",
+      "tfidf_score": 0.06514009954896627
     },
     {
       "word": "team",
-      "tfidf_score": 0.06524979408911509
+      "tfidf_score": 0.06514009954896627
+    },
+    {
+      "word": "janitor",
+      "tfidf_score": 0.062743894750792
+    },
+    {
+      "word": "cool",
+      "tfidf_score": 0.06073655911564548
+    },
+    {
+      "word": "office",
+      "tfidf_score": 0.0591718785972703
     }
   ],
   "2x21": [
     {
       "word": "sing",
-      "tfidf_score": 0.27917613247298634
+      "tfidf_score": 0.27983627449491066
     },
     {
       "word": "caw",
-      "tfidf_score": 0.20867758025930172
-    },
-    {
-      "word": "dean",
-      "tfidf_score": 0.19555626338777882
+      "tfidf_score": 0.20917102086449377
     },
     {
       "word": "aah",
-      "tfidf_score": 0.1784203293321513
-    },
-    {
-      "word": "pierce",
-      "tfidf_score": 0.17827277634568856
+      "tfidf_score": 0.17884222340996658
     },
     {
       "word": "heh",
-      "tfidf_score": 0.1724150615066402
+      "tfidf_score": 0.17282275548214224
     },
     {
       "word": "ow",
-      "tfidf_score": 0.16152062880479662
+      "tfidf_score": 0.16190256172125753
     },
     {
       "word": "fighting",
-      "tfidf_score": 0.15130242638331798
-    },
-    {
-      "word": "chang",
-      "tfidf_score": 0.1407470342749811
+      "tfidf_score": 0.15166019726004004
     },
     {
       "word": "examples",
-      "tfidf_score": 0.13911838683953448
+      "tfidf_score": 0.13944734724299584
     },
     {
       "word": "year",
-      "tfidf_score": 0.1279518493408919
+      "tfidf_score": 0.1282544052642247
     },
     {
-      "word": "pelton",
-      "tfidf_score": 0.12653640572150393
+      "word": "were",
+      "tfidf_score": 0.11923977030510051
     },
     {
       "word": "care",
-      "tfidf_score": 0.11208420498389275
+      "tfidf_score": 0.11234924015379935
     },
     {
       "word": "group",
-      "tfidf_score": 0.10646468912484369
+      "tfidf_score": 0.10671643634449263
+    },
+    {
+      "word": "dingdong",
+      "tfidf_score": 0.10458551043224688
+    },
+    {
+      "word": "paintbrush",
+      "tfidf_score": 0.10458551043224688
     },
     {
       "word": "singaling",
-      "tfidf_score": 0.10433879012965086
+      "tfidf_score": 0.10458551043224688
+    },
+    {
+      "word": "exhibit",
+      "tfidf_score": 0.10458551043224688
     }
   ],
   "2x4": [
     {
       "word": "simulator",
-      "tfidf_score": 0.464918627729484
-    },
-    {
-      "word": "dean",
-      "tfidf_score": 0.3459853680157459
+      "tfidf_score": 0.4880640131498405
     },
     {
       "word": "launch",
-      "tfidf_score": 0.29057414233092754
+      "tfidf_score": 0.3050400082186503
     },
     {
       "word": "flag",
-      "tfidf_score": 0.232459313864742
+      "tfidf_score": 0.24403200657492025
     },
     {
       "word": "college",
-      "tfidf_score": 0.2029722754790569
+      "tfidf_score": 0.21307699330581398
     },
     {
       "word": "space",
-      "tfidf_score": 0.1923304556442909
+      "tfidf_score": 0.2019053839402379
     },
     {
       "word": "richie",
-      "tfidf_score": 0.19213416018347948
+      "tfidf_score": 0.2016993161583669
     },
     {
       "word": "city",
-      "tfidf_score": 0.16854545744412316
+      "tfidf_score": 0.1769362797100453
     },
     {
       "word": "slowmo",
-      "tfidf_score": 0.116229656932371
-    },
-    {
-      "word": "fried",
-      "tfidf_score": 0.116229656932371
+      "tfidf_score": 0.12201600328746012
     },
     {
       "word": "simulate",
-      "tfidf_score": 0.116229656932371
+      "tfidf_score": 0.12201600328746012
     },
     {
       "word": "kentucky",
-      "tfidf_score": 0.116229656932371
+      "tfidf_score": 0.12201600328746012
+    },
+    {
+      "word": "fried",
+      "tfidf_score": 0.12201600328746012
     },
     {
       "word": "featuring",
-      "tfidf_score": 0.10871756602857516
+      "tfidf_score": 0.11412993244629278
     },
     {
       "word": "community",
-      "tfidf_score": 0.10463160102350434
+      "tfidf_score": 0.10984055284517039
     },
     {
       "word": "setting",
-      "tfidf_score": 0.10412040495117596
+      "tfidf_score": 0.10930390752341701
+    },
+    {
+      "word": "greendale",
+      "tfidf_score": 0.10357053669189381
     }
   ],
   "2x6": [
     {
       "word": "rich",
-      "tfidf_score": 0.5550278922842017
+      "tfidf_score": 0.5827417897458109
     },
     {
       "word": "army",
-      "tfidf_score": 0.24984047347129795
-    },
-    {
-      "word": "dean",
-      "tfidf_score": 0.22210351973453435
-    },
-    {
-      "word": "pelton",
-      "tfidf_score": 0.2144447776747228
-    },
-    {
-      "word": "chang",
-      "tfidf_score": 0.1959336538455502
+      "tfidf_score": 0.2623156181618606
     },
     {
       "word": "officer",
-      "tfidf_score": 0.19075019395123824
+      "tfidf_score": 0.20027481674846476
     },
     {
       "word": "zombies",
-      "tfidf_score": 0.16209037086391717
+      "tfidf_score": 0.17018393873696488
     },
     {
       "word": "zombie",
-      "tfidf_score": 0.12483627813161349
+      "tfidf_score": 0.13106965821885588
     },
     {
       "word": "youre",
-      "tfidf_score": 0.10357038964982104
+      "tfidf_score": 0.10874191201602365
     },
     {
       "word": "days",
-      "tfidf_score": 0.0950318005363912
-    },
-    {
-      "word": "dracula",
-      "tfidf_score": 0.09262306906509553
+      "tfidf_score": 0.09977697030582156
     },
     {
       "word": "piggy",
-      "tfidf_score": 0.09262306906509553
+      "tfidf_score": 0.09724796499255137
+    },
+    {
+      "word": "dracula",
+      "tfidf_score": 0.09724796499255137
     },
     {
       "word": "meat",
-      "tfidf_score": 0.08322418542107567
+      "tfidf_score": 0.08737977214590392
     },
     {
       "word": "taco",
-      "tfidf_score": 0.08322418542107567
+      "tfidf_score": 0.08737977214590392
     },
     {
       "word": "hey",
-      "tfidf_score": 0.0812099818696924
+      "tfidf_score": 0.08526499449461351
+    },
+    {
+      "word": "hours",
+      "tfidf_score": 0.08436634418028671
+    },
+    {
+      "word": "end",
+      "tfidf_score": 0.08004058461252665
+    },
+    {
+      "word": "nerd",
+      "tfidf_score": 0.07938548849924555
     }
   ],
   "2x8": [
     {
       "word": "pen",
-      "tfidf_score": 0.6900892568636017
+      "tfidf_score": 0.6773483282324625
     },
     {
       "word": "bag",
-      "tfidf_score": 0.214688181784489
-    },
-    {
-      "word": "pierce",
-      "tfidf_score": 0.1816168723815463
+      "tfidf_score": 0.21072445278152344
     },
     {
       "word": "puppy",
-      "tfidf_score": 0.14600903648879238
+      "tfidf_score": 0.1433133117040595
     },
     {
       "word": "took",
-      "tfidf_score": 0.14188586042315152
+      "tfidf_score": 0.13926626070697096
     },
     {
       "word": "parade",
-      "tfidf_score": 0.13430957784737185
+      "tfidf_score": 0.13182985695791882
     },
     {
       "word": "alright",
-      "tfidf_score": 0.09593541274812277
+      "tfidf_score": 0.0941641835413706
+    },
+    {
+      "word": "whoever",
+      "tfidf_score": 0.09144960944575739
     },
     {
       "word": "legs",
-      "tfidf_score": 0.0841572264467807
+      "tfidf_score": 0.08260345466249543
     },
     {
       "word": "impossible",
-      "tfidf_score": 0.08343373513645279
+      "tfidf_score": 0.08189332097374828
     },
     {
       "word": "ghost",
-      "tfidf_score": 0.07237904014543863
-    },
-    {
-      "word": "pregnancy",
-      "tfidf_score": 0.06257530135233959
-    },
-    {
-      "word": "woah",
-      "tfidf_score": 0.06257530135233959
-    },
-    {
-      "word": "hmph",
-      "tfidf_score": 0.06257530135233959
+      "tfidf_score": 0.07104272578362027
     },
     {
       "word": "bottle",
-      "tfidf_score": 0.06257530135233959
+      "tfidf_score": 0.061419990730311215
     },
     {
-      "word": "youre",
-      "tfidf_score": 0.061077158211823385
+      "word": "hmph",
+      "tfidf_score": 0.061419990730311215
+    },
+    {
+      "word": "woah",
+      "tfidf_score": 0.061419990730311215
+    },
+    {
+      "word": "pregnancy",
+      "tfidf_score": 0.061419990730311215
+    },
+    {
+      "word": "seems",
+      "tfidf_score": 0.06055805916234665
     }
   ],
   "2x9": [
     {
       "word": "professor",
-      "tfidf_score": 0.46195511406065853
+      "tfidf_score": 0.4856050462544924
     },
     {
       "word": "professorson",
-      "tfidf_score": 0.3479174642224109
-    },
-    {
-      "word": "dean",
-      "tfidf_score": 0.2978367276496308
+      "tfidf_score": 0.36572920434058653
     },
     {
       "word": "woolley",
-      "tfidf_score": 0.245588798274643
-    },
-    {
-      "word": "pelton",
-      "tfidf_score": 0.23691557881220635
+      "tfidf_score": 0.25816179129923755
     },
     {
       "word": "garrity",
-      "tfidf_score": 0.18419159870598226
+      "tfidf_score": 0.1936213434744282
     },
     {
       "word": "conspiracy",
-      "tfidf_score": 0.1522395362089814
+      "tfidf_score": 0.16003348544555238
     },
     {
       "word": "fort",
-      "tfidf_score": 0.14711185806625596
+      "tfidf_score": 0.15464329426487983
     },
     {
       "word": "gn",
-      "tfidf_score": 0.12872287580797395
+      "tfidf_score": 0.13531288248176987
     },
     {
       "word": "gns",
-      "tfidf_score": 0.1227943991373215
+      "tfidf_score": 0.12908089564961878
     },
     {
       "word": "class",
-      "tfidf_score": 0.10406552614346432
+      "tfidf_score": 0.10939319232162337
     },
     {
       "word": "fake",
-      "tfidf_score": 0.0982833082130829
+      "tfidf_score": 0.10331495199031766
     },
     {
       "word": "blow",
-      "tfidf_score": 0.09777885075964364
+      "tfidf_score": 0.10278466868452742
     },
     {
       "word": "prop",
-      "tfidf_score": 0.09194491129140997
+      "tfidf_score": 0.0966520589155499
+    },
+    {
+      "word": "were",
+      "tfidf_score": 0.08490426205988258
     },
     {
       "word": "blanket",
-      "tfidf_score": 0.07419376545974282
+      "tfidf_score": 0.07799213778839666
+    },
+    {
+      "word": "math",
+      "tfidf_score": 0.07799213778839666
     }
   ],
   "3x10": [
     {
       "word": "rad",
-      "tfidf_score": 0.4519255475136724
+      "tfidf_score": 0.45303466109562046
     },
     {
       "word": "glee",
-      "tfidf_score": 0.4142650852208664
+      "tfidf_score": 0.4152817726709855
     },
     {
       "word": "christmas",
-      "tfidf_score": 0.3467818585641937
+      "tfidf_score": 0.34763292899254805
     },
     {
       "word": "la",
-      "tfidf_score": 0.30148632660972824
+      "tfidf_score": 0.3022262329537137
     },
     {
       "word": "mr",
-      "tfidf_score": 0.2184828423812531
+      "tfidf_score": 0.21901904195934915
     },
     {
       "word": "club",
-      "tfidf_score": 0.20037952746655707
+      "tfidf_score": 0.20087129797318187
     },
     {
       "word": "regionals",
-      "tfidf_score": 0.17574882403309486
+      "tfidf_score": 0.1761801459816302
     },
     {
       "word": "merry",
-      "tfidf_score": 0.17227790091984468
-    },
-    {
-      "word": "dean",
-      "tfidf_score": 0.15711266323547646
+      "tfidf_score": 0.17270070454497924
     },
     {
       "word": "santa",
-      "tfidf_score": 0.15064184917122417
+      "tfidf_score": 0.15101155369854016
     },
     {
       "word": "pageant",
-      "tfidf_score": 0.12574088586104595
+      "tfidf_score": 0.126049478559737
     },
     {
       "word": "fa",
-      "tfidf_score": 0.11176967632092973
+      "tfidf_score": 0.11204398094198842
     },
     {
       "word": "choir",
-      "tfidf_score": 0.07532092458561208
+      "tfidf_score": 0.07550577684927008
     },
     {
       "word": "scooch",
-      "tfidf_score": 0.06985604770058108
+      "tfidf_score": 0.07002748808874278
     },
     {
       "word": "boomer",
-      "tfidf_score": 0.06928558551883751
+      "tfidf_score": 0.06945562588135948
+    },
+    {
+      "word": "they",
+      "tfidf_score": 0.05895844755185765
     }
   ],
   "3x15": [
     {
       "word": "blade",
-      "tfidf_score": 0.7396634296384536
+      "tfidf_score": 0.7389653630044408
     },
     {
       "word": "carnival",
-      "tfidf_score": 0.2159970867689653
+      "tfidf_score": 0.2157932368106254
     },
     {
       "word": "ha",
-      "tfidf_score": 0.1958901029769414
+      "tfidf_score": 0.19570522923661285
     },
     {
       "word": "phone",
-      "tfidf_score": 0.16953260040615195
-    },
-    {
-      "word": "pelton",
-      "tfidf_score": 0.14066960201673862
-    },
-    {
-      "word": "pierce",
-      "tfidf_score": 0.11473842310054956
+      "tfidf_score": 0.1693726018892876
     },
     {
       "word": "wanna",
-      "tfidf_score": 0.10130604127970126
-    },
-    {
-      "word": "chang",
-      "tfidf_score": 0.09524105922082218
+      "tfidf_score": 0.10121043243328873
     },
     {
       "word": "blades",
-      "tfidf_score": 0.0924579287048067
+      "tfidf_score": 0.0923706703755551
     },
     {
       "word": "youre",
-      "tfidf_score": 0.09243900653551784
+      "tfidf_score": 0.09235176606430072
     },
     {
       "word": "texting",
-      "tfidf_score": 0.09170289383718137
+      "tfidf_score": 0.0916163480815511
+    },
+    {
+      "word": "she",
+      "tfidf_score": 0.08269337146769178
     },
     {
       "word": "exboyfriend",
-      "tfidf_score": 0.07396634296384536
+      "tfidf_score": 0.07389653630044409
     },
     {
       "word": "movie",
-      "tfidf_score": 0.06458384777377216
+      "tfidf_score": 0.06452289595782384
     },
     {
-      "word": "laybourne",
-      "tfidf_score": 0.06113526255812093
+      "word": "or",
+      "tfidf_score": 0.06318805046504786
     },
     {
       "word": "vampire",
-      "tfidf_score": 0.06113526255812093
+      "tfidf_score": 0.06107756538770073
+    },
+    {
+      "word": "laybourne",
+      "tfidf_score": 0.06107756538770073
+    },
+    {
+      "word": "dying",
+      "tfidf_score": 0.06032324309369672
     }
   ],
   "3x17": [
     {
       "word": "yam",
-      "tfidf_score": 0.5671817649195106
+      "tfidf_score": 0.5586506613056192
     },
     {
       "word": "todd",
-      "tfidf_score": 0.4447510801926398
+      "tfidf_score": 0.43806148299084696
     },
     {
       "word": "kane",
-      "tfidf_score": 0.27646688768731664
+      "tfidf_score": 0.27230848942674274
     },
     {
       "word": "archwood",
-      "tfidf_score": 0.24723307701619693
+      "tfidf_score": 0.24351439082552637
     },
     {
       "word": "starburns",
-      "tfidf_score": 0.2176508663713087
+      "tfidf_score": 0.2143771326099098
     },
     {
       "word": "lt",
-      "tfidf_score": 0.17451746612908017
+      "tfidf_score": 0.1718925111709598
     },
     {
       "word": "professor",
-      "tfidf_score": 0.12683127809384706
+      "tfidf_score": 0.12492358140501854
     },
     {
       "word": "biology",
-      "tfidf_score": 0.08966505564007504
+      "tfidf_score": 0.08831638414264184
     },
     {
       "word": "swear",
-      "tfidf_score": 0.07840419296695586
-    },
-    {
-      "word": "jar",
-      "tfidf_score": 0.07271561088711674
+      "tfidf_score": 0.07722489854083914
     },
     {
       "word": "pinky",
-      "tfidf_score": 0.07271561088711674
+      "tfidf_score": 0.07162187965456658
+    },
+    {
+      "word": "jar",
+      "tfidf_score": 0.07162187965456658
     },
     {
       "word": "key",
-      "tfidf_score": 0.06648233726335973
+      "tfidf_score": 0.06548236204771105
     },
     {
       "word": "objection",
-      "tfidf_score": 0.06010149732332971
+      "tfidf_score": 0.05919749770146582
     },
     {
       "word": "gardener",
-      "tfidf_score": 0.058172488709693396
+      "tfidf_score": 0.05729750372365326
     },
     {
-      "word": "yams",
-      "tfidf_score": 0.058172488709693396
+      "word": "withdrawn",
+      "tfidf_score": 0.05729750372365326
     }
   ],
   "3x2": [
     {
       "word": "todd",
-      "tfidf_score": 0.6543362981499006
+      "tfidf_score": 0.6433452909515807
     },
     {
       "word": "nunez",
-      "tfidf_score": 0.21396446580849468
+      "tfidf_score": 0.2103704653067113
     },
     {
       "word": "kane",
-      "tfidf_score": 0.1591628833337596
-    },
-    {
-      "word": "chang",
-      "tfidf_score": 0.14956062806427126
+      "tfidf_score": 0.15648939509633045
     },
     {
       "word": "arizona",
-      "tfidf_score": 0.1283786794850968
-    },
-    {
-      "word": "pierce",
-      "tfidf_score": 0.1212182008562839
-    },
-    {
-      "word": "penis",
-      "tfidf_score": 0.11542909122576808
+      "tfidf_score": 0.12622227918402676
     },
     {
       "word": "pew",
-      "tfidf_score": 0.11542909122576808
+      "tfidf_score": 0.1134902075414225
+    },
+    {
+      "word": "penis",
+      "tfidf_score": 0.1134902075414225
     },
     {
       "word": "partners",
-      "tfidf_score": 0.10859499117004393
+      "tfidf_score": 0.10677090112181309
     },
     {
       "word": "detective",
-      "tfidf_score": 0.09612625966568213
+      "tfidf_score": 0.0945116091947846
     },
     {
       "word": "offense",
-      "tfidf_score": 0.09308142100289479
+      "tfidf_score": 0.09151791524726838
     },
     {
       "word": "algorithm",
-      "tfidf_score": 0.08558578632339786
-    },
-    {
-      "word": "popular",
-      "tfidf_score": 0.08558578632339786
+      "tfidf_score": 0.08414818612268452
     },
     {
       "word": "cupcake",
-      "tfidf_score": 0.08558578632339786
+      "tfidf_score": 0.08414818612268452
     },
     {
-      "word": "pelton",
-      "tfidf_score": 0.08492218641250746
+      "word": "popular",
+      "tfidf_score": 0.08414818612268452
+    },
+    {
+      "word": "were",
+      "tfidf_score": 0.083023978224681
+    },
+    {
+      "word": "gonna",
+      "tfidf_score": 0.08147424955608594
+    },
+    {
+      "word": "lab",
+      "tfidf_score": 0.07626492937272365
     }
   ],
   "3x20": [
     {
       "word": "gilbert",
-      "tfidf_score": 0.7285179454238223
-    },
-    {
-      "word": "pierce",
-      "tfidf_score": 0.2691719849940519
+      "tfidf_score": 0.7436025067568319
     },
     {
       "word": "hilda",
-      "tfidf_score": 0.17421081303613145
+      "tfidf_score": 0.17781799074619897
     },
     {
       "word": "cornelius",
-      "tfidf_score": 0.1707631094438835
+      "tfidf_score": 0.17429889962448522
     },
     {
       "word": "cool",
-      "tfidf_score": 0.1704856376860389
+      "tfidf_score": 0.17401568258641015
     },
     {
       "word": "blacksmith",
-      "tfidf_score": 0.1266987731171865
+      "tfidf_score": 0.1293221750881447
     },
     {
       "word": "game",
-      "tfidf_score": 0.10633481401510317
+      "tfidf_score": 0.10853656351752873
     },
     {
       "word": "video",
-      "tfidf_score": 0.08543897806275359
-    },
-    {
-      "word": "hippie",
-      "tfidf_score": 0.08538155472194175
+      "tfidf_score": 0.0872080621504043
     },
     {
       "word": "crystal",
-      "tfidf_score": 0.08538155472194175
+      "tfidf_score": 0.08714944981224261
+    },
+    {
+      "word": "hippie",
+      "tfidf_score": 0.08714944981224261
     },
     {
       "word": "study",
-      "tfidf_score": 0.08455540993909927
+      "tfidf_score": 0.08630619902435933
     },
     {
       "word": "hawkthorne",
-      "tfidf_score": 0.07918673319824157
+      "tfidf_score": 0.08082635943009044
     },
     {
       "word": "castle",
-      "tfidf_score": 0.07918673319824157
+      "tfidf_score": 0.08082635943009044
     },
     {
       "word": "inheritance",
-      "tfidf_score": 0.07918673319824157
+      "tfidf_score": 0.08082635943009044
+    },
+    {
+      "word": "were",
+      "tfidf_score": 0.07655666944144925
     },
     {
       "word": "group",
-      "tfidf_score": 0.07272014396619154
+      "tfidf_score": 0.07422587416637919
     }
   ],
   "3x21": [
     {
-      "word": "chang",
-      "tfidf_score": 0.38617348776435473
-    },
-    {
-      "word": "dean",
-      "tfidf_score": 0.32114445590258106
-    },
-    {
       "word": "joshua",
-      "tfidf_score": 0.18369548317541864
-    },
-    {
-      "word": "pierce",
-      "tfidf_score": 0.15575069879068018
+      "tfidf_score": 0.20604182535300677
     },
     {
       "word": "murray",
-      "tfidf_score": 0.15182948277109556
+      "tfidf_score": 0.1702993630098446
     },
     {
       "word": "plan",
-      "tfidf_score": 0.14808563014779696
+      "tfidf_score": 0.1661000750631701
     },
     {
       "word": "changs",
-      "tfidf_score": 0.11789647706494602
-    },
-    {
-      "word": "guard",
-      "tfidf_score": 0.10844963055078255
+      "tfidf_score": 0.13223844657058492
     },
     {
       "word": "carl",
-      "tfidf_score": 0.10844963055078255
+      "tfidf_score": 0.12164240214988901
+    },
+    {
+      "word": "guard",
+      "tfidf_score": 0.12164240214988901
     },
     {
       "word": "birthday",
-      "tfidf_score": 0.10532323422151756
+      "tfidf_score": 0.1181356833382808
     },
     {
       "word": "wifes",
-      "tfidf_score": 0.10496884752881065
-    },
-    {
-      "word": "heist",
-      "tfidf_score": 0.10496884752881065
-    },
-    {
-      "word": "nightshade",
-      "tfidf_score": 0.10496884752881065
-    },
-    {
-      "word": "nathan",
-      "tfidf_score": 0.10496884752881065
+      "tfidf_score": 0.11773818591600387
     },
     {
       "word": "elaborate",
-      "tfidf_score": 0.10496884752881065
+      "tfidf_score": 0.11773818591600387
+    },
+    {
+      "word": "nathan",
+      "tfidf_score": 0.11773818591600387
+    },
+    {
+      "word": "heist",
+      "tfidf_score": 0.11773818591600387
+    },
+    {
+      "word": "nightshade",
+      "tfidf_score": 0.11773818591600387
+    },
+    {
+      "word": "swami",
+      "tfidf_score": 0.11773818591600387
+    },
+    {
+      "word": "greendale",
+      "tfidf_score": 0.10993334852391526
+    },
+    {
+      "word": "basement",
+      "tfidf_score": 0.10579075725646793
     }
   ],
   "3x22": [
     {
       "word": "alan",
-      "tfidf_score": 0.49094813422225086
+      "tfidf_score": 0.49027030394419757
     },
     {
       "word": "evil",
-      "tfidf_score": 0.3559765768678949
+      "tfidf_score": 0.35548509582283283
     },
     {
       "word": "murray",
-      "tfidf_score": 0.22580464277430812
-    },
-    {
-      "word": "pierce",
-      "tfidf_score": 0.16080541687553704
+      "tfidf_score": 0.22549288433562925
     },
     {
       "word": "youre",
-      "tfidf_score": 0.1502927032897276
+      "tfidf_score": 0.1500852008312008
     },
     {
       "word": "firm",
-      "tfidf_score": 0.1338949456969775
+      "tfidf_score": 0.13371008289387204
     },
     {
       "word": "mitosis",
-      "tfidf_score": 0.12418025621609893
+      "tfidf_score": 0.12400880605317484
     },
     {
       "word": "lame",
-      "tfidf_score": 0.10263847398832189
-    },
-    {
-      "word": "court",
-      "tfidf_score": 0.10263847398832189
+      "tfidf_score": 0.10249676560710422
     },
     {
       "word": "laybourne",
-      "tfidf_score": 0.10263847398832189
+      "tfidf_score": 0.10249676560710422
     },
     {
-      "word": "chaplain",
-      "tfidf_score": 0.09934420497287914
-    },
-    {
-      "word": "cruel",
-      "tfidf_score": 0.09934420497287914
+      "word": "court",
+      "tfidf_score": 0.10249676560710422
     },
     {
       "word": "sandwich",
-      "tfidf_score": 0.09934420497287914
+      "tfidf_score": 0.09920704484253987
     },
     {
-      "word": "pelton",
-      "tfidf_score": 0.09857392747237953
+      "word": "chaplain",
+      "tfidf_score": 0.09920704484253987
+    },
+    {
+      "word": "cruel",
+      "tfidf_score": 0.09920704484253987
     },
     {
       "word": "biology",
-      "tfidf_score": 0.09570356907525517
+      "tfidf_score": 0.0955714354091608
+    },
+    {
+      "word": "chamber",
+      "tfidf_score": 0.08914005526258137
+    },
+    {
+      "word": "leonard",
+      "tfidf_score": 0.08532169631844522
     }
   ],
   "3x4": [
     {
       "word": "evil",
-      "tfidf_score": 0.32366248658031127
+      "tfidf_score": 0.32455816019872635
     },
     {
       "word": "timelines",
-      "tfidf_score": 0.2986284007979286
-    },
-    {
-      "word": "pierce",
-      "tfidf_score": 0.2761709729989061
+      "tfidf_score": 0.2994547974036341
     },
     {
       "word": "pies",
-      "tfidf_score": 0.26094220080627106
+      "tfidf_score": 0.2616643081090442
     },
     {
       "word": "pizza",
-      "tfidf_score": 0.24802647439580716
+      "tfidf_score": 0.24871283991234255
     },
     {
       "word": "bathroom",
-      "tfidf_score": 0.19564752776541888
+      "tfidf_score": 0.19618894463142364
     },
     {
       "word": "singing",
-      "tfidf_score": 0.1678249930416429
+      "tfidf_score": 0.1682894163993396
     },
     {
       "word": "creating",
-      "tfidf_score": 0.16057981588078218
+      "tfidf_score": 0.16102418960556564
     },
     {
       "word": "apartment",
-      "tfidf_score": 0.14393094299244666
+      "tfidf_score": 0.1443292441668398
     },
     {
       "word": "featuring",
-      "tfidf_score": 0.13768453419649943
+      "tfidf_score": 0.13806554963714107
     },
     {
       "word": "setting",
-      "tfidf_score": 0.13186249453271942
+      "tfidf_score": 0.1322273985994811
     },
     {
       "word": "abeds",
-      "tfidf_score": 0.12178772099360871
+      "tfidf_score": 0.12212474506424904
     },
     {
       "word": "roxanne",
-      "tfidf_score": 0.12043486191058665
+      "tfidf_score": 0.12076814220417423
     },
     {
       "word": "airplane",
-      "tfidf_score": 0.10821378928573476
+      "tfidf_score": 0.10851325011369793
     },
     {
       "word": "eartha",
-      "tfidf_score": 0.10821378928573476
+      "tfidf_score": 0.10851325011369793
+    },
+    {
+      "word": "six",
+      "tfidf_score": 0.10618394049135702
     }
   ],
   "3x5": [
     {
-      "word": "pierce",
-      "tfidf_score": 0.2759022341715385
-    },
-    {
       "word": "story",
-      "tfidf_score": 0.20149574643215484
+      "tfidf_score": 0.19678580668957596
     },
     {
       "word": "radio",
-      "tfidf_score": 0.15495457257697717
+      "tfidf_score": 0.15133252738447298
     },
     {
       "word": "woods",
-      "tfidf_score": 0.1280743119029879
+      "tfidf_score": 0.12508058969139552
     },
     {
       "word": "noo",
-      "tfidf_score": 0.12396365806158173
+      "tfidf_score": 0.12106602190757837
     },
     {
       "word": "pilates",
-      "tfidf_score": 0.12396365806158173
+      "tfidf_score": 0.12106602190757837
     },
     {
       "word": "brittad",
-      "tfidf_score": 0.12396365806158173
+      "tfidf_score": 0.12106602190757837
+    },
+    {
+      "word": "were",
+      "tfidf_score": 0.11944859693052738
     },
     {
       "word": "yo",
-      "tfidf_score": 0.12143286147479833
+      "tfidf_score": 0.11859438239798165
     },
     {
       "word": "halloween",
-      "tfidf_score": 0.11942080079413482
+      "tfidf_score": 0.11662935340276133
     },
     {
       "word": "stories",
-      "tfidf_score": 0.11595170747424147
+      "tfidf_score": 0.11324134973755001
     },
     {
       "word": "cabin",
-      "tfidf_score": 0.11138450245846708
+      "tfidf_score": 0.10878090261020351
     },
     {
       "word": "news",
-      "tfidf_score": 0.11128899665472666
+      "tfidf_score": 0.10868762924356734
+    },
+    {
+      "word": "should",
+      "tfidf_score": 0.10352211733979039
     },
     {
       "word": "heard",
-      "tfidf_score": 0.10505644711385001
-    },
-    {
-      "word": "dean",
-      "tfidf_score": 0.10250207550530288
+      "tfidf_score": 0.10260076482657023
     },
     {
       "word": "scary",
-      "tfidf_score": 0.10119405122899859
+      "tfidf_score": 0.09882865199831803
     }
   ],
   "3x7": [
     {
       "word": "jesus",
-      "tfidf_score": 0.28654963548246115
-    },
-    {
-      "word": "pelton",
-      "tfidf_score": 0.18670311687566155
+      "tfidf_score": 0.2800135223196873
     },
     {
       "word": "fort",
-      "tfidf_score": 0.1775218157130793
+      "tfidf_score": 0.1734725951499186
     },
     {
       "word": "dreamatorium",
-      "tfidf_score": 0.16934584903753006
+      "tfidf_score": 0.16548311987686753
     },
     {
       "word": "phone",
-      "tfidf_score": 0.16018669129595253
+      "tfidf_score": 0.15653287983771128
     },
     {
       "word": "singing",
-      "tfidf_score": 0.15170274819659707
+      "tfidf_score": 0.1482424529927756
     },
     {
       "word": "gray",
-      "tfidf_score": 0.14112154086460837
+      "tfidf_score": 0.13790259989738962
     },
     {
       "word": "tweeting",
-      "tfidf_score": 0.14112154086460837
+      "tfidf_score": 0.13790259989738962
     },
     {
       "word": "rose",
-      "tfidf_score": 0.14112154086460837
+      "tfidf_score": 0.13790259989738962
     },
     {
       "word": "youre",
-      "tfidf_score": 0.1262408004645883
-    },
-    {
-      "word": "blanket",
-      "tfidf_score": 0.1227848139003867
+      "tfidf_score": 0.12336128482253747
     },
     {
       "word": "bedroom",
-      "tfidf_score": 0.1227848139003867
+      "tfidf_score": 0.11998412829849495
+    },
+    {
+      "word": "blanket",
+      "tfidf_score": 0.11998412829849495
     },
     {
       "word": "horsebot",
-      "tfidf_score": 0.11289723269168671
+      "tfidf_score": 0.11032207991791168
     },
     {
       "word": "sales",
-      "tfidf_score": 0.11289723269168671
+      "tfidf_score": 0.11032207991791168
+    },
+    {
+      "word": "were",
+      "tfidf_score": 0.10884819249047424
     },
     {
       "word": "pew",
-      "tfidf_score": 0.10875992324125655
+      "tfidf_score": 0.1062791412828968
     }
   ],
   "3x8": [
     {
-      "word": "dean",
-      "tfidf_score": 0.5092729706325666
-    },
-    {
       "word": "guzman",
-      "tfidf_score": 0.38008555250164705
-    },
-    {
-      "word": "pelton",
-      "tfidf_score": 0.369362813865378
+      "tfidf_score": 0.47806144688345564
     },
     {
       "word": "luis",
-      "tfidf_score": 0.2888650199012518
+      "tfidf_score": 0.3633266996314263
     },
     {
       "word": "commercial",
-      "tfidf_score": 0.2477651108484087
+      "tfidf_score": 0.3116323327730715
     },
     {
       "word": "trailer",
-      "tfidf_score": 0.18612454647443777
+      "tfidf_score": 0.2341024787773566
     },
     {
       "word": "greendale",
-      "tfidf_score": 0.14937012281947679
+      "tfidf_score": 0.18787374728201253
     },
     {
       "word": "cut",
-      "tfidf_score": 0.08864453918411225
+      "tfidf_score": 0.11149473159859251
     },
     {
       "word": "bald",
-      "tfidf_score": 0.08587744360662623
+      "tfidf_score": 0.10801435275564228
     },
     {
       "word": "script",
-      "tfidf_score": 0.08391118467186078
+      "tfidf_score": 0.10554124483266375
     },
     {
       "word": "luiz",
-      "tfidf_score": 0.07601711050032942
+      "tfidf_score": 0.09561228937669113
     },
     {
       "word": "different",
-      "tfidf_score": 0.0730328913379299
+      "tfidf_score": 0.09185881829313061
     },
     {
       "word": "meet",
-      "tfidf_score": 0.06944176475499104
-    },
-    {
-      "word": "pierce",
-      "tfidf_score": 0.06847138486099243
+      "tfidf_score": 0.08734199528083275
     },
     {
       "word": "people",
-      "tfidf_score": 0.06240099151698633
+      "tfidf_score": 0.07848629892724863
+    },
+    {
+      "word": "eugene",
+      "tfidf_score": 0.0764898315013529
+    },
+    {
+      "word": "action",
+      "tfidf_score": 0.0764898315013529
+    },
+    {
+      "word": "school",
+      "tfidf_score": 0.07352178928026559
     }
   ],
   "3x9": [
     {
       "word": "juergen",
-      "tfidf_score": 0.3321956017520802
+      "tfidf_score": 0.3229565251446686
     },
     {
       "word": "foosball",
-      "tfidf_score": 0.3233600551311363
+      "tfidf_score": 0.31436671414354844
     },
     {
       "word": "tinkletown",
-      "tfidf_score": 0.2768296681267335
+      "tfidf_score": 0.26913043762055716
     },
     {
       "word": "rick",
-      "tfidf_score": 0.2214637345013868
+      "tfidf_score": 0.21530435009644572
     },
     {
       "word": "officer",
-      "tfidf_score": 0.1710329189681236
+      "tfidf_score": 0.16627612437962982
     },
     {
       "word": "cackowski",
-      "tfidf_score": 0.16057307327569104
-    },
-    {
-      "word": "lukas",
-      "tfidf_score": 0.13841483406336674
-    },
-    {
-      "word": "germans",
-      "tfidf_score": 0.13841483406336674
+      "tfidf_score": 0.15610718956965447
     },
     {
       "word": "karl",
-      "tfidf_score": 0.13841483406336674
+      "tfidf_score": 0.13456521881027858
+    },
+    {
+      "word": "germans",
+      "tfidf_score": 0.13456521881027858
+    },
+    {
+      "word": "lukas",
+      "tfidf_score": 0.13456521881027858
     },
     {
       "word": "batman",
-      "tfidf_score": 0.12436925197351398
+      "tfidf_score": 0.12091027467059556
     },
     {
       "word": "game",
-      "tfidf_score": 0.11948686296254195
+      "tfidf_score": 0.11616367543486932
     },
     {
       "word": "kill",
-      "tfidf_score": 0.11771897084740356
+      "tfidf_score": 0.11444495221480135
     },
     {
       "word": "dvd",
-      "tfidf_score": 0.11440375288715969
+      "tfidf_score": 0.11122193762071708
     },
     {
       "word": "eesa",
-      "tfidf_score": 0.1107318672506934
+      "tfidf_score": 0.10765217504822286
     },
     {
       "word": "broke",
-      "tfidf_score": 0.0950182883156242
+      "tfidf_score": 0.0923756246553499
     }
   ],
   "4x10": [
     {
       "word": "cornwallis",
-      "tfidf_score": 0.7381741793210729
+      "tfidf_score": 0.7194800077300695
     },
     {
       "word": "professor",
-      "tfidf_score": 0.1650680265301804
+      "tfidf_score": 0.1608876987720602
     },
     {
       "word": "grade",
-      "tfidf_score": 0.15591936419577837
+      "tfidf_score": 0.1519707252020427
     },
     {
       "word": "cminus",
-      "tfidf_score": 0.15142034447611752
+      "tfidf_score": 0.1475856426112963
     },
     {
       "word": "christmas",
-      "tfidf_score": 0.14616120956043016
+      "tfidf_score": 0.14245969464970226
     },
     {
       "word": "gifts",
-      "tfidf_score": 0.12515317298725218
-    },
-    {
-      "word": "chang",
-      "tfidf_score": 0.1183764167494003
+      "tfidf_score": 0.12198368405560996
     },
     {
       "word": "section",
-      "tfidf_score": 0.11356525835708815
+      "tfidf_score": 0.11068923195847225
     },
     {
       "word": "valedictorian",
-      "tfidf_score": 0.11356525835708815
+      "tfidf_score": 0.11068923195847225
     },
     {
       "word": "kevin",
-      "tfidf_score": 0.08752277438382157
+      "tfidf_score": 0.08530627073429446
     },
     {
       "word": "paper",
-      "tfidf_score": 0.08652525131108847
+      "tfidf_score": 0.08433400981243314
     },
     {
       "word": "heat",
-      "tfidf_score": 0.08503439634694962
+      "tfidf_score": 0.08288091056950164
+    },
+    {
+      "word": "were",
+      "tfidf_score": 0.08251455423717677
+    },
+    {
+      "word": "up",
+      "tfidf_score": 0.07766075692910755
     },
     {
       "word": "gift",
-      "tfidf_score": 0.0759657783362047
+      "tfidf_score": 0.07404195421034965
     },
     {
       "word": "group",
-      "tfidf_score": 0.06952748778098414
-    },
-    {
-      "word": "poppy",
-      "tfidf_score": 0.0680275170775597
+      "tfidf_score": 0.06776671258282624
     }
   ],
   "4x9": [
     {
       "word": "singing",
-      "tfidf_score": 0.49181337421654886
+      "tfidf_score": 0.49283074033764857
     },
     {
       "word": "balloon",
-      "tfidf_score": 0.29598048551698913
+      "tfidf_score": 0.2965927513362164
     },
     {
-      "word": "dean",
-      "tfidf_score": 0.2256840785728482
-    },
-    {
-      "word": "pelton",
-      "tfidf_score": 0.1867730305430468
+      "word": "were",
+      "tfidf_score": 0.19230532843637055
     },
     {
       "word": "group",
-      "tfidf_score": 0.1800635109410936
+      "tfidf_score": 0.18043599067686644
     },
     {
       "word": "study",
-      "tfidf_score": 0.17734786069469755
+      "tfidf_score": 0.17771472283098594
     },
     {
       "word": "mountain",
-      "tfidf_score": 0.1632009749381426
+      "tfidf_score": 0.16353857279850376
     },
     {
       "word": "woods",
-      "tfidf_score": 0.136132033389243
+      "tfidf_score": 0.13641363638344228
     },
     {
       "word": "square",
-      "tfidf_score": 0.12693409161855537
+      "tfidf_score": 0.12719666773216962
     },
     {
       "word": "ta",
-      "tfidf_score": 0.12684877950728105
-    },
-    {
-      "word": "pierce",
-      "tfidf_score": 0.12060495278910402
+      "tfidf_score": 0.12711117914409273
     },
     {
       "word": "greendale",
-      "tfidf_score": 0.1198326983037816
+      "tfidf_score": 0.12008058446110385
     },
     {
       "word": "berries",
-      "tfidf_score": 0.1176453215460633
+      "tfidf_score": 0.11788868289148728
     },
     {
       "word": "adventure",
-      "tfidf_score": 0.10880064995876174
+      "tfidf_score": 0.1090257151990025
     },
     {
       "word": "puppet",
-      "tfidf_score": 0.10880064995876174
+      "tfidf_score": 0.1090257151990025
+    },
+    {
+      "word": "secret",
+      "tfidf_score": 0.10885901881691361
+    },
+    {
+      "word": "guide",
+      "tfidf_score": 0.10592598262007728
     }
   ],
   "6x13": [
     {
-      "word": "frankie",
-      "tfidf_score": 0.499862832406881
-    },
-    {
-      "word": "chang",
-      "tfidf_score": 0.26763817172155063
-    },
-    {
-      "word": "dean",
-      "tfidf_score": 0.2594877196564509
-    },
-    {
       "word": "featuring",
-      "tfidf_score": 0.25795583529723165
+      "tfidf_score": 0.3361909713024951
     },
     {
       "word": "setting",
-      "tfidf_score": 0.24704808074536155
-    },
-    {
-      "word": "pelton",
-      "tfidf_score": 0.21702609280357713
-    },
-    {
-      "word": "elroy",
-      "tfidf_score": 0.17943793983836753
+      "tfidf_score": 0.32197501610498236
     },
     {
       "word": "vatican",
-      "tfidf_score": 0.1711737239133858
+      "tfidf_score": 0.22308881067798775
     },
     {
       "word": "cube",
-      "tfidf_score": 0.15690924692060365
+      "tfidf_score": 0.2044980764548221
     },
     {
       "word": "season",
-      "tfidf_score": 0.14688304870754632
+      "tfidf_score": 0.19143104382950796
     },
     {
       "word": "pitch",
-      "tfidf_score": 0.12838029293503936
+      "tfidf_score": 0.16731660800849082
     },
     {
       "word": "ice",
-      "tfidf_score": 0.1022267920325634
+      "tfidf_score": 0.13323104114688925
     },
     {
       "word": "pchooo",
-      "tfidf_score": 0.09985133894947505
+      "tfidf_score": 0.13013513956215952
     },
     {
       "word": "nipple",
-      "tfidf_score": 0.0855868619566929
+      "tfidf_score": 0.11154440533899387
     },
     {
       "word": "dippers",
-      "tfidf_score": 0.0855868619566929
+      "tfidf_score": 0.11154440533899387
+    },
+    {
+      "word": "head",
+      "tfidf_score": 0.11151258760349907
+    },
+    {
+      "word": "seven",
+      "tfidf_score": 0.10254308806296679
+    },
+    {
+      "word": "were",
+      "tfidf_score": 0.0978259447256288
+    },
+    {
+      "word": "may",
+      "tfidf_score": 0.09319700206201977
+    },
+    {
+      "word": "sebastian",
+      "tfidf_score": 0.09295367111582824
     }
   ],
   "6x6": [
     {
-      "word": "elroy",
-      "tfidf_score": 0.5377735917756823
-    },
-    {
       "word": "gupta",
-      "tfidf_score": 0.4397192783967803
-    },
-    {
-      "word": "frankie",
-      "tfidf_score": 0.31827416656111807
+      "tfidf_score": 0.5600356160328169
     },
     {
       "word": "gupti",
-      "tfidf_score": 0.21985963919839016
+      "tfidf_score": 0.28001780801640846
     },
     {
       "word": "officer",
-      "tfidf_score": 0.20962234775876223
+      "tfidf_score": 0.2669793807752764
     },
     {
       "word": "cackowski",
-      "tfidf_score": 0.1416977939871195
+      "tfidf_score": 0.1804692567389802
     },
     {
       "word": "warburton",
-      "tfidf_score": 0.1343586683990162
+      "tfidf_score": 0.17112199378780515
     },
     {
       "word": "emails",
-      "tfidf_score": 0.13124234842390523
-    },
-    {
-      "word": "pelton",
-      "tfidf_score": 0.12119718359438719
+      "tfidf_score": 0.16715298386997793
     },
     {
       "word": "hackers",
-      "tfidf_score": 0.10992981959919508
-    },
-    {
-      "word": "chang",
-      "tfidf_score": 0.10784655407983654
+      "tfidf_score": 0.14000890400820423
     },
     {
       "word": "ladys",
-      "tfidf_score": 0.0977153951992845
+      "tfidf_score": 0.12445235911840374
     },
     {
       "word": "freedom",
-      "tfidf_score": 0.09086008737039593
+      "tfidf_score": 0.11572129652536933
     },
     {
       "word": "lunch",
-      "tfidf_score": 0.0885611212419497
+      "tfidf_score": 0.11279328546186262
     },
     {
       "word": "performance",
-      "tfidf_score": 0.08779977008582568
+      "tfidf_score": 0.11182361279867667
+    },
+    {
+      "word": "speech",
+      "tfidf_score": 0.09143368904253443
+    },
+    {
+      "word": "cancel",
+      "tfidf_score": 0.09000545285306503
+    },
+    {
+      "word": "were",
+      "tfidf_score": 0.08595278520768702
+    },
+    {
+      "word": "email",
+      "tfidf_score": 0.08543340184808844
     }
   ]
 }

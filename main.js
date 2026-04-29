@@ -62,6 +62,7 @@ function canonicalizeCharacter(name) {
 
   if (lower.includes("jeff")) return "Jeff";
   if (lower.includes("abed")) return "Abed";
+  if (lower.includes("annie")) return "Annie";
   if (lower.includes("shirley")) return "Shirley";
   if (lower.includes("britta")) return "Britta";
   if (lower.includes("troy")) return "Troy";

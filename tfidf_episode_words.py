@@ -77,9 +77,15 @@ def calculate_tfidf(episode_texts: dict, top_n: int = 10):
     # Preprocess texts
     processed_texts = {ep: preprocess_text(text) for ep, text in episode_texts.items()}
     
-    # Create TF-IDF vectorizer with built-in English stopwords
+    # Characters to exclude
+    characters = {
+        'jeff', 'britta', 'troy', 'abed', 'annie', 'shirley', 'pierce', 
+        'dean', 'chang', 'pelton', 'hickey', 'frankie', 'elroy', 'duncan', 'vaughn'
+    }
+    
+    # Create TF-IDF vectorizer with built-in English stopwords + character names
     vectorizer = TfidfVectorizer(
-        stop_words='english',
+        stop_words=list(characters),
         max_features=10000,
         min_df=1,
         max_df=0.95

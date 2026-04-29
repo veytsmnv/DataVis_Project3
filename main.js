@@ -216,7 +216,7 @@ function renderStackedAreaChart(dataset) {
     return;
   }
 
-  const margin = { top: 20, right: 30, bottom: 110, left: 60 };
+  const margin = { top: 20, right: 90, bottom: 200, left: 60 };
   const svgWidth = document.getElementById("stackedAreaChart").parentElement.clientWidth;
   const width = svgWidth - margin.left - margin.right;
   const height = 450 - margin.top - margin.bottom;
@@ -361,7 +361,7 @@ function renderStackedAreaChart(dataset) {
       .attr("class", "axis-label")
       .attr("text-anchor", "middle")
       .attr("x", width / 2)
-      .attr("y", height + 80)
+      .attr("y", height + 240)
       .text(isSeason ? `Season ${selectedSeason}` : "Episode");
 
     svg.append("text")
@@ -447,7 +447,7 @@ function renderStackedBar(svg, stackedSeries, stackedData, xScale, yScale, width
   }
 
   // Calculate pie radius
-  const radius = Math.min(width, height) / 2.5;
+  const radius = Math.min(width, height) / 1.69;
 
   // Create pie generator
   const pie = d3.pie()

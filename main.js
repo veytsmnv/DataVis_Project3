@@ -18,16 +18,16 @@ const ALLOWED_CHARACTERS = [
 const colorScale = d3.scaleOrdinal()
     .domain(ALLOWED_CHARACTERS)
     .range([
-        "#1f77b4",  // Jeff - blue
-        "#e377c2",  // Annie - pink
-        "#ff7f0e",  // Abed - orange
-        "#d62728",  // Britta - red
-        "#9467bd",  // Troy - purple
-        "#8c564b",  // Pierce - brown
-        "#2ca02c",  // Shirley - green
-        "#17becf",  // Duncan - teal
-        "#7f7f7f",  // Chang - gray
-        "#bcbd22",  // Pelton - olive
+        "#1f77b4",  // Jeff
+        "#e377c2",  // Annie
+        "#ff7f0e",  // Abed
+        "#d62728",  // Britta
+        "#9467bd",  // Troy
+        "#8c564b",  // Pierce
+        "#2ca02c",  // Shirley
+        "#17becf",  // Duncan
+        "#7f7f7f",  // Chang
+        "#bcbd22",  // Pelton
     ]);
 
 // DOM elements
@@ -545,9 +545,7 @@ function renderAreaChart(svg, stackedSeries, stackedData, xScale, yScale, width,
     });
 }
 
-// ============================================================================
-// CHORD DIAGRAM
-// ============================================================================
+// Character Interaction Chord Diagram
 
 function renderChordChart(dataset) {
   // Clear previous chart

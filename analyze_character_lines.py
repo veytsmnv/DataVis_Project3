@@ -17,7 +17,6 @@ MAIN_CHARACTERS = {
 }
 
 def normalize_character_name(name):
-    """Normalize character names to match the main cast."""
     name = name.strip()
     name_lower = name.lower()
     
@@ -48,7 +47,6 @@ def normalize_character_name(name):
         return None  # Return None for non-main-cast characters
 
 def get_episode_name_from_filename(filename):
-    """Convert filename to episode name."""
     # Remove .csv extension
     name = filename[:-4]
     # Replace underscores with spaces

@@ -10,13 +10,11 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 
 
 def extract_episode_name(filename: str) -> str:
-    """Extract episode identifier from filename (e.g., '1x1' from '1x1_Pilot.csv')"""
     match = re.match(r'(\d+x\d+)', filename)
     return match.group(1) if match else filename.replace('.csv', '')
 
 
 def load_episode_scripts():
-    """Load all scripts from all_scripts directory and organize by episode."""
     episode_texts = defaultdict(str)
     scripts_dir = Path("all_scripts")
     

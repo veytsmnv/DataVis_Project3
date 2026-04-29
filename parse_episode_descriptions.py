@@ -3,12 +3,7 @@ import json
 from bs4 import BeautifulSoup
 from pathlib import Path
 
-def parse_episode_descriptions():
-    """
-    Parse HTML files from EpisodeDescriptions directory and create a JSON file
-    with episode descriptions.
-    """
-    
+def parse_episode_descriptions():    
     episode_descriptions = {}
     descriptions_dir = Path("EpisodeDescriptions")
     
@@ -27,16 +22,11 @@ def parse_episode_descriptions():
             print(f"  Warning: {html_file.name} is empty")
             continue
         
-        # Parse HTML content
         soup = BeautifulSoup(content, 'html.parser')
         
-        # Extract episode information
-        # Adjust selectors based on actual HTML structure
-        season_name = html_file.stem  # e.g., "Season1"
+        season_name = html_file.stem 
         episode_descriptions[season_name] = []
         
-        # Try to find episode containers (adjust selectors as needed)
-        # Common patterns: <div class="episode">, <article>, <tr> for tables
         episodes = soup.find_all(['div', 'article', 'tr'])
         
         for episode in episodes:

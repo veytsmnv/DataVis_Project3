@@ -215,7 +215,7 @@ function renderStackedAreaChart(dataset) {
     return;
   }
 
-  const margin = { top: 20, right: 30, bottom: 130, left: 60 };
+  const margin = { top: 20, right: 30, bottom: 110, left: 60 };
   const svgWidth = document.getElementById("stackedAreaChart").parentElement.clientWidth;
   const width = svgWidth - margin.left - margin.right;
   const height = 450 - margin.top - margin.bottom;
@@ -360,7 +360,7 @@ function renderStackedAreaChart(dataset) {
       .attr("class", "axis-label")
       .attr("text-anchor", "middle")
       .attr("x", width / 2)
-      .attr("y", height + 160)
+      .attr("y", height + 80)
       .text(isSeason ? `Season ${selectedSeason}` : "Episode");
 
     svg.append("text")
@@ -414,8 +414,8 @@ function renderStackedAreaChart(dataset) {
 
           tooltip.html(content)
             .attr("class", "tooltip active")
-            .style("left", (event.pageX + 10) + "px")
-            .style("top", (event.pageY - 10) + "px");
+            .style("left", (event.clientX + 10) + "px")
+            .style("top", (event.clientY - 10) + "px");
         }
       })
       .on("mouseout", function() {
@@ -483,13 +483,13 @@ function renderStackedBar(svg, stackedSeries, stackedData, xScale, yScale, width
       tooltip
         .html(`<strong>${d.data.name}</strong><br/>${d.data.percentage.toFixed(1)}%`)
         .attr("class", "tooltip active")
-        .style("left", (event.pageX + 10) + "px")
-        .style("top", (event.pageY - 10) + "px");
+        .style("left", (event.clientX + 10) + "px")
+        .style("top", (event.clientY - 10) + "px");
     })
     .on("mousemove", function(event) {
       tooltip
-        .style("left", (event.pageX + 10) + "px")
-        .style("top", (event.pageY - 10) + "px");
+        .style("left", (event.clientX + 10) + "px")
+        .style("top", (event.clientY - 10) + "px");
     })
     .on("mouseout", function() {
       d3.select(this).attr("opacity", 0.85);
@@ -796,11 +796,11 @@ function renderLinesBarChart(dataset) {
         d3.select(this).attr("opacity", 1);
         tooltip.html(`<strong>${d.name}</strong>${d.lines.toLocaleString()} lines`)
           .attr("class","tooltip active")
-          .style("left", (evt.pageX + 10) + "px")
-          .style("top", (evt.pageY - 10) + "px");
+          .style("left", (evt.clientX + 10) + "px")
+          .style("top", (evt.clientY - 10) + "px");
       })
       .on("mousemove", function(evt) {
-        tooltip.style("left", (evt.pageX + 10) + "px").style("top", (evt.pageY - 10) + "px");
+        tooltip.style("left", (evt.clientX + 10) + "px").style("top", (evt.clientY - 10) + "px");
       })
       .on("mouseout", function() {
         d3.select(this).attr("opacity", 0.8);
@@ -821,9 +821,19 @@ function renderLinesBarChart(dataset) {
 let episodeInfoData = null;
 
 async function loadEpisodeInfo() {
-  const res = await fetch("all_scripts/episode_info.json");
-  if (!res.ok) throw new Error("Could not load episode_info.json");
-  return res.json();
+  const [descRes, infoRes] = await Promise.all([
+    fetch("all_scripts/episode_descriptions.json"),
+    fetch("all_scripts/episode_info.json")
+  ]);
+  if (!descRes.ok) throw new Error("Could not load episode_descriptions.json");
+  if (!infoRes.ok) throw new Error("Could not load episode_info.json");
+  const descData = await descRes.json();
+  const infoData = await infoRes.json();
+  // Merge: use episodes from descriptions (has description field), seasons from episode_info
+  return {
+    episodes: descData.episodes,
+    seasons:  infoData.seasons
+  };
 }
 
 function renderInfoPanel(dataset) {
@@ -868,13 +878,14 @@ function renderInfoPanel(dataset) {
   if (!epObj) { panel.style.display = "none"; return; }
 
   title.textContent = `${epObj.code} — ${epObj.title}`;
-  desc.textContent  = epObj.air_date ? `Original air date: ${epObj.air_date}` : "";
+  desc.textContent  = epObj.description || (epObj.air_date ? `Original air date: ${epObj.air_date}` : "");
 
   const metas = [
-    { label: "Directed by", value: epObj.director || "—" },
-    { label: "Written by",  value: epObj.writer   || "—" },
-    { label: "IMDB Rating", value: epObj.imdb     != null ? epObj.imdb.toFixed(1) : "N/A" },
-    { label: "Viewers",     value: epObj.viewers  != null ? epObj.viewers.toFixed(2) + "M" : "N/A" },
+    { label: "Air Date",    value: epObj.air_date  || "—" },
+    { label: "Directed by", value: epObj.director  || "—" },
+    { label: "Written by",  value: epObj.writer    || "—" },
+    { label: "IMDB Rating", value: epObj.imdb      != null ? epObj.imdb.toFixed(1) : "N/A" },
+    { label: "Viewers",     value: epObj.viewers   != null ? epObj.viewers.toFixed(2) + "M" : "N/A" },
   ];
   metas.forEach(m => metaWrap.appendChild(makeMetaChip(m.label, m.value)));
 }
@@ -889,12 +900,116 @@ function makeMetaChip(label, value) {
   return chip;
 }
 
+// ============================================================================
+// EPISODE DISTINCTIVE WORDS CHART
+// ============================================================================
+
+let tfidfData = null;
+
+async function loadTfidfData() {
+  const res = await fetch("all_scripts/tfidf_episode_words.json");
+  if (!res.ok) throw new Error("Could not load tfidf_episode_words.json");
+  return res.json();
+}
+
+function renderEpisodeWordsChart(dataset) {
+  const section = document.getElementById("episodeWordsSection");
+  const svgEl   = document.getElementById("episodeWordsChart");
+  const titleEl = document.getElementById("episodeWordsTitle");
+
+  // Only show for single episode selections
+  const isSingle = dataset && dataset.id !== "all" && !dataset.id.startsWith("season_");
+  if (!isSingle || !tfidfData) {
+    section.style.display = "none";
+    return;
+  }
+
+  // Extract the SxE code from dataset.id e.g. "1x4 Social Psychology" -> "1x4"
+  const codeMatch = dataset.id.match(/^(\d+x\d+)/);
+  if (!codeMatch) { section.style.display = "none"; return; }
+  const code = codeMatch[1];
+
+  const words = tfidfData[code];
+  if (!words || !words.length) { section.style.display = "none"; return; }
+
+  section.style.display = "block";
+
+  // Get episode title from the label e.g. "S1 E4 — Social Psychology"
+  const titleMatch = dataset.label.match(/— (.+)$/);
+  const epTitle = titleMatch ? titleMatch[1] : dataset.id;
+  titleEl.textContent = `Distinctive Words — ${epTitle}`;
+
+  const svg = d3.select(svgEl);
+  svg.selectAll("*").remove();
+
+  const top = words.slice(0, 12);
+  const labelW = 110, rightPad = 60, barH = 26, rowH = 38;
+  const W = svgEl.parentElement.clientWidth - 80;
+  const iW = W - labelW - rightPad;
+  const H = top.length * rowH + 8;
+
+  svg.attr("width", W).attr("height", H);
+
+  const maxScore = d3.max(top, d => d.tfidf_score);
+  const xSc = d3.scaleLinear().domain([0, maxScore]).range([0, iW]);
+
+  const g = svg.append("g").attr("transform", `translate(${labelW}, 4)`);
+
+  // subtle grid
+  g.append("g").attr("class", "grid")
+    .call(d3.axisBottom(xSc).ticks(5).tickSize(H - 8).tickFormat(""))
+    .attr("transform", "translate(0,0)")
+    .select(".domain").remove();
+
+  top.forEach((d, i) => {
+    const row = g.append("g").attr("transform", `translate(0, ${i * rowH})`);
+    const bw = Math.max(xSc(d.tfidf_score), 3);
+
+    // word label
+    row.append("text")
+      .attr("x", -8).attr("y", barH / 2 + 5)
+      .attr("text-anchor", "end")
+      .attr("fill", "#667eea")
+      .attr("font-size", 13).attr("font-weight", 600)
+      .attr("font-family", "inherit")
+      .text(d.word);
+
+    // bar
+    row.append("rect")
+      .attr("x", 0).attr("y", 2)
+      .attr("width", bw).attr("height", barH).attr("rx", 3)
+      .attr("fill", "#667eea").attr("opacity", 0.65 + (d.tfidf_score / maxScore) * 0.3)
+      .on("mouseover", function(evt) {
+        d3.select(this).attr("opacity", 1);
+        tooltip.html(`<strong>${d.word}</strong>TF-IDF score: ${d.tfidf_score.toFixed(3)}`)
+          .attr("class", "tooltip active")
+          .style("left", (evt.clientX + 10) + "px")
+          .style("top", (evt.clientY - 10) + "px");
+      })
+      .on("mousemove", function(evt) {
+        tooltip.style("left", (evt.clientX + 10) + "px").style("top", (evt.clientY - 10) + "px");
+      })
+      .on("mouseout", function() {
+        d3.select(this).attr("opacity", 0.65 + (d.tfidf_score / maxScore) * 0.3);
+        tooltip.attr("class", "tooltip");
+      });
+
+    // score label
+    row.append("text")
+      .attr("x", bw + 7).attr("y", barH / 2 + 5)
+      .attr("fill", "#999").attr("font-size", 11).attr("font-family", "inherit")
+      .text(d.tfidf_score.toFixed(3));
+  });
+}
+
+
 async function init() {
   try {
     // Load both datasets
     allDatasets = await buildDatasetList();
     characterLinesData = await loadCharacterLinesData();
     episodeInfoData = await loadEpisodeInfo();
+    tfidfData = await loadTfidfData();
 
     // Render static sections (don't depend on dataset selection)
     renderCastSwatches();
@@ -926,6 +1041,7 @@ async function init() {
       const dataset = datasetById.get(datasetSelect.value);
       if (dataset) {
         renderInfoPanel(dataset);
+        renderEpisodeWordsChart(dataset);
         renderChordChart(dataset);
         renderStackedAreaChart(dataset);
         renderLinesBarChart(dataset);
@@ -934,6 +1050,7 @@ async function init() {
 
     datasetSelect.value = "all";
     renderInfoPanel(null);
+    renderEpisodeWordsChart(null);
     renderChordChart(allEpisodes);
     renderStackedAreaChart(allEpisodes);
     renderLinesBarChart(allEpisodes);

@@ -204,20 +204,21 @@
         }
 
         .tooltip {
-            position: absolute;
+            position: fixed;
             padding: 8px 12px;
             background: rgba(0, 0, 0, 0.8);
             color: white;
             border-radius: 4px;
             font-size: 12px;
             pointer-events: none;
-            display: none;
+            opacity: 0;
+            transition: opacity 0.1s;
             z-index: 1000;
             white-space: nowrap;
         }
 
         .tooltip.active {
-            display: block;
+            opacity: 1;
         }
 
         .axis {
@@ -416,7 +417,7 @@
             <div style="flex: 1; min-width: 260px; display: flex; flex-direction: column; align-items: center; text-align: center;">
 
                 <p class="eyebrow" style="color:#667eea; font-size:11px; font-weight:600; letter-spacing:2px; text-transform:uppercase; margin-bottom:8px;">
-                    NBC · Yahoo! Screen
+                    NBC
                 </p>
 
                 <h1 style="
@@ -503,6 +504,13 @@
             <svg id="linesBarChart" style="width:100%; overflow:visible;"></svg>
         </div>
 
+        <!-- Episode Distinctive Words Section -->
+        <div class="chart-section" id="episodeWordsSection" style="border-radius: 0; border-top: 1px solid #eee; display: none;">
+            <h2 id="episodeWordsTitle">Distinctive Words</h2>
+            <p class="description">The words most unique to this episode compared to all others, ranked by TF-IDF score. A higher score means the word appears far more in this episode than across the rest of the series.</p>
+            <svg id="episodeWordsChart" style="width:100%; overflow:visible;"></svg>
+        </div>
+
         <!-- Chord Diagram Section -->
         <div class="chord-section">
             <h2>Character Interaction Network (Chord Diagram)</h2>
@@ -526,11 +534,7 @@
                         <h3>Top speakers</h3>
                         <ol id="speakerList" class="speaker-list"></ol>
                     </div>
-                    <div class="info-card small-note">
-                        <p>
-                            <strong>Tip:</strong> Hover over a character or link for exact counts. The "All episodes" view aggregates all episodes in <code>scripts_csv</code>.
-                        </p>
-                    </div>
+                    
                 </aside>
             </div>
         </div>
